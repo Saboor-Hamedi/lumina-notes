@@ -1,5 +1,59 @@
 <p align="center">
-  <img src="banner.png" alt="lumina-notes">
+
+```mermaid
+mindmap
+  root((lumina-notes))
+    AI-ML
+      Deep-Learning
+        Machine-Learning
+      NLP
+        LLMs
+        Tokenization
+        Prompt Engineering
+        Alignment
+      RAG
+        Retrieval
+        Embeddings
+        Reranking
+        Evaluation
+    Data-Science
+      R
+      Pandas
+      scikit-learn
+      Data Engineering
+    DevOps
+      CI-CD
+      Containers
+      Infrastructure
+      Monitoring
+    Git
+      Basics
+      Branching
+      Internals
+      Hooks
+    Security
+      OAuth
+      TLS
+      OWASP
+      Zero Trust
+    Software-Engineering
+      Design Patterns
+      Clean Code
+      Code Review
+      Agile
+      Testing
+    System-Design
+      Architecture
+      Databases 55
+      Algorithms
+      Data Structures
+    Web-Dev
+      Frontend
+      APIs
+      Protocols
+      Languages 34
+```
+
 </p>
 
 <div align="center">
