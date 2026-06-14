@@ -72,6 +72,9 @@ graph TD
 | [[GPT and Decoder Models]] | Decoder-only | Generation, chat, code |
 | [[Transformer Architecture]] | Encoder-Decoder | Translation, summarization |
 | [[RNNs and LSTMs]] | Recurrent | Sequence modeling (legacy) |
+| [[CNNs for NLP]] | Convolution | Text classification, tagging |
+| [[Computer Vision]] | Convolution + Transformer | Image classification, detection, segmentation |
+| [[Long Context Transformers]] | Transformer variant | 100K+ token windows |
 
 ## Inference Optimization
 

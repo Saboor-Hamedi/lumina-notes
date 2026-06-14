@@ -17,40 +17,93 @@ timestamp: 1781500000007
 git log                              # Full history
 git log --oneline                    # One line per commit
 git log --oneline --graph --all      # Branch graph visualization
-git log --since="2024-01-01"
-git log --until="2024-06-01"
-git log --author="Jane"
-git log --grep="bugfix"              # Search commit messages
 ```
 
-## Formatting Output
+### --oneline
 
 ```bash
-git log --pretty=format:"%h - %an, %ar : %s"
+git log --oneline -5                 # Last 5 commits
+git log --oneline --no-merges        # Skip merge commits
+```
+
+### --graph
+
+```bash
+git log --oneline --graph --all      # ASCII branch graph
+git log --graph --format="%h %s" --all
+```
+
+### --pretty / --format
+
+```bash
+git log --format="%h - %an, %ar : %s"
 git log --format="%C(yellow)%h%Creset %s %Cgreen(%cr)%Creset"
 ```
 
-Common placeholders: `%h` (hash), `%an` (author), `%ar` (relative date), `%s` (subject), `%d` (ref names).
+| Placeholder | Meaning | Example |
+|-------------|---------|---------|
+| `%h` | Abbreviated hash | `a1b2c3d` |
+| `%an` | Author name | `Jane Doe` |
+| `%ae` | Author email | `jane@example.com` |
+| `%ar` | Relative date | `2 weeks ago` |
+| `%s` | Subject | `Add login form` |
+| `%d` | Ref names | `(HEAD -> main, tag: v1)` |
+| `%C(color)` | Color directive | `%C(yellow)` |
 
 ## Filtering
 
+| Criteria | Command |
+|----------|---------|
+| By time | `git log --since="2024-01-01"` |
+| By author | `git log --author="Jane"` |
+| By message | `git log --grep="bugfix"` |
+| By content change | `git log -S "function_name"` |
+| Merges only | `git log --merges` |
+| No merges | `git log --no-merges` |
+
 ```bash
-git log -p                           # Show diffs inline
-git log --stat                       # Show file statistics
-git log --name-only                  # Show changed files
-git log -S "function_name"           # Show commits that changed this string
-git log --follow file.txt            # Show history of renamed file
-git log branch1..branch2             # Commits in branch2 not in branch1
-git log --merges                     # Only merge commits
-git log --no-merges                  # Exclude merge commits
+git log --since="2 weeks ago" --until="yesterday"
+git log --author="Jane\|John"                 # Multiple authors (regex)
+git log -p -2                                 # Last 2 commits with diff
+git log --stat --oneline                      # Files changed per commit
 ```
 
-## Range and Path
+## Advanced Examples
 
 ```bash
-git log main..feature                # Commits in feature not in main
-git log --all -- src/                # Commits affecting src/ directory
-git log --since="2 weeks ago" --until="1 week ago"
+# Commits in feature not in main
+git log --oneline main..feature
+
+# Commits affecting a directory
+git log --all -- "src/"
+
+# Show commits that touched a specific function
+git log -L :myFunction:src/app.js
+
+# Follow renamed file history
+git log --follow file.txt
+
+# Export hashes
+git log --format="%H" --since="2024-01-01"
+```
+
+## Commit History Visualization
+
+```mermaid
+gitGraph
+    commit id: "init" tag: "v1.0"
+    commit id: "add auth"
+    commit id: "fix style"
+    branch feature-x
+    commit id: "feat impl"
+    commit id: "add tests"
+    checkout main
+    merge feature-x id: "merge feat"
+    commit id: "docs update"
+    branch hotfix
+    commit id: "patch security"
+    checkout main
+    merge hotfix id: "merge hotfix"
 ```
 
 **Next**: [[Git Diff]] — View changes between commits

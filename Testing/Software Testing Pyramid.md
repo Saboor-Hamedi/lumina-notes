@@ -15,41 +15,78 @@ timestamp: 1781500001004
 
 The testing pyramid guides teams to invest in many fast, isolated unit tests, fewer integration tests, and even fewer end-to-end tests.
 
+## Testing Pyramid
+
+```mermaid
+graph TD
+    E2E["E2E Tests<br/>(few, slow, high confidence)"]
+    INT["Integration Tests<br/>(moderate, medium speed)"]
+    UNIT["Unit Tests<br/>(many, fast, isolated)"]
+    UNIT --> INT --> E2E
+```
+
 ## Test Layers
 
-```
-        /\        E2E Tests (slow, brittle, high confidence)
-       /  \
-      /    \       Integration Tests (medium speed)
-     /______\
-    /________\     Unit Tests (fast, many, isolated)
+### Unit Tests
+Test individual functions/classes in isolation. Mock all external dependencies. Run in milliseconds.
+
+```python
+def test_calculate_discount():
+    assert calculate_discount(100, 20) == 80
+    assert calculate_discount(100, 0) == 100
+    assert calculate_discount(100, 100) == 0
 ```
 
-### Unit Tests
-- Test individual functions/classes in isolation
-- Mock external dependencies
-- Run in milliseconds
-- Coverage target: 70-80%
+- **Coverage target**: 70-80%
 
 ### Integration Tests
-- Test interactions between components
-- Use real databases, filesystems, or test containers
-- Run in seconds
-- Cover API endpoints, data access, external services
+Test interactions between components with real dependencies (test containers, in-memory DBs).
+
+```python
+def test_create_user(db_session):
+    user = User(name="Alice", email="alice@example.com")
+    db_session.add(user); db_session.commit()
+    saved = db_session.query(User).filter_by(email="alice@example.com").first()
+    assert saved is not None
+```
+
+- **Coverage target**: 15-20%
 
 ### End-to-End Tests
-- Test full user workflows through the UI
-- Use browser automation (Playwright, Cypress, Selenium)
-- Run in minutes
-- Cover critical user journeys only
+Test complete user workflows through the full system with browser automation (Playwright, Cypress).
+
+```python
+def test_signup(page):
+    page.goto("https://app.example.com/signup")
+    page.fill("#email", "alice@example.com")
+    page.click("#submit")
+    expect(page).to_have_url("https://app.example.com/dashboard")
+```
+
+- **Coverage target**: 5-10%
+
+## Common Ratios (70/20/10)
+
+| Layer | Ratio | Example (1000 tests) |
+|-------|-------|----------------------|
+| Unit | 70% | 700 tests |
+| Integration | 20% | 200 tests |
+| E2E | 10% | 100 tests |
+
+## Anti-Patterns
+
+| Pattern | Description |
+|---------|-------------|
+| **Ice-Cream Cone** | Many E2E, few unit tests — brittle, slow, hard to debug |
+| **Hourglass** | Unit + E2E but no integration tests — gaps at component boundaries |
 
 ## Testing Methodologies
 
 | Approach | Focus | Who Writes |
 |----------|-------|------------|
 | TDD | Write tests before code | Developers |
-| BDD | Describe behavior in natural language | Dev + QA + Product |
-| ATDD | Define acceptance criteria as tests | Team |
+| BDD | Natural language behavior | Dev + QA + Product |
+| ATDD | Acceptance criteria as tests | Team |
 
 ## TDD Cycle (Red-Green-Refactor)
 

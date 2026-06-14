@@ -13,64 +13,109 @@ timestamp: 1781500000011
 
 ## What is Merging?
 
-Merging combines changes from one branch into another. Git finds a common ancestor and applies the differences.
+Merging combines changes from one branch into another. Git finds a common **merge base** (shared ancestor commit), then applies differences from both branches.
 
 ## Fast-Forward Merge
 
-When the target branch hasn't diverged, Git just moves the pointer forward:
+When the target hasn't diverged (it's an ancestor of the source), Git simply moves the pointer forward:
 
 ```
 Before:  main → a1b2c3d
-         feature → e4f5g6h (ahead of main)
-
-After:   main → e4f5g6h (fast-forward)
+         feature → e4f5g6h (ahead)
+After:   main → e4f5g6h (fast-forwarded)
 ```
 
 ```bash
 git checkout main
-git merge feature    # Fast-forwards main to feature
+git merge feature          # Fast-forward (default when possible)
 ```
 
 ## Three-Way Merge
 
-When branches have diverged, Git creates a merge commit with two parents:
+When branches have diverged, Git creates a **merge commit** with two parents:
 
 ```
-Before:
-main:     a1b2c3d → f1g2h3i
-feature:  a1b2c3d → j4k5l6m
-
-After:
-main:     a1b2c3d → f1g2h3i → merge commit
-feature:  a1b2c3d → j4k5l6m ↗
+Merge base: a1b2c3d
+            /        \
+main:   f1g2h3i    j4k5l6m  :feature
+            \        /
+         merge commit (2 parents)
 ```
 
 ```bash
 git checkout main
-git merge feature    # Creates merge commit
+git merge feature          # Creates merge commit
+```
+
+```mermaid
+gitGraph
+    commit id: "base" tag: "merge base"
+    branch feature
+    commit id: "feat A"
+    commit id: "feat B"
+    checkout main
+    commit id: "main A"
+    checkout feature
+    commit id: "feat C"
+    checkout main
+    merge feature id: "merge commit" tag: "v2.0"
 ```
 
 ## Merge Strategies
 
-| Strategy | When | Behavior |
-|----------|------|----------|
-| `recursive` | Default for 2 branches | Three-way merge |
-| `ort` | New default (Git 2.33+) | Faster, better conflict handling |
-| `octopus` | 3+ branches | Multi-way merge |
-| `ours` | Any | Keep our version entirely |
+| Strategy | Use Case | Behavior |
+|----------|----------|----------|
+| `recursive` | Default (pre-2.33) | Three-way with rename detection |
+| `ort` | Default (2.33+) | Faster, better conflict messages |
+| `octopus` | 3+ branches | Multi-way (no conflict handling) |
+| `ours` | Keep our version | Auto-resolve using current branch |
 | `subtree` | Subproject merge | Merge with subtree adjustment |
 
-## Options
+## Merge Options
+
+| Option | Effect | Use When |
+|--------|--------|----------|
+| `--no-ff` | Always creates merge commit | Preserve branch topology |
+| `--squash` | Collapses source into 1 commit | Throwaway branches |
+| `--ff-only` | Fail if fast-forward impossible | Safety checks |
 
 ```bash
-# Force merge commit even if fast-forward possible
-git merge --no-ff feature
+git merge --no-ff feature                    # Force merge commit
+git merge --squash feature && git commit     # Squash merge
+git merge --ff-only feature                  # Fail if not fast-forward
+git merge feature -m "Merge: release v2.1"   # Custom message
+```
 
-# Squash merge (all changes as one commit)
-git merge --squash feature
+## Conflict Resolution Flow
 
-# Only merge if fast-forward possible
-git merge --ff-only feature
+When a merge conflict occurs, Git pauses and marks conflicting files:
+
+```bash
+git merge feature
+# CONFLICT in src/index.js
+# Fix conflicts then commit.
+
+git status                    # Shows both-modified files
+git diff                      # Shows conflict markers
+```
+
+Conflict markers in the file:
+
+```
+<<<<<<< HEAD
+console.log("main version");
+=======
+console.log("feature version");
+>>>>>>> feature
+```
+
+```bash
+# After fixing:
+git add src/index.js          # Mark resolved
+git commit                    # Complete the merge
+
+# Or abort entirely
+git merge --abort
 ```
 
 **Next**: [[Git Conflict Resolution]] — Handle merge conflicts

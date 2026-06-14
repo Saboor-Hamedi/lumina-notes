@@ -13,11 +13,11 @@ timestamp: 1781700000014
 
 ## Why Positional Encoding?
 
-Self-attention is permutation-invariant — it treats the input as a bag of tokens. Without position information, "cat sat" and "sat cat" would produce the same representation.
+Self-attention is permutation-invariant — it treats the input as an unordered bag of tokens. Without position information, "cat sat" and "sat cat" would produce identical representations. Positional encodings inject sequence order into the otherwise order-agnostic attention mechanism.
 
 ## Sinusoidal Encoding (Original Transformer)
 
-Uses sine and cosine functions of different frequencies:
+Uses sine and cosine functions of different frequencies to create a unique encoding for each position:
 
 ```
 PE(pos, 2i)     = sin(pos / 10000^(2i / d_model))
@@ -30,25 +30,73 @@ PE(pos, 2i + 1) = cos(pos / 10000^(2i / d_model))
 | i | Dimension index (0, 1, 2, ..., d_model/2) |
 | d_model | Embedding dimension |
 
-Properties:
-- Each position gets a unique encoding
-- Relative positions are linear combinations of each other
-- No learned parameters — can handle sequences longer than training data
+### Why Sinusoidal Patterns Work
 
-## Learned Positional Encoding (BERT, GPT)
+- Each position receives a unique encoding (no two positions share the same pattern)
+- Relative positions can be expressed as linear combinations of absolute positions via trig identities: sin(a+b) = sin(a)cos(b) + cos(a)sin(b) — the model easily learns relative attention
+- No learned parameters — can handle sequences longer than any training example
+- Low-frequency dimensions encode coarse position, high-frequency dimensions encode fine-grained offsets
 
-Treats position IDs as embeddings and learns them during training.
+## Learned Positional Encoding (BERT, GPT-2)
 
-```python
+Treats position IDs as regular embeddings and learns them during training:
+
+```
 self.position_embeddings = nn.Embedding(max_seq_len, d_model)
 positions = torch.arange(seq_len, device=device)
 pos_embeds = self.position_embeddings(positions)
 output = token_embeds + pos_embeds  # Element-wise add
 ```
 
-## RoPE (Rotary Position Embedding) — Modern Approach
+## Position Encoding Visualization
 
-Used by Llama, Mistral, GPT-NeoX. Applies rotation to query and key vectors based on position.
+```mermaid
+graph LR
+    subgraph Tokens[Token Embeddings]
+        T1[Token₁]
+        T2[Token₂]
+        T3[Token₃]
+        TN[Tokenₙ]
+    end
+    subgraph Positions[Positional Encodings]
+        P1[PE₁]
+        P2[PE₂]
+        P3[PE₃]
+        PN[PEₙ]
+    end
+    subgraph Sum[Element-wise Addition]
+        S1[(+)]
+        S2[(+)]
+        S3[(+)]
+        SN[(+)]
+    end
+    T1 --> S1
+    P1 --> S1
+    T2 --> S2
+    P2 --> S2
+    T3 --> S3
+    P3 --> S3
+    TN --> SN
+    PN --> SN
+    S1 --> E1[Embed₁<br/>T₁ + PE₁]
+    S2 --> E2[Embed₂<br/>T₂ + PE₂]
+    S3 --> E3[Embed₃<br/>T₃ + PE₃]
+    SN --> EN[Embedₙ<br/>Tₙ + PEₙ]
+```
+
+## Learned vs Fixed Encoding Comparison
+
+| Aspect | Learned | Sinusoidal (Fixed) |
+|--------|---------|-------------------|
+| **Parameters** | d_model × max_len | None |
+| **Extrapolation** | Poor beyond max_len | Good — infinite sequence support |
+| **Relative positions** | Must be learned implicitly | Linear combinations of absolute |
+| **Training flexibility** | Adapts to data distribution | Fixed, data-independent |
+| **Used by** | BERT, GPT-2, T5 | Original Transformer, some T5 variants |
+
+## RoPE (Rotary Position Embedding) — Modern Standard
+
+Used by Llama, Mistral, GPT-NeoX, DeepSeek. Applies a rotation to query and key vectors based on absolute position, making the attention score naturally depend on relative position.
 
 ```
 Q_rotated = RoPE(Q, pos)
@@ -57,27 +105,26 @@ K_rotated = RoPE(K, pos)
 score = Q_rotated · K_rotated  # Naturally decays with distance
 ```
 
-Benefits:
-- Relative position awareness
-- Natural decay for distant tokens
-- Better length generalization
+Benefits: relative position awareness baked into the dot product, natural decay for distant tokens (locality prior), better length generalization than learned embeddings, zero parameter overhead.
 
 ## ALiBi (Attention with Linear Biases)
 
-Adds a linear bias to attention scores based on distance — used in BLOOM, MPT.
+Adds a linear bias to attention scores based on distance. Used in BLOOM, MPT.
 
 ```
 score = Q·K + bias_matrix
-bias[i][j] = -m × |i - j|   (m = slope per head)
+bias[i][j] = -m × |i - j|   (m = slope per head, different for each head)
 ```
 
-## Comparison
+## Comparison Table
 
-| Method | Parameters | Relative | Extrapolation | Used By |
-|--------|------------|----------|---------------|---------|
-| Sinusoidal | None | Implicit | Good | Transformer |
-| Learned | d_model × max_len | None | Poor | BERT, GPT-2 |
-| RoPE | None | Explicit | Good | Llama, Mistral |
-| ALiBi | None | Explicit | Best | BLOOM, MPT |
+| Method | Parameters | Relative Awareness | Extrapolation | Compute Overhead | Used By |
+|--------|------------|-------------------|---------------|------------------|---------|
+| **Sinusoidal** | None | Implicit (linear combos) | Good | None | Original Transformer |
+| **Learned** | d_model × max_len | None | Poor | None | BERT, GPT-2, T5 |
+| **RoPE** | None | Explicit (rotation) | Good | 2 complex multiplies per Q/K | Llama 3, Mistral, GPT-NeoX |
+| **ALiBi** | None | Explicit (bias) | Best (tested to 2× training length) | Negligible | BLOOM, MPT |
+| **xPos** | None | Explicit | Excellent (tested 8×) | Slight (> RoPE) | Some rotary variants |
+| **NoPE** | None | None (relies on causal mask) | N/A | None | Some modern papers |
 
 **Next**: [[BERT and Encoder Models]] — Understanding transformers

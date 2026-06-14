@@ -13,48 +13,80 @@ timestamp: 1781500000009
 
 ## What is a Branch?
 
-A branch is a **lightweight movable pointer** to a commit. Creating a branch is instantaneous — Git just writes a 41-byte file with a hash and name.
+A branch is a **lightweight movable pointer** to a commit. Creating a branch is instantaneous — Git writes a 41-byte file (`refs/heads/<name>`) containing a 40-character SHA-1 hash.
 
 ```
-main:  a1b2c3d ← HEAD
-         ↓
-feature: a1b2c3d   (before commit)
-
-main:  a1b2c3d ← HEAD
-         ↓
-feature: e4f5g6h   (after commit on feature)
+main:  a1b2c3d ← HEAD           feature: a1b2c3d (after create)
+main:  a1b2c3d                   feature: e4f5g6h ← HEAD (after commit)
 ```
 
-## Operations
+## Branch Operations
+
+| Action | Command |
+|--------|---------|
+| Create | `git branch feature-x` |
+| Create & switch | `git switch -c feature-x` |
+| List local | `git branch` |
+| List remote | `git branch -r` |
+| List all | `git branch -a` |
+| Switch | `git switch feature-x` |
+| Rename | `git branch -m old new` |
+| Safe delete | `git branch -d feature-x` |
+| Force delete | `git branch -D feature-x` |
 
 ```bash
-# List branches
-git branch                          # Local
-git branch -r                       # Remote
-git branch -a                       # All
-
-# Create
-git branch feature-login
-git branch feature-login a1b2c3d    # From specific commit
-
-# Delete
-git branch -d feature-login         # Safe (prevents loss)
-git branch -D feature-login         # Force delete
-
-# Rename
-git branch -m old-name new-name
-
-# Show merged/unmerged
-git branch --merged                 # Already merged
-git branch --no-merged              # Not merged
+git switch -c feature-x              # Create + switch (modern)
+git checkout -b feature-x            # Create + switch (legacy)
+git branch feature-x a1b2c3d         # From specific commit
+git switch -                         # Switch to previous branch
 ```
 
-## Naming Conventions
+## Branch Naming Conventions
 
-- `main` or `master` — Default primary branch
-- `feature/` — New features (`feature/user-auth`)
-- `bugfix/` — Bug fixes (`bugfix/login-crash`)
-- `release/` — Release branches (`release/v2.1`)
-- `hotfix/` — Urgent production fixes (`hotfix/security-patch`)
+| Pattern | Purpose | Example |
+|---------|---------|---------|
+| `main` / `master` | Default primary branch | `main` |
+| `feature/<desc>` | New feature work | `feature/user-auth` |
+| `bugfix/<desc>` | Bug fixes | `bugfix/login-crash` |
+| `release/<ver>` | Release preparation | `release/v2.1.0` |
+| `hotfix/<desc>` | Urgent production fixes | `hotfix/security-patch` |
+
+Rules: lowercase with hyphens, use `/` for hierarchy, descriptive but concise, delete after merging.
+
+## Remote-Tracking Branches
+
+Remote-tracking branches (`remotes/origin/main`) reflect the state of remote branches from your last fetch:
+
+```bash
+git branch -r                     # List: origin/main, origin/feature
+git remote show origin            # Detailed remote branch info
+```
+
+### Upstream Tracking
+
+```bash
+git push -u origin feature-x      # Push + set upstream
+git branch -u origin/feature-x    # Set upstream explicitly
+git branch -vv                    # Show tracked upstream
+```
+
+Once tracking is set, `git push`/`git pull` work without arguments, and `git status` shows `ahead N, behind M`.
+
+## Branch/Merge Visualization
+
+```mermaid
+gitGraph
+    commit id: "initial"
+    branch feature-login
+    commit id: "add form"
+    commit id: "validate"
+    checkout main
+    commit id: "fix header"
+    checkout feature-login
+    commit id: "oauth"
+    checkout main
+    merge feature-login id: "merge login"
+    commit id: "deploy"
+```
 
 **Next**: [[Git Checkout and Switch]] — Navigate branches
