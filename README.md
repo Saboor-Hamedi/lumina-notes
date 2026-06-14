@@ -1,12 +1,38 @@
-# lumina-notes
+<p align="center">
+  <img src="banner.png" alt="lumina-notes">
+</p>
 
-A comprehensive engineering knowledge base covering software engineering, system design, AI/ML, DevOps, security, and data science. Built as an Obsidian vault with deep cross-linking, Mermaid diagrams, and hierarchical Maps of Content.
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=postgresql&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
+![Mermaid](https://img.shields.io/badge/Mermaid-FF3670?style=flat&logo=mermaid&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-483699?style=flat&logo=obsidian&logoColor=white)
+
+</div>
+
+<p align="center">
+  A comprehensive engineering knowledge base -- 400+ interconnected notes across AI/ML, system design, databases, DevOps, security, and software engineering. Built as an Obsidian vault with Mermaid diagrams, deep cross-linking, and hierarchical Maps of Content.
+</p>
+
+<p align="center">
+  <a href="#structure">Structure</a> .
+  <a href="#domains">Domains</a> .
+  <a href="#features">Features</a> .
+  <a href="#usage">Usage</a> .
+  <a href="#stats">Stats</a> .
+  <a href="#navigate">Navigate</a>
+</p>
 
 ---
 
 ## Overview
 
-lumina-notes is a structured second brain for engineers. It contains 400+ notes across 10 domains, organized with a Map of Content (MOC) pattern where every folder has a `_MOC.md` index that links to all notes within it. Notes are deeply interconnected through `[[wiki-links]]`, forming a graph that mirrors real-world engineering relationships.
+lumina-notes is a structured second brain for engineers. Every folder contains a `_MOC.md` (Map of Content) index that links to all notes within it. Notes are deeply interconnected through `[[wiki-links]]`, forming a knowledge graph that mirrors real-world engineering relationships.
 
 The vault prioritizes depth over breadth -- each note includes code examples, configuration snippets, architecture diagrams, and decision matrices. Mermaid diagrams are used throughout for visual explanation of complex systems.
 
@@ -16,31 +42,31 @@ The vault prioritizes depth over breadth -- each note includes code examples, co
 
 ```
 lumina-notes/
-├── _MOC.md                          # Root master index
-├── AI-ML/                           # Artificial Intelligence & Machine Learning
-│   ├── Deep-Learning/               # Transformers, attention, training, inference
-│   │   └── Machine-Learning/        # Classical ML: ensembles, clustering, MLOps
-│   ├── NLP/                         # Tokenization, prompting, LLMs, alignment
-│   └── RAG/                         # Retrieval-Augmented Generation full stack
-├── Data-Science/                    # Data wrangling, analysis, engineering
-├── DevOps/                          # CI/CD, containers, infrastructure, monitoring
-├── Git/                             # 45 notes covering git from basics to internals
-├── Security/                        # OAuth, TLS, OWASP, zero trust, cryptography
-├── Software-Engineering/            # Design patterns, code review, testing, agile
-├── System-Design/                   # Architecture, databases, algorithms, data structures
-│   └── Databases/                   # 55 notes on SQL, NoSQL, engines, indexing, sharding
-├── Testing/                         # Unit, integration, performance, property-based
-└── Web-Dev/                         # Frontend, protocols, APIs, programming languages
-    └── Programming/                 # 34 language/framework deep dives
+  _MOC.md                        Root master index
+  AI-ML/                         Artificial Intelligence & Machine Learning
+    Deep-Learning/               Transformers, attention, training, inference
+      Machine-Learning/          Classical ML: ensembles, clustering, MLOps
+    NLP/                         Tokenization, prompting, LLMs, alignment
+    RAG/                         Retrieval-Augmented Generation full stack
+  Data-Science/                  Data wrangling, analysis, engineering
+  DevOps/                        CI/CD, containers, infrastructure, monitoring
+  Git/                           45 notes from basics to internals
+  Security/                      OAuth, TLS, OWASP, zero trust, cryptography
+  Software-Engineering/          Design patterns, code review, testing, agile
+  System-Design/                 Architecture, databases, algorithms, data structures
+    Databases/                   55 notes on SQL, NoSQL, engines, indexing, sharding
+  Testing/                       Unit, integration, performance, property-based
+  Web-Dev/                       Frontend, protocols, APIs, programming languages
+    Programming/                 34 language and framework deep dives
 ```
 
 ---
 
-## Domain Breakdown
+## Domains
 
 | Domain | Notes | Key Topics |
 |--------|-------|------------|
-| AI/ML & NLP | 80+ | LLMs, transformers, RAG, prompt engineering, alignment, RLHF |
+| AI/ML and NLP | 80+ | LLMs, transformers, RAG, prompt engineering, alignment, RLHF |
 | Databases | 55 | Indexing, sharding, transactions, replication, engines, modeling |
 | System Design | 85+ | Architecture patterns, microservices, CAP theorem, DDD, consensus |
 | DevOps | 40+ | Docker, Kubernetes, CI/CD, monitoring, observability, IaC |
@@ -69,44 +95,40 @@ Notes extensively use Mermaid for visual explanation:
 - Sequence diagrams (protocols, request flows)
 - Gantt charts (tool evolution, technology timelines)
 - Entity relationship diagrams (database schemas)
-- Graphs and trees (data structures, algorithm visualization)
+- Graphs and trees (algorithm visualization)
 - Quadrant charts (tradeoff analysis)
 
 ### Cross-Linking
 
-Notes are connected through bidirectional `[[wiki-links]]` following patterns:
-- `Links` header: direct prerequisite or reference relationships
-- `See also` header: lateral connections to adjacent topics
-- MOC files: aggregated cross-domain connections
+Notes are connected through bidirectional `[[wiki-links]]`:
+- Direct prerequisite or reference relationships
+- Lateral connections to adjacent topics
+- Aggregated cross-domain connections in MOC files
 
 ### Structural Consistency
 
 Each note follows a predictable format:
 - YAML frontmatter (id, title, tags, timestamp)
 - Overview section defining the concept
-- Deep dive with code examples, tables, diagrams
+- Deep dive with code examples, tables, and diagrams
 - Practical guidance (best practices, pitfalls, decision trees)
-- Links to related notes
+- Links to related notes and further reading
 
 ---
 
-## How to Use
+## Usage
 
 ### As an Obsidian Vault (Recommended)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Saboor-Hamedi/lumina-notes.git
-   ```
-2. Open Obsidian
-3. Select "Open folder as vault" and choose the cloned directory
-4. Enable community plugins if prompted (the vault uses several)
+```bash
+git clone https://github.com/Saboor-Hamedi/lumina-notes.git
+```
 
-The vault includes pre-configured Obsidian settings, themes (Minimal, Obsidianite, Wasp), and plugins (calendar, file colors, icon folder, style settings).
+Open Obsidian, select "Open folder as vault", and choose the cloned directory. Enable community plugins when prompted -- the vault includes pre-configured settings, themes (Minimal, Obsidianite, Wasp), and plugins (calendar, file colors, icon folder, style settings).
 
 ### As a Static Reference
 
-Browse the Markdown files directly on GitHub or any Markdown viewer. Mermaid diagrams render natively on GitHub. Navigate using the `_MOC.md` files as entry points.
+Browse the Markdown files directly on GitHub. Mermaid diagrams render natively. Use the `_MOC.md` files as entry points for each domain.
 
 ### For Self-Hosted Knowledge Base
 
@@ -129,34 +151,22 @@ The Markdown files can be ingested by any static site generator (MkDocs, Docusau
 
 ---
 
-## Navigation Guide
+## Navigate
 
-### If you are learning AI/ML
-Start at `AI-ML/_MOC.md` -> `AI-ML/NLP/_MOC.md` for LLMs -> `AI-ML/RAG/_MOC.md` for retrieval systems.
+### Learning AI/ML
+`AI-ML/_MOC.md` to `AI-ML/NLP/_MOC.md` for LLMs to `AI-ML/RAG/_MOC.md` for retrieval systems.
 
-### If you are preparing for system design interviews
-Start at `System-Design/_MOC.md` -> `System-Design/Architecture/_MOC.md` for patterns -> `System-Design/Databases/_MOC.md` for storage.
+### Preparing for system design interviews
+`System-Design/_MOC.md` to `System-Design/Architecture/_MOC.md` for patterns to `System-Design/Databases/_MOC.md` for storage.
 
-### If you are setting up DevOps
-Start at `DevOps/_MOC.md` -> `DevOps/Containers/_MOC.md` for containerization -> `DevOps/CI-CD/_MOC.md` for pipelines.
+### Setting up DevOps
+`DevOps/_MOC.md` to `DevOps/Containers/_MOC.md` for containerization to `DevOps/CI-CD/_MOC.md` for pipelines.
 
-### If you want a broad overview
-Open `_MOC.md` at the root, which contains the master mind map of all topics and their relationships.
-
----
-
-## Contributing
-
-This is a personal knowledge base, but suggestions and corrections are welcome via issues or pull requests. If you find an error or want to suggest an addition, please open an issue with the relevant context.
+### Broad overview
+Open `_MOC.md` at the root -- the master mind map of all topics and their relationships.
 
 ---
 
-## License
-
-MIT
-
----
-
-## Author
-
-Built by Saboor Hamedi.
+<p align="center">
+  <sub>MIT License. Built by Saboor Hamedi.</sub>
+</p>
