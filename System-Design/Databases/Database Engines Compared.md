@@ -2,7 +2,7 @@
 id: db1ca57d-b53f-49b8-9628-64f5b77c5dc1
 title: Database Engines Compared
 language: markdown
-tags: ''
+tags: [system-design, databases, storage-engine]
 selection: null
 isPinned: false
 timestamp: 1781281346050

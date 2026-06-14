@@ -2,7 +2,7 @@
 id: new-001-0000-0000-0000-000000000001
 title: Web Development Fundamentals
 language: markdown
-tags: ''
+tags: [web-dev, web-fundamentals]
 selection: null
 isPinned: false
 timestamp: 1781600000001

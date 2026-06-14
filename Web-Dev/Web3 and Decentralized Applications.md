@@ -2,7 +2,7 @@
 id: a1b2c3d4-1190-4000-8000-000000000190
 title: Web3 and Decentralized Applications
 language: markdown
-tags: ''
+tags: [web-dev, web3, blockchain]
 selection: null
 isPinned: false
 timestamp: 1781500001190

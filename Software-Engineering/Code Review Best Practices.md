@@ -2,7 +2,7 @@
 id: a1b2c3d4-0020-4000-8000-000000000020
 title: Code Review Best Practices
 language: markdown
-tags: ''
+tags: [software-engineering, code-review, best-practices]
 selection: null
 isPinned: false
 timestamp: 1781400000020

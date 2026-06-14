@@ -2,7 +2,7 @@
 id: a1b2c3d4-1075-4000-8000-000000000075
 title: Responsible and Ethical AI
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, responsible-ai, ethics, fairness]
 selection: null
 isPinned: false
 timestamp: 1781500001075

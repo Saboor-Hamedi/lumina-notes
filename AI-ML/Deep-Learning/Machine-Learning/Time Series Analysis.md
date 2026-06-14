@@ -2,7 +2,7 @@
 id: a1b2c3d4-1120-4000-8000-000000000120
 title: Time Series Analysis
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, time-series, forecasting]
 selection: null
 isPinned: false
 timestamp: 1781500001120

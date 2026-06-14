@@ -2,7 +2,7 @@
 id: a1b2c3d4-1057-4000-8000-000000000057
 title: Tool Use and Function Calling
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781500001057

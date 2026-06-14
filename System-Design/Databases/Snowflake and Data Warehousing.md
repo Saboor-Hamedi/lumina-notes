@@ -2,7 +2,7 @@
 id: a1b2c3d4-1113-4000-8000-000000000113
 title: Snowflake and Data Warehousing
 language: markdown
-tags: ''
+tags: [system-design, databases, snowflake, data-warehouse]
 selection: null
 isPinned: false
 timestamp: 1781500001113

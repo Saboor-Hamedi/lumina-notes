@@ -2,7 +2,7 @@
 id: 23c110d3-c7de-4711-a73d-97ebbfdece07
 title: Big O Notation
 language: markdown
-tags: ''
+tags: [system-design, algorithms]
 selection: null
 isPinned: true
 timestamp: 1781226363412

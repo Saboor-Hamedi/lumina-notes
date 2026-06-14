@@ -2,7 +2,7 @@
 id: a1b2c3d4-1184-4000-8000-000000000184
 title: MongoDB Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, databases, mongodb, document-db]
 selection: null
 isPinned: false
 timestamp: 1781500001184

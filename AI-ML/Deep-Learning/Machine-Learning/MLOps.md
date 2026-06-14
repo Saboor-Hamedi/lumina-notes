@@ -2,7 +2,7 @@
 id: a1b2c3d4-1071-4000-8000-000000000071
 title: MLOps
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, mlops, ml-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001071

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1097-4000-8000-000000000097
 title: Jenkins
 language: markdown
-tags: ''
+tags: [devops, ci-cd, jenkins]
 selection: null
 isPinned: false
 timestamp: 1781500001097

@@ -2,7 +2,7 @@
 id: git-028-0000-0000-0000-000000000028
 title: Git Submodules
 language: markdown
-tags: ''
+tags: [git, submodules]
 selection: null
 isPinned: false
 timestamp: 1781500000028

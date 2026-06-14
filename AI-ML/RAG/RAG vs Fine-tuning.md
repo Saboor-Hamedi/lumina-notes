@@ -2,7 +2,7 @@
 id: rag-010-0000-0000-0000-000000000010
 title: RAG vs Fine-tuning
 language: markdown
-tags: ''
+tags: [ai-ml, rag, fine-tuning]
 selection: null
 isPinned: false
 timestamp: 1781700000010

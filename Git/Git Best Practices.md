@@ -2,7 +2,7 @@
 id: git-045-0000-0000-0000-000000000045
 title: Git Best Practices
 language: markdown
-tags: ''
+tags: [git, best-practices]
 selection: null
 isPinned: false
 timestamp: 1781500000045

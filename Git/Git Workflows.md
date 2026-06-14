@@ -2,7 +2,7 @@
 id: git-039-0000-0000-0000-000000000039
 title: Git Workflows
 language: markdown
-tags: ''
+tags: [git, workflows]
 selection: null
 isPinned: false
 timestamp: 1781500000039

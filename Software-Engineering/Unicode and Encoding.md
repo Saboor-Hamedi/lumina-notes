@@ -2,7 +2,7 @@
 id: dev-052-0000-0000-0000-000000000036
 title: Unicode and Encoding
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781800000014

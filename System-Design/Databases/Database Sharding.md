@@ -2,7 +2,7 @@
 id: new-012-0000-0000-0000-000000000012
 title: Database Sharding
 language: markdown
-tags: ''
+tags: [system-design, databases, sharding, scalability]
 selection: null
 isPinned: false
 timestamp: 1781600000012

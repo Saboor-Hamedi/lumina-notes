@@ -2,7 +2,7 @@
 id: a1b2c3d4-1045-4000-8000-000000000045
 title: RAG Evaluation Metrics
 language: markdown
-tags: ''
+tags: [ai-ml, rag, evaluation, metrics]
 selection: null
 isPinned: false
 timestamp: 1781500001045

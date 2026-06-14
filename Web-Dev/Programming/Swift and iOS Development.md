@@ -2,7 +2,7 @@
 id: a1b2c3d4-1082-4000-8000-000000000082
 title: Swift and iOS Development
 language: markdown
-tags: ''
+tags: [web-dev, programming, swift, ios]
 selection: null
 isPinned: false
 timestamp: 1781500001082

@@ -2,7 +2,7 @@
 id: dev-054-0000-0000-0000-000000000038
 title: Kubernetes Deployments
 language: markdown
-tags: ''
+tags: [devops, containers, kubernetes, deployments]
 selection: null
 isPinned: false
 timestamp: 1781800000016

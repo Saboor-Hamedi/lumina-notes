@@ -2,7 +2,7 @@
 id: 5fca2416-b9a3-402c-99fa-70189da3fbe7
 title: SQLite Reference
 language: markdown
-tags: ''
+tags: [system-design, databases, sqlite, relational]
 selection: null
 isPinned: true
 timestamp: 1781317553958

@@ -2,7 +2,7 @@
 id: tf-008-0000-0000-0000-000000000018
 title: Pre-training and Fine-tuning
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, fine-tuning, training]
 selection: null
 isPinned: false
 timestamp: 1781700000018

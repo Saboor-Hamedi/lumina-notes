@@ -2,7 +2,7 @@
 id: ab228c1c-1e3a-4552-bf15-68468944a17f
 title: Dev Environment Setup
 language: markdown
-tags: ''
+tags: [devops, infrastructure, dev-environment, setup]
 selection: null
 isPinned: false
 timestamp: 1781326822091

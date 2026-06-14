@@ -2,7 +2,7 @@
 id: a1b2c3d4-1033-4000-8000-000000000033
 title: Computer Vision
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, computer-vision]
 selection: null
 isPinned: false
 timestamp: 1781500001033

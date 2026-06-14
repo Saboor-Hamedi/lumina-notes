@@ -2,7 +2,7 @@
 id: a1b2c3d4-1182-4000-8000-000000000182
 title: Elasticsearch Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, databases, elasticsearch, search]
 selection: null
 isPinned: false
 timestamp: 1781500001182

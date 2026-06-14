@@ -2,7 +2,7 @@
 id: new-007-0000-0000-0000-000000000007
 title: Data Serialization
 language: markdown
-tags: ''
+tags: [system-design, databases, serialization, data-format]
 selection: null
 isPinned: false
 timestamp: 1781600000007

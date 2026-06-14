@@ -2,7 +2,7 @@
 id: git-021-0000-0000-0000-000000000021
 title: Git Revert
 language: markdown
-tags: ''
+tags: [git, revert]
 selection: null
 isPinned: false
 timestamp: 1781500000021

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1020-4000-8000-000000000020
 title: Cryptography Basics
 language: markdown
-tags: ''
+tags: [security, cryptography]
 selection: null
 isPinned: false
 timestamp: 1781500001020

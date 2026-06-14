@@ -2,7 +2,7 @@
 id: a1b2c3d4-1037-4000-8000-000000000037
 title: System Design Interview
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001037

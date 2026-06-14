@@ -2,7 +2,7 @@
 id: a1b2c3d4-1137-4000-8000-000000000137
 title: Probabilistic Data Structures
 language: markdown
-tags: ''
+tags: [system-design, data-structures, probabilistic]
 selection: null
 isPinned: false
 timestamp: 1781500001137

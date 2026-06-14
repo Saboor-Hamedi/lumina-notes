@@ -2,7 +2,7 @@
 id: git-019-0000-0000-0000-000000000019
 title: Git Stash
 language: markdown
-tags: ''
+tags: [git, stash]
 selection: null
 isPinned: false
 timestamp: 1781500000019

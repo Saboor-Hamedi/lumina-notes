@@ -2,7 +2,7 @@
 id: new-016-0000-0000-0000-000000000016
 title: Chaos Engineering
 language: markdown
-tags: ''
+tags: [devops, monitoring, chaos-engineering, reliability]
 selection: null
 isPinned: false
 timestamp: 1781600000016

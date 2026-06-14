@@ -2,7 +2,7 @@
 id: a1b2c3d4-1151-4000-8000-000000000151
 title: Go Concurrency Patterns
 language: markdown
-tags: ''
+tags: [web-dev, programming, go, golang, concurrency]
 selection: null
 isPinned: false
 timestamp: 1781500001151

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1086-4000-8000-000000000086
 title: Elixir and Erlang
 language: markdown
-tags: ''
+tags: [web-dev, programming, elixir, erlang, functional]
 selection: null
 isPinned: false
 timestamp: 1781500001086

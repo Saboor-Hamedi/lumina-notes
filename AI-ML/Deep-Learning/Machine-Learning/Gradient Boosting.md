@@ -2,7 +2,7 @@
 id: ml-013-0000-0000-0000-000000000062
 title: Gradient Boosting
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, gradient-boosting, ensemble]
 selection: null
 isPinned: false
 timestamp: 1781900000014

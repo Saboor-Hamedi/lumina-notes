@@ -2,7 +2,7 @@
 id: rag-005-0000-0000-0000-000000000005
 title: Retrieval Strategies
 language: markdown
-tags: ''
+tags: [ai-ml, rag, retrieval]
 selection: null
 isPinned: false
 timestamp: 1781700000005

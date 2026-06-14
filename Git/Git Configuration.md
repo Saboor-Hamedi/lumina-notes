@@ -2,7 +2,7 @@
 id: git-003-0000-0000-0000-000000000003
 title: Git Configuration
 language: markdown
-tags: ''
+tags: [git, configuration]
 selection: null
 isPinned: false
 timestamp: 1781500000003

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1009-4000-8000-000000000009
 title: SQL vs NoSQL Databases
 language: markdown
-tags: ''
+tags: [system-design, databases, sql, nosql]
 selection: null
 isPinned: false
 timestamp: 1781500001009

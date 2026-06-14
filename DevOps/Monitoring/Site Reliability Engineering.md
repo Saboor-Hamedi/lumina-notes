@@ -2,7 +2,7 @@
 id: a1b2c3d4-1073-4000-8000-000000000073
 title: Site Reliability Engineering
 language: markdown
-tags: ''
+tags: [devops, monitoring, sre, reliability]
 selection: null
 isPinned: false
 timestamp: 1781500001073

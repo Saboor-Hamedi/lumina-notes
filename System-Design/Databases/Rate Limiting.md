@@ -2,7 +2,7 @@
 id: new-011-0000-0000-0000-000000000011
 title: Rate Limiting
 language: markdown
-tags: ''
+tags: [system-design, databases, rate-limiting, scalability]
 selection: null
 isPinned: false
 timestamp: 1781600000011

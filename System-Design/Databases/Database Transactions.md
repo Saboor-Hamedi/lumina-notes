@@ -2,7 +2,7 @@
 id: a1b2c3d4-0016-4000-8000-000000000016
 title: Database Transactions
 language: markdown
-tags: ''
+tags: [system-design, databases, transactions, acid]
 selection: null
 isPinned: false
 timestamp: 1781400000016

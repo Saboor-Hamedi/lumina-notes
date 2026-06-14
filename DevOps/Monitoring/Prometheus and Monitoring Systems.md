@@ -2,7 +2,7 @@
 id: a1b2c3d4-1067-4000-8000-000000000067
 title: Prometheus and Monitoring Systems
 language: markdown
-tags: ''
+tags: [devops, monitoring, prometheus]
 selection: null
 isPinned: false
 timestamp: 1781500001067

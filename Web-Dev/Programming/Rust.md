@@ -2,7 +2,7 @@
 id: a1b2c3d4-1022-4000-8000-000000000022
 title: Rust
 language: markdown
-tags: ''
+tags: [web-dev, programming, rust, systems-programming]
 selection: null
 isPinned: false
 timestamp: 1781500001022

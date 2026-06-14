@@ -2,7 +2,7 @@
 id: dev-061-0000-0000-0000-000000000047
 title: JSON Web Tokens
 language: markdown
-tags: ''
+tags: [security, jwt, authentication]
 selection: null
 isPinned: false
 timestamp: 1781800000025

@@ -2,7 +2,7 @@
 id: a1b2c3d4-0021-4000-8000-000000000021
 title: Microservices Architecture
 language: markdown
-tags: ''
+tags: [system-design, architecture, microservices]
 selection: null
 isPinned: false
 timestamp: 1781400000021

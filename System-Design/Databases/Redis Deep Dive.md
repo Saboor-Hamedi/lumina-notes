@@ -2,7 +2,7 @@
 id: a1b2c3d4-1181-4000-8000-000000000181
 title: Redis Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, databases, redis, key-value]
 selection: null
 isPinned: false
 timestamp: 1781500001181

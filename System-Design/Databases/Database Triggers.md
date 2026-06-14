@@ -2,7 +2,7 @@
 id: db-026-0000-0000-0000-000000000050
 title: Database Triggers
 language: markdown
-tags: ''
+tags: [system-design, databases, triggers]
 selection: null
 isPinned: false
 timestamp: 1781900000002

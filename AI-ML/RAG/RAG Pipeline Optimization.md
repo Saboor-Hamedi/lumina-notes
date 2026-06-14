@@ -2,7 +2,7 @@
 id: a1b2c3d4-1046-4000-8000-000000000046
 title: RAG Pipeline Optimization
 language: markdown
-tags: ''
+tags: [ai-ml, rag, optimization]
 selection: null
 isPinned: false
 timestamp: 1781500001046

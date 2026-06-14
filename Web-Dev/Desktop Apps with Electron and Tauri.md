@@ -2,7 +2,7 @@
 id: a1b2c3d4-1198-4000-8000-000000000198
 title: Desktop Apps with Electron and Tauri
 language: markdown
-tags: ''
+tags: [web-dev, electron, tauri, desktop]
 selection: null
 isPinned: false
 timestamp: 1781500001198

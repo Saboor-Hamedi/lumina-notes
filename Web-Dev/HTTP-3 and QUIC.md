@@ -2,7 +2,7 @@
 id: a1b2c3d4-1166-4000-8000-000000000166
 title: HTTP-3 and QUIC
 language: markdown
-tags: ''
+tags: [web-dev, http3, quic, protocol]
 selection: null
 isPinned: false
 timestamp: 1781500001166

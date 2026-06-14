@@ -2,7 +2,7 @@
 id: ml-014-0000-0000-0000-000000000063
 title: Decision Trees and Random Forests
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, decision-trees, random-forest, ensemble]
 selection: null
 isPinned: false
 timestamp: 1781900000015

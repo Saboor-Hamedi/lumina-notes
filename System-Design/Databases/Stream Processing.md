@@ -2,7 +2,7 @@
 id: a1b2c3d4-1012-4000-8000-000000000012
 title: Stream Processing
 language: markdown
-tags: ''
+tags: [system-design, databases, stream-processing]
 selection: null
 isPinned: false
 timestamp: 1781500001012

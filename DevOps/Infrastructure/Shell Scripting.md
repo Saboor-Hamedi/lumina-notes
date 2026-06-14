@@ -2,7 +2,7 @@
 id: a1b2c3d4-1008-4000-8000-000000000008
 title: Shell Scripting
 language: markdown
-tags: ''
+tags: [devops, infrastructure, shell, scripting]
 selection: null
 isPinned: false
 timestamp: 1781500001008

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1193-4000-8000-000000000193
 title: Svelte
 language: markdown
-tags: ''
+tags: [web-dev, svelte, frontend]
 selection: null
 isPinned: false
 timestamp: 1781500001193

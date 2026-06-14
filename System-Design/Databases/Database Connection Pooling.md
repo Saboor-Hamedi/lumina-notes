@@ -2,7 +2,7 @@
 id: dev-062-0000-0000-0000-000000000048
 title: Database Connection Pooling
 language: markdown
-tags: ''
+tags: [system-design, databases, connection-pooling]
 selection: null
 isPinned: false
 timestamp: 1781800000026

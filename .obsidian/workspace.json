@@ -187,6 +187,7 @@
   },
   "active": "05fe171f6479b2e8",
   "lastOpenFiles": [
+    "_fix_tags.ps1",
     "Web-Dev/Programming/_MOC.md",
     "Data-Science/Visualization/Plotly.md",
     "Data-Science/Visualization/Seaborn.md",
@@ -212,7 +213,6 @@
     "Data-Science/Pandas/05 GroupBy Aggregation.md",
     "Data-Science/Pandas/04 Selection Indexing.md",
     "Data-Science/Pandas/03 Cleaning.md",
-    "Data-Science/Pandas/_MOC.md",
     "Data-Science/Visualization",
     "Data-Science/NumPy",
     "Data-Science/Pandas",

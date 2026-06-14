@@ -2,7 +2,7 @@
 id: git-024-0000-0000-0000-000000000024
 title: Git Blame
 language: markdown
-tags: ''
+tags: [git, blame]
 selection: null
 isPinned: false
 timestamp: 1781500000024

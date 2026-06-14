@@ -2,7 +2,7 @@
 id: dev-053-0000-0000-0000-000000000037
 title: Kubernetes Basics
 language: markdown
-tags: ''
+tags: [devops, containers, kubernetes]
 selection: null
 isPinned: false
 timestamp: 1781800000015

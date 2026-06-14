@@ -2,7 +2,7 @@
 id: a1b2c3d4-1186-4000-8000-000000000186
 title: API Documentation with OpenAPI
 language: markdown
-tags: ''
+tags: [web-dev, openapi, api-docs]
 selection: null
 isPinned: false
 timestamp: 1781500001186

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1040-4000-8000-000000000040
 title: Event-Driven Architecture
 language: markdown
-tags: ''
+tags: [system-design, architecture, event-driven]
 selection: null
 isPinned: false
 timestamp: 1781500001040

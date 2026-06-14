@@ -2,7 +2,7 @@
 id: a1b2c3d4-1117-4000-8000-000000000117
 title: Model Distillation
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, distillation, optimization]
 selection: null
 isPinned: false
 timestamp: 1781500001117

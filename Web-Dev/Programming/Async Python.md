@@ -2,7 +2,7 @@
 id: dev-068-0000-0000-0000-000000000057
 title: Async Python
 language: markdown
-tags: ''
+tags: [web-dev, programming, python, async]
 selection: null
 isPinned: false
 timestamp: 1781900000009

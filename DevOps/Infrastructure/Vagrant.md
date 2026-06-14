@@ -2,7 +2,7 @@
 id: a1b2c3d4-1105-4000-8000-000000000105
 title: Vagrant
 language: markdown
-tags: ''
+tags: [devops, infrastructure, vagrant, virtualization]
 selection: null
 isPinned: false
 timestamp: 1781500001105

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1157-4000-8000-000000000157
 title: Data Warehouse Modeling
 language: markdown
-tags: ''
+tags: [system-design, databases, data-warehouse, modeling]
 selection: null
 isPinned: false
 timestamp: 1781500001157

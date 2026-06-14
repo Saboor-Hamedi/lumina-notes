@@ -2,7 +2,7 @@
 id: git-017-0000-0000-0000-000000000017
 title: Git Pull and Fetch
 language: markdown
-tags: ''
+tags: [git, remote, syncing]
 selection: null
 isPinned: false
 timestamp: 1781500000017

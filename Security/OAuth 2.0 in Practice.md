@@ -2,7 +2,7 @@
 id: a1b2c3d4-1127-4000-8000-000000000127
 title: OAuth 2.0 in Practice
 language: markdown
-tags: ''
+tags: [security, oauth]
 selection: null
 isPinned: false
 timestamp: 1781500001127

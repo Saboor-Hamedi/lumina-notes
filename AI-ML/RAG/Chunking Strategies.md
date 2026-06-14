@@ -2,7 +2,7 @@
 id: rag-002-0000-0000-0000-000000000002
 title: Chunking Strategies
 language: markdown
-tags: ''
+tags: [ai-ml, rag, chunking]
 selection: null
 isPinned: false
 timestamp: 1781700000002

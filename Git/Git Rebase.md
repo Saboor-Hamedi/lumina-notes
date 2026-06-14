@@ -2,7 +2,7 @@
 id: git-013-0000-0000-0000-000000000013
 title: Git Rebase
 language: markdown
-tags: ''
+tags: [git, rebasing]
 selection: null
 isPinned: false
 timestamp: 1781500000013

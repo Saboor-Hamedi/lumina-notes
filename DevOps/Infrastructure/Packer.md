@@ -2,7 +2,7 @@
 id: a1b2c3d4-1104-4000-8000-000000000104
 title: Packer
 language: markdown
-tags: ''
+tags: [devops, infrastructure, packer, image-building]
 selection: null
 isPinned: false
 timestamp: 1781500001104

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1129-4000-8000-000000000129
 title: Snapshot Testing
 language: markdown
-tags: ''
+tags: [testing, snapshot-testing]
 selection: null
 isPinned: false
 timestamp: 1781500001129

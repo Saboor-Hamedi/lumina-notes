@@ -2,7 +2,7 @@
 id: tf-006-0000-0000-0000-000000000016
 title: GPT and Decoder Models
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, gpt, decoder, transformer]
 selection: null
 isPinned: false
 timestamp: 1781700000016

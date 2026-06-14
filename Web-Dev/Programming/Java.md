@@ -2,7 +2,7 @@
 id: a1b2c3d4-1061-4000-8000-000000000061
 title: Java
 language: markdown
-tags: ''
+tags: [web-dev, programming, java]
 selection: null
 isPinned: false
 timestamp: 1781500001061

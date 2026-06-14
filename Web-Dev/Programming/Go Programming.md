@@ -2,7 +2,7 @@
 id: a1b2c3d4-1023-4000-8000-000000000023
 title: Go Programming
 language: markdown
-tags: ''
+tags: [web-dev, programming, go, golang]
 selection: null
 isPinned: false
 timestamp: 1781500001023

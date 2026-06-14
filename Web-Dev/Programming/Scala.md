@@ -2,7 +2,7 @@
 id: a1b2c3d4-1088-4000-8000-000000000088
 title: Scala
 language: markdown
-tags: ''
+tags: [web-dev, programming, scala]
 selection: null
 isPinned: false
 timestamp: 1781500001088

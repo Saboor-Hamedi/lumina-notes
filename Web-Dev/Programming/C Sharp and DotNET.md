@@ -2,7 +2,7 @@
 id: a1b2c3d4-1195-4000-8000-000000000195
 title: C Sharp and DotNET
 language: markdown
-tags: ''
+tags: [web-dev, programming, csharp, dotnet]
 selection: null
 isPinned: false
 timestamp: 1781500001195

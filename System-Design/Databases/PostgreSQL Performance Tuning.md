@@ -2,7 +2,7 @@
 id: a1b2c3d4-1180-4000-8000-000000000180
 title: PostgreSQL Performance Tuning
 language: markdown
-tags: ''
+tags: [system-design, databases, postgresql, performance]
 selection: null
 isPinned: false
 timestamp: 1781500001180

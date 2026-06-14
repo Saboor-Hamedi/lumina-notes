@@ -2,7 +2,7 @@
 id: a1b2c3d4-1191-4000-8000-000000000191
 title: Edge Computing and IoT Architecture
 language: markdown
-tags: ''
+tags: [devops, infrastructure, edge-computing, iot]
 selection: null
 isPinned: false
 timestamp: 1781500001191

@@ -2,7 +2,7 @@
 id: new-013-0000-0000-0000-000000000013
 title: Internationalization
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781600000013

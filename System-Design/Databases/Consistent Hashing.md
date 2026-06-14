@@ -2,7 +2,7 @@
 id: a1b2c3d4-1153-4000-8000-000000000153
 title: Consistent Hashing
 language: markdown
-tags: ''
+tags: [system-design, databases, consistent-hashing, distributed-systems]
 selection: null
 isPinned: false
 timestamp: 1781500001153

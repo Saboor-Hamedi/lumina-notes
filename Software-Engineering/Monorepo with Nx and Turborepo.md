@@ -2,7 +2,7 @@
 id: a1b2c3d4-1171-4000-8000-000000000171
 title: Monorepo with Nx and Turborepo
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001171

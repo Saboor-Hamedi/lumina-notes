@@ -2,7 +2,7 @@
 id: a1b2c3d4-1107-4000-8000-000000000107
 title: CDN Architecture
 language: markdown
-tags: ''
+tags: [system-design, architecture, cdn]
 selection: null
 isPinned: false
 timestamp: 1781500001107

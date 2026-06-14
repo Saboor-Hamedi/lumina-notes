@@ -2,7 +2,7 @@
 id: nlp-014-0000-0000-0000-000000000022
 title: Prompt Engineering
 language: markdown
-tags: ''
+tags: [ai-ml, nlp, prompt-engineering, llm]
 selection: null
 isPinned: false
 timestamp: 1781700000022

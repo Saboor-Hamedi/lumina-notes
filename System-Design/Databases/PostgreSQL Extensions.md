@@ -2,7 +2,7 @@
 id: db-024-0000-0000-0000-000000000042
 title: PostgreSQL Extensions
 language: markdown
-tags: ''
+tags: [system-design, databases, postgresql, extensions]
 selection: null
 isPinned: false
 timestamp: 1781800000020

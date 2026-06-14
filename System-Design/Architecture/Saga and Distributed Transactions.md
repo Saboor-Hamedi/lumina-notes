@@ -2,7 +2,7 @@
 id: a1b2c3d4-1178-4000-8000-000000000178
 title: Saga and Distributed Transactions
 language: markdown
-tags: ''
+tags: [system-design, architecture, saga, distributed-transactions]
 selection: null
 isPinned: false
 timestamp: 1781500001178

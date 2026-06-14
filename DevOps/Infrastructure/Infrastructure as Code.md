@@ -2,7 +2,7 @@
 id: new-004-0000-0000-0000-000000000004
 title: Infrastructure as Code
 language: markdown
-tags: ''
+tags: [devops, infrastructure, iac]
 selection: null
 isPinned: false
 timestamp: 1781600000004

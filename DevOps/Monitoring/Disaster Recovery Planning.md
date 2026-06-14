@@ -2,7 +2,7 @@
 id: a1b2c3d4-1187-4000-8000-000000000187
 title: Disaster Recovery Planning
 language: markdown
-tags: ''
+tags: [devops, monitoring, disaster-recovery]
 selection: null
 isPinned: false
 timestamp: 1781500001187

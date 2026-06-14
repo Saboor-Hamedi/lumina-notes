@@ -2,7 +2,7 @@
 id: git-012-0000-0000-0000-000000000012
 title: Git Conflict Resolution
 language: markdown
-tags: ''
+tags: [git, conflicts]
 selection: null
 isPinned: false
 timestamp: 1781500000012

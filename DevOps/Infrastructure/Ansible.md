@@ -2,7 +2,7 @@
 id: a1b2c3d4-1096-4000-8000-000000000096
 title: Ansible
 language: markdown
-tags: ''
+tags: [devops, infrastructure, ansible, configuration-management]
 selection: null
 isPinned: false
 timestamp: 1781500001096

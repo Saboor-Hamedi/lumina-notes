@@ -2,7 +2,7 @@
 id: nlp-012-0000-0000-0000-000000000020
 title: Sequence-to-Sequence Models
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, seq2seq, transformer]
 selection: null
 isPinned: false
 timestamp: 1781700000020

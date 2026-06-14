@@ -2,7 +2,7 @@
 id: a1b2c3d4-1128-4000-8000-000000000128
 title: SAML and Enterprise SSO
 language: markdown
-tags: ''
+tags: [security, saml, sso, authentication]
 selection: null
 isPinned: false
 timestamp: 1781500001128

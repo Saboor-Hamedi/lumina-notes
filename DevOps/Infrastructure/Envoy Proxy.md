@@ -2,7 +2,7 @@
 id: a1b2c3d4-1101-4000-8000-000000000101
 title: Envoy Proxy
 language: markdown
-tags: ''
+tags: [devops, infrastructure, envoy, proxy, service-mesh]
 selection: null
 isPinned: false
 timestamp: 1781500001101

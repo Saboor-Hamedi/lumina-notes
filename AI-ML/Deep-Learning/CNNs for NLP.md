@@ -2,7 +2,7 @@
 id: nlp-020-0000-0000-0000-000000000028
 title: CNNs for NLP
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, cnn, nlp]
 selection: null
 isPinned: false
 timestamp: 1781800000006

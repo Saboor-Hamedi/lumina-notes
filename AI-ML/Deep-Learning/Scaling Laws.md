@@ -2,7 +2,7 @@
 id: a1b2c3d4-1052-4000-8000-000000000052
 title: Scaling Laws
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, scaling, llm]
 selection: null
 isPinned: false
 timestamp: 1781500001052

@@ -2,7 +2,7 @@
 id: 4d29dadb-4490-42aa-b1ca-02f27614be82
 title: Code Architecture Patterns
 language: markdown
-tags: ''
+tags: [system-design, architecture, code-architecture, design-patterns]
 selection: null
 isPinned: true
 timestamp: 1780926621322

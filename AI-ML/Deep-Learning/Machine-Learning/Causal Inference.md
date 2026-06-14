@@ -2,7 +2,7 @@
 id: a1b2c3d4-1121-4000-8000-000000000121
 title: Causal Inference
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, causal-inference, statistics]
 selection: null
 isPinned: false
 timestamp: 1781500001121

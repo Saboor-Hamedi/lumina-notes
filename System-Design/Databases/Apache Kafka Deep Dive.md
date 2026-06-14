@@ -2,7 +2,7 @@
 id: a1b2c3d4-1154-4000-8000-000000000154
 title: Apache Kafka Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, databases, kafka, streaming]
 selection: null
 isPinned: false
 timestamp: 1781500001154

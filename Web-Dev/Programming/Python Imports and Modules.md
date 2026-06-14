@@ -2,7 +2,7 @@
 id: dev-051-0000-0000-0000-000000000035
 title: Python Imports and Modules
 language: markdown
-tags: ''
+tags: [web-dev, programming, python, imports, modules]
 selection: null
 isPinned: false
 timestamp: 1781800000013

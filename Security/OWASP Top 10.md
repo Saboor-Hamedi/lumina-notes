@@ -2,7 +2,7 @@
 id: a1b2c3d4-1134-4000-8000-000000000134
 title: OWASP Top 10
 language: markdown
-tags: ''
+tags: [security, owasp, web-security]
 selection: null
 isPinned: false
 timestamp: 1781500001134

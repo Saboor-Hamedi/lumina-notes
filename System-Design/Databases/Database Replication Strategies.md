@@ -2,7 +2,7 @@
 id: a1b2c3d4-1163-4000-8000-000000000163
 title: Database Replication Strategies
 language: markdown
-tags: ''
+tags: [system-design, databases, replication, high-availability]
 selection: null
 isPinned: false
 timestamp: 1781500001163

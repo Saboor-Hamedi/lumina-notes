@@ -2,7 +2,7 @@
 id: a1b2c3d4-0006-4000-8000-000000000006
 title: Error Handling Patterns
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781400000006

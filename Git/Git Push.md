@@ -2,7 +2,7 @@
 id: git-016-0000-0000-0000-000000000016
 title: Git Push
 language: markdown
-tags: ''
+tags: [git, remote]
 selection: null
 isPinned: false
 timestamp: 1781500000016

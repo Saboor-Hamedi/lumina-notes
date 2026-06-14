@@ -2,7 +2,7 @@
 id: a1b2c3d4-1062-4000-8000-000000000062
 title: C and C++
 language: markdown
-tags: ''
+tags: [web-dev, programming, c, cpp, systems-programming]
 selection: null
 isPinned: false
 timestamp: 1781500001062

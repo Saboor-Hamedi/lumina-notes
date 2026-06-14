@@ -2,7 +2,7 @@
 id: a1b2c3d4-0002-4000-8000-000000000002
 title: Docker Containers
 language: markdown
-tags: ''
+tags: [devops, containers, docker]
 selection: null
 isPinned: false
 timestamp: 1781400000002

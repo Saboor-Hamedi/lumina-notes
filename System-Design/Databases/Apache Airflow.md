@@ -2,7 +2,7 @@
 id: a1b2c3d4-1158-4000-8000-000000000158
 title: Apache Airflow
 language: markdown
-tags: ''
+tags: [system-design, databases, airflow, workflow]
 selection: null
 isPinned: false
 timestamp: 1781500001158

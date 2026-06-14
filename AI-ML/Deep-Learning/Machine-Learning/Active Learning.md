@@ -2,7 +2,7 @@
 id: dev-060-0000-0000-0000-000000000046
 title: Active Learning
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, active-learning]
 selection: null
 isPinned: false
 timestamp: 1781800000024

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1065-4000-8000-000000000065
 title: Computer Architecture and Organization
 language: markdown
-tags: ''
+tags: [system-design, architecture, computer-architecture]
 selection: null
 isPinned: false
 timestamp: 1781500001065

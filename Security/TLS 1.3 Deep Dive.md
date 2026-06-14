@@ -2,7 +2,7 @@
 id: a1b2c3d4-1165-4000-8000-000000000165
 title: TLS 1.3 Deep Dive
 language: markdown
-tags: ''
+tags: [security, tls, encryption]
 selection: null
 isPinned: false
 timestamp: 1781500001165

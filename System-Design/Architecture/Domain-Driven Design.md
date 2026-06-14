@@ -2,7 +2,7 @@
 id: a1b2c3d4-1027-4000-8000-000000000027
 title: Domain-Driven Design
 language: markdown
-tags: ''
+tags: [system-design, architecture, ddd]
 selection: null
 isPinned: false
 timestamp: 1781500001027

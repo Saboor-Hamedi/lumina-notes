@@ -2,7 +2,7 @@
 id: git-015-0000-0000-0000-000000000015
 title: Git Remote
 language: markdown
-tags: ''
+tags: [git, remote]
 selection: null
 isPinned: false
 timestamp: 1781500000015

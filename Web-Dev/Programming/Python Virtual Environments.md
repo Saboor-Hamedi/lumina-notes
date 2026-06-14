@@ -2,7 +2,7 @@
 id: a1b2c3d4-0019-4000-8000-000000000019
 title: Python Virtual Environments
 language: markdown
-tags: ''
+tags: [web-dev, programming, python, virtual-environments]
 selection: null
 isPinned: false
 timestamp: 1781400000019

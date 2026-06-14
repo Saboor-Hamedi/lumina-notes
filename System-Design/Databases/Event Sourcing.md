@@ -2,7 +2,7 @@
 id: new-014-0000-0000-0000-000000000014
 title: Event Sourcing
 language: markdown
-tags: ''
+tags: [system-design, databases, event-sourcing, architecture]
 selection: null
 isPinned: false
 timestamp: 1781600000014

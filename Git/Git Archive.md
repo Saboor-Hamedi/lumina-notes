@@ -2,7 +2,7 @@
 id: git-036-0000-0000-0000-000000000036
 title: Git Archive
 language: markdown
-tags: ''
+tags: [git, archive]
 selection: null
 isPinned: false
 timestamp: 1781500000036

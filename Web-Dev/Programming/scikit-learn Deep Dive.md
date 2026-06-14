@@ -2,7 +2,7 @@
 id: a1b2c3d4-1202-4000-8000-000000000202
 title: scikit-learn Deep Dive
 language: markdown
-tags: ''
+tags: [web-dev, programming, scikit-learn, machine-learning, framework]
 selection: null
 isPinned: false
 timestamp: 1781500001202

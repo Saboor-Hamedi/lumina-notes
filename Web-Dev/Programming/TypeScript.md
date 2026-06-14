@@ -2,7 +2,7 @@
 id: a1b2c3d4-1021-4000-8000-000000000021
 title: TypeScript
 language: markdown
-tags: ''
+tags: [web-dev, programming, typescript]
 selection: null
 isPinned: false
 timestamp: 1781500001021

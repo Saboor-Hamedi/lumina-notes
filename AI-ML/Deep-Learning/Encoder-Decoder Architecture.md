@@ -2,7 +2,7 @@
 id: a1b2c3d4-1047-4000-8000-000000000047
 title: Encoder-Decoder Architecture
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, encoder-decoder, transformer]
 selection: null
 isPinned: false
 timestamp: 1781500001047

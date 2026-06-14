@@ -2,7 +2,7 @@
 id: git-033-0000-0000-0000-000000000033
 title: Git GPG Signing
 language: markdown
-tags: ''
+tags: [git, gpg, security]
 selection: null
 isPinned: false
 timestamp: 1781500000033

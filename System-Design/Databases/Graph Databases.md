@@ -2,7 +2,7 @@
 id: new-018-0000-0000-0000-000000000018
 title: Graph Databases
 language: markdown
-tags: ''
+tags: [system-design, databases, graph-db]
 selection: null
 isPinned: false
 timestamp: 1781344421535

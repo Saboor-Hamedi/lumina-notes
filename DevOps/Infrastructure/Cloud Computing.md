@@ -2,7 +2,7 @@
 id: new-003-0000-0000-0000-000000000003
 title: Cloud Computing
 language: markdown
-tags: ''
+tags: [devops, infrastructure, cloud-computing]
 selection: null
 isPinned: false
 timestamp: 1781600000003

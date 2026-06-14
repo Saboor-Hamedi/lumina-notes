@@ -2,7 +2,7 @@
 id: a1b2c3d4-0012-4000-8000-000000000012
 title: Database Indexing Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, databases, indexing, database]
 selection: null
 isPinned: false
 timestamp: 1781400000012

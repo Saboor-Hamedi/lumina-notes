@@ -2,7 +2,7 @@
 id: a1b2c3d4-1135-4000-8000-000000000135
 title: Secure Coding Practices
 language: markdown
-tags: ''
+tags: [security, secure-coding]
 selection: null
 isPinned: false
 timestamp: 1781500001135

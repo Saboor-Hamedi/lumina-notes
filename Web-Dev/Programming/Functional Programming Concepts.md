@@ -2,7 +2,7 @@
 id: a1b2c3d4-1142-4000-8000-000000000142
 title: Functional Programming Concepts
 language: markdown
-tags: ''
+tags: [web-dev, programming, functional, concepts]
 selection: null
 isPinned: false
 timestamp: 1781500001142

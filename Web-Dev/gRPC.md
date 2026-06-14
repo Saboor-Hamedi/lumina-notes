@@ -2,7 +2,7 @@
 id: dev-063-0000-0000-0000-000000000052
 title: gRPC
 language: markdown
-tags: ''
+tags: [web-dev, grpc, api, protocol]
 selection: null
 isPinned: false
 timestamp: 1781900000004

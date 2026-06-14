@@ -2,7 +2,7 @@
 id: a1b2c3d4-0003-4000-8000-000000000003
 title: Functional Programming
 language: markdown
-tags: ''
+tags: [web-dev, programming, functional, paradigm]
 selection: null
 isPinned: false
 timestamp: 1781400000003

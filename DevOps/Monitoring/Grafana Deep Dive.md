@@ -2,7 +2,7 @@
 id: a1b2c3d4-1203-4000-8000-000000000203
 title: Grafana Deep Dive
 language: markdown
-tags: ''
+tags: [devops, monitoring, grafana, visualization]
 selection: null
 isPinned: false
 timestamp: 1781500001203

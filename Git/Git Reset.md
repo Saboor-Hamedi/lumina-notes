@@ -2,7 +2,7 @@
 id: git-020-0000-0000-0000-000000000020
 title: Git Reset
 language: markdown
-tags: ''
+tags: [git, reset]
 selection: null
 isPinned: false
 timestamp: 1781500000020

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1063-4000-8000-000000000063
 title: Ruby
 language: markdown
-tags: ''
+tags: [web-dev, programming, ruby]
 selection: null
 isPinned: false
 timestamp: 1781500001063

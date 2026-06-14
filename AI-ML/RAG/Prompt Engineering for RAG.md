@@ -2,7 +2,7 @@
 id: rag-007-0000-0000-0000-000000000007
 title: Prompt Engineering for RAG
 language: markdown
-tags: ''
+tags: [ai-ml, rag, prompt-engineering]
 selection: null
 isPinned: false
 timestamp: 1781700000007

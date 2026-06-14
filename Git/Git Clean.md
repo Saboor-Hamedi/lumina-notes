@@ -2,7 +2,7 @@
 id: git-023-0000-0000-0000-000000000023
 title: Git Clean
 language: markdown
-tags: ''
+tags: [git, clean]
 selection: null
 isPinned: false
 timestamp: 1781500000023

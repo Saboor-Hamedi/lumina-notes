@@ -2,7 +2,7 @@
 id: new-006-0000-0000-0000-000000000006
 title: API Documentation
 language: markdown
-tags: ''
+tags: [web-dev, api-docs]
 selection: null
 isPinned: false
 timestamp: 1781600000006

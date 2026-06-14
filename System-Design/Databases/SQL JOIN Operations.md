@@ -2,7 +2,7 @@
 id: 06d6165b-7410-4793-9188-b2f761e5dbee
 title: SQL JOIN Operations
 language: markdown
-tags: ''
+tags: [system-design, databases, sql, joins]
 selection: null
 isPinned: false
 timestamp: 1781226338647

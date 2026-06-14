@@ -2,7 +2,7 @@
 id: a1b2c3d4-1019-4000-8000-000000000019
 title: Graph Algorithms
 language: markdown
-tags: ''
+tags: [system-design, algorithms]
 selection: null
 isPinned: false
 timestamp: 1781500001019

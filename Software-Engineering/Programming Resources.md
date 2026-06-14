@@ -2,7 +2,7 @@
 id: 16528228-4745-41fb-a2f8-59611498c23b
 title: Programming Resources
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: true
 timestamp: 1781232833306

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1070-4000-8000-000000000070
 title: Property-Based Testing
 language: markdown
-tags: ''
+tags: [testing, property-based-testing]
 selection: null
 isPinned: false
 timestamp: 1781500001070

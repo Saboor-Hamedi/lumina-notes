@@ -2,7 +2,7 @@
 id: tf-001-0000-0000-0000-000000000011
 title: Transformer Architecture
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, transformer, architecture]
 selection: null
 isPinned: true
 timestamp: 1781700000011

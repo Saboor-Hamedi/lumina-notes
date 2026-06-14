@@ -2,7 +2,7 @@
 id: nlp-022-0000-0000-0000-000000000044
 title: Data Augmentation for NLP
 language: markdown
-tags: '
+tags: [ai-ml, machine-learning, data-augmentation, nlp]
 selection: null
 isPinned: false
 timestamp: 1781800000022

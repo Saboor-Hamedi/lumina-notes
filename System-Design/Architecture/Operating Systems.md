@@ -2,7 +2,7 @@
 id: a1b2c3d4-1003-4000-8000-000000000003
 title: Operating Systems
 language: markdown
-tags: ''
+tags: [system-design, architecture, os, operating-system]
 selection: null
 isPinned: false
 timestamp: 1781500001003

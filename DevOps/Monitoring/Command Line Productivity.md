@@ -2,7 +2,7 @@
 id: new-009-0000-0000-0000-000000000009
 title: Command Line Productivity
 language: markdown
-tags: ''
+tags: [devops, monitoring]
 selection: null
 isPinned: false
 timestamp: 1781600000009

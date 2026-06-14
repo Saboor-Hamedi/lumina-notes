@@ -2,7 +2,7 @@
 id: new-005-0000-0000-0000-000000000005
 title: Monitoring and Observability
 language: markdown
-tags: ''
+tags: [devops, monitoring, observability]
 selection: null
 isPinned: false
 timestamp: 1781600000005

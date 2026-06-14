@@ -2,7 +2,7 @@
 id: git-040-0000-0000-0000-000000000040
 title: Git Pull Requests
 language: markdown
-tags: ''
+tags: [git, pull-requests]
 selection: null
 isPinned: false
 timestamp: 1781500000040

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1098-4000-8000-000000000098
 title: GitLab CI
 language: markdown
-tags: ''
+tags: [devops, ci-cd, gitlab-ci]
 selection: null
 isPinned: false
 timestamp: 1781500001098

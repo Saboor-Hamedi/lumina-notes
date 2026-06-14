@@ -2,7 +2,7 @@
 id: a1b2c3d4-1038-4000-8000-000000000038
 title: Coding Interview Patterns
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001038

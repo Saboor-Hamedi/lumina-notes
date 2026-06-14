@@ -2,7 +2,7 @@
 id: a1b2c3d4-1122-4000-8000-000000000122
 title: Graph Neural Networks
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, gnn, graph-neural-networks]
 selection: null
 isPinned: false
 timestamp: 1781500001122

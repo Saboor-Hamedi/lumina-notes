@@ -2,7 +2,7 @@
 id: a1b2c3d4-1100-4000-8000-000000000100
 title: Istio Service Mesh
 language: markdown
-tags: ''
+tags: [system-design, architecture, istio, service-mesh]
 selection: null
 isPinned: false
 timestamp: 1781500001100

@@ -2,7 +2,7 @@
 id: nlp-013-0000-0000-0000-000000000021
 title: Named Entity Recognition (NER)
 language: markdown
-tags: ''
+tags: [ai-ml, nlp, ner]
 selection: null
 isPinned: false
 timestamp: 1781700000021

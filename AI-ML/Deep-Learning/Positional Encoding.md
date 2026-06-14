@@ -2,7 +2,7 @@
 id: tf-004-0000-0000-0000-000000000014
 title: Positional Encoding
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, positional-encoding, transformer]
 selection: null
 isPinned: false
 timestamp: 1781700000014

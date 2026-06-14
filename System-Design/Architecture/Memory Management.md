@@ -2,7 +2,7 @@
 id: a1b2c3d4-1013-4000-8000-000000000013
 title: Memory Management
 language: markdown
-tags: ''
+tags: [system-design, architecture, memory-management]
 selection: null
 isPinned: false
 timestamp: 1781500001013

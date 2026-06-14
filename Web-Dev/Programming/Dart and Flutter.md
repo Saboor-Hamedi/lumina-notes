@@ -2,7 +2,7 @@
 id: a1b2c3d4-1084-4000-8000-000000000084
 title: Dart and Flutter
 language: markdown
-tags: ''
+tags: [web-dev, programming, dart, flutter, mobile]
 selection: null
 isPinned: false
 timestamp: 1781500001084

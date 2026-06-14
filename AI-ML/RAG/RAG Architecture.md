@@ -2,7 +2,7 @@
 id: rag-001-0000-0000-0000-000000000001
 title: RAG Architecture
 language: markdown
-tags: ''
+tags: [ai-ml, rag, architecture]
 selection: null
 isPinned: true
 timestamp: 1781700000001

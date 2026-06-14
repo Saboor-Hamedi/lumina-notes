@@ -2,7 +2,7 @@
 id: a1b2c3d4-1036-4000-8000-000000000036
 title: Technical Writing
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001036

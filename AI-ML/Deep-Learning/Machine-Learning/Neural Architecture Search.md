@@ -2,7 +2,7 @@
 id: a1b2c3d4-1118-4000-8000-000000000118
 title: Neural Architecture Search
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, nas, architecture-search]
 selection: null
 isPinned: false
 timestamp: 1781500001118

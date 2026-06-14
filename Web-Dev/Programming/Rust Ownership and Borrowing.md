@@ -2,7 +2,7 @@
 id: a1b2c3d4-1150-4000-8000-000000000150
 title: Rust Ownership and Borrowing
 language: markdown
-tags: ''
+tags: [web-dev, programming, rust, ownership, borrowing]
 selection: null
 isPinned: false
 timestamp: 1781500001150

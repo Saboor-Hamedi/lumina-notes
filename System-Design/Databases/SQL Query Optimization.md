@@ -2,7 +2,7 @@
 id: a1b2c3d4-1144-4000-8000-000000000144
 title: SQL Query Optimization
 language: markdown
-tags: ''
+tags: [system-design, databases, sql, query-optimization]
 selection: null
 isPinned: false
 timestamp: 1781500001144

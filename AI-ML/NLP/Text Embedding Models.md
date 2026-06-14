@@ -2,7 +2,7 @@
 id: 6befc9b0-72e8-4374-97fb-2d98b72e99fd
 title: Text Embedding Models
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1780934058610

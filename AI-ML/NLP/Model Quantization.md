@@ -2,7 +2,7 @@
 id: dev-056-0000-0000-0000-000000000040
 title: Model Quantization
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781800000018

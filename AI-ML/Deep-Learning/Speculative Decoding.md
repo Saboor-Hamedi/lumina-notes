@@ -2,7 +2,7 @@
 id: a1b2c3d4-1050-4000-8000-000000000050
 title: Speculative Decoding
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, inference, optimization]
 selection: null
 isPinned: false
 timestamp: 1781500001050

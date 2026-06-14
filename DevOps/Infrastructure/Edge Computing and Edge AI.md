@@ -2,7 +2,7 @@
 id: a1b2c3d4-1077-4000-8000-000000000077
 title: Edge Computing and Edge AI
 language: markdown
-tags: ''
+tags: [devops, infrastructure, edge-computing, edge-ai]
 selection: null
 isPinned: false
 timestamp: 1781500001077

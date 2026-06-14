@@ -2,7 +2,7 @@
 id: a1b2c3d4-1187-4000-8000-000000000187
 title: Threat Modeling
 language: markdown
-tags: ''
+tags: [security, threat-modeling]
 selection: null
 isPinned: false
 timestamp: 1781500001187

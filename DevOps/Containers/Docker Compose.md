@@ -2,7 +2,7 @@
 id: dev-064-0000-0000-0000-000000000053
 title: Docker Compose
 language: markdown
-tags: ''
+tags: [devops, containers, docker, compose]
 selection: null
 isPinned: false
 timestamp: 1781900000005

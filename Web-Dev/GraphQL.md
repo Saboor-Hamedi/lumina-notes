@@ -2,7 +2,7 @@
 id: a1b2c3d4-1131-4000-8000-000000000131
 title: GraphQL
 language: markdown
-tags: ''
+tags: [web-dev, graphql, api]
 selection: null
 isPinned: false
 timestamp: 1781500001131

@@ -2,7 +2,7 @@
 id: new-008-0000-0000-0000-000000000008
 title: Agile Development
 language: markdown
-tags: ''
+tags: [software-engineering, agile, methodology]
 selection: null
 isPinned: false
 timestamp: 1781600000008

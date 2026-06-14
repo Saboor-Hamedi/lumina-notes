@@ -2,7 +2,7 @@
 id: a1b2c3d4-1069-4000-8000-000000000069
 title: Apache Spark
 language: markdown
-tags: ''
+tags: [system-design, databases, spark, distributed-computing]
 selection: null
 isPinned: false
 timestamp: 1781500001069

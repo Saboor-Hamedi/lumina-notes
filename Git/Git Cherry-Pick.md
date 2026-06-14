@@ -2,7 +2,7 @@
 id: git-026-0000-0000-0000-000000000026
 title: Git Cherry-Pick
 language: markdown
-tags: ''
+tags: [git, cherry-pick]
 selection: null
 isPinned: false
 timestamp: 1781500000026

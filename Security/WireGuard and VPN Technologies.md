@@ -2,7 +2,7 @@
 id: a1b2c3d4-1108-4000-8000-000000000108
 title: WireGuard and VPN Technologies
 language: markdown
-tags: ''
+tags: [security, wireguard, vpn, networking]
 selection: null
 isPinned: false
 timestamp: 1781500001108

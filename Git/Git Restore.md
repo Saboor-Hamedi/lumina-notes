@@ -2,7 +2,7 @@
 id: git-022-0000-0000-0000-000000000022
 title: Git Restore
 language: markdown
-tags: ''
+tags: [git, restore]
 selection: null
 isPinned: false
 timestamp: 1781500000022

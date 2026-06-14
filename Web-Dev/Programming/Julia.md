@@ -2,7 +2,7 @@
 id: a1b2c3d4-1085-4000-8000-000000000085
 title: Julia
 language: markdown
-tags: ''
+tags: [web-dev, programming, julia]
 selection: null
 isPinned: false
 timestamp: 1781500001085

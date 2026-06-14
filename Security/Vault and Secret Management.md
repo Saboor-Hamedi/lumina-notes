@@ -2,7 +2,7 @@
 id: a1b2c3d4-1103-4000-8000-000000000103
 title: Vault and Secret Management
 language: markdown
-tags: ''
+tags: [security, vault, secrets]
 selection: null
 isPinned: false
 timestamp: 1781500001103

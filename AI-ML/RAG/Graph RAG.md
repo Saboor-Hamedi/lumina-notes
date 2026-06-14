@@ -2,7 +2,7 @@
 id: a1b2c3d4-1042-4000-8000-000000000042
 title: Graph RAG
 language: markdown
-tags: ''
+tags: [ai-ml, rag, graph-rag]
 selection: null
 isPinned: false
 timestamp: 1781500001042

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1109-4000-8000-000000000109
 title: API Gateway Patterns
 language: markdown
-tags: ''
+tags: [web-dev, api-gateway, architecture]
 selection: null
 isPinned: false
 timestamp: 1781500001109

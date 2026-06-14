@@ -2,7 +2,7 @@
 id: nlp-011-0000-0000-0000-000000000019
 title: Tokenization
 language: markdown
-tags: ''
+tags: [ai-ml, nlp, tokenization]
 selection: null
 isPinned: false
 timestamp: 1781700000019

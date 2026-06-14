@@ -2,7 +2,7 @@
 id: a1b2c3d4-1058-4000-8000-000000000058
 title: Context Window Strategies
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781500001058

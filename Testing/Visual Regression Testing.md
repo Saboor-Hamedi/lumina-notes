@@ -2,7 +2,7 @@
 id: a1b2c3d4-1168-4000-8000-000000000168
 title: Visual Regression Testing
 language: markdown
-tags: ''
+tags: [testing, visual-testing]
 selection: null
 isPinned: false
 timestamp: 1781500001168

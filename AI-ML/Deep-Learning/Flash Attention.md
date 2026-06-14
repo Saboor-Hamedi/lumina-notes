@@ -2,7 +2,7 @@
 id: a1b2c3d4-1051-4000-8000-000000000051
 title: Flash Attention
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, attention, optimization]
 selection: null
 isPinned: false
 timestamp: 1781500001051

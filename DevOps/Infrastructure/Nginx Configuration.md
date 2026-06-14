@@ -2,7 +2,7 @@
 id: dev-055-0000-0000-0000-000000000039
 title: Nginx Configuration
 language: markdown
-tags: ''
+tags: [devops, infrastructure, nginx, web-server]
 selection: null
 isPinned: false
 timestamp: 1781800000017

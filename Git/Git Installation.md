@@ -2,7 +2,7 @@
 id: git-002-0000-0000-0000-000000000002
 title: Git Installation
 language: markdown
-tags: ''
+tags: [git, setup]
 selection: null
 isPinned: false
 timestamp: 1781500000002

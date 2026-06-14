@@ -2,7 +2,7 @@
 id: git-004-0000-0000-0000-000000000004
 title: Git Init and Clone
 language: markdown
-tags: ''
+tags: [git, repository]
 selection: null
 isPinned: false
 timestamp: 1781500000004

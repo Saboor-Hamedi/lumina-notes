@@ -2,7 +2,7 @@
 id: a1b2c3d4-1185-4000-8000-000000000185
 title: Neo4j and Graph Databases
 language: markdown
-tags: ''
+tags: [system-design, databases, neo4j, graph-db]
 selection: null
 isPinned: false
 timestamp: 1781500001185

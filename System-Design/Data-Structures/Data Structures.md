@@ -2,7 +2,7 @@
 id: a1b2c3d4-0005-4000-8000-000000000005
 title: Data Structures
 language: markdown
-tags: ''
+tags: [system-design, data-structures]
 selection: null
 isPinned: false
 timestamp: 1781400000005

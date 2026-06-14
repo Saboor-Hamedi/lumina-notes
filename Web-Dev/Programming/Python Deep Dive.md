@@ -2,7 +2,7 @@
 id: a1b2c3d4-1149-4000-8000-000000000149
 title: Python Deep Dive
 language: markdown
-tags: ''
+tags: [web-dev, programming, python]
 selection: null
 isPinned: false
 timestamp: 1781500001149

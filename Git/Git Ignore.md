@@ -2,7 +2,7 @@
 id: git-035-0000-0000-0000-000000000035
 title: Git Ignore
 language: markdown
-tags: ''
+tags: [git, gitignore]
 selection: null
 isPinned: false
 timestamp: 1781500000035

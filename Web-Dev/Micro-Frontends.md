@@ -2,7 +2,7 @@
 id: a1b2c3d4-1110-4000-8000-000000000110
 title: Micro-Frontends
 language: markdown
-tags: ''
+tags: [web-dev, micro-frontends, architecture]
 selection: null
 isPinned: false
 timestamp: 1781500001110

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1132-4000-8000-000000000132
 title: Web Components
 language: markdown
-tags: ''
+tags: [web-dev, web-components, frontend]
 selection: null
 isPinned: false
 timestamp: 1781500001132

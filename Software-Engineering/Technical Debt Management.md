@@ -2,7 +2,7 @@
 id: a1b2c3d4-1079-4000-8000-000000000079
 title: Technical Debt Management
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001079

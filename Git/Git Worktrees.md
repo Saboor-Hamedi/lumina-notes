@@ -2,7 +2,7 @@
 id: git-029-0000-0000-0000-000000000029
 title: Git Worktrees
 language: markdown
-tags: ''
+tags: [git, worktrees]
 selection: null
 isPinned: false
 timestamp: 1781500000029

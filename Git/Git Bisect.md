@@ -2,7 +2,7 @@
 id: git-025-0000-0000-0000-000000000025
 title: Git Bisect
 language: markdown
-tags: ''
+tags: [git, bisect, debugging]
 selection: null
 isPinned: false
 timestamp: 1781500000025

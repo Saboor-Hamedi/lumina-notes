@@ -2,7 +2,7 @@
 id: git-009-0000-0000-0000-000000000009
 title: Git Branch
 language: markdown
-tags: ''
+tags: [git, branching]
 selection: null
 isPinned: false
 timestamp: 1781500000009

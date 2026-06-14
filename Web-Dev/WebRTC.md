@@ -2,7 +2,7 @@
 id: a1b2c3d4-1126-4000-8000-000000000126
 title: WebRTC
 language: markdown
-tags: ''
+tags: [web-dev, webrtc, protocol]
 selection: null
 isPinned: false
 timestamp: 1781500001126

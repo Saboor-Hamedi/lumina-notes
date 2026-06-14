@@ -2,7 +2,7 @@
 id: b7326ac7-d774-4771-b8f7-98a56748aab9
 title: Data Normalization Rules
 language: markdown
-tags: ''
+tags: [system-design, databases, normalization, database-design]
 selection: null
 isPinned: false
 timestamp: 1781190061407

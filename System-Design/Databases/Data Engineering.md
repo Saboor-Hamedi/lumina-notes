@@ -2,7 +2,7 @@
 id: a1b2c3d4-1031-4000-8000-000000000031
 title: Data Engineering
 language: markdown
-tags: ''
+tags: [system-design, databases, data-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001031

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1054-4000-8000-000000000054
 title: Quantization for LLMs
 language: markdown
-tags: ''
+tags: [ai-ml, nlp, quantization, llm, optimization]
 selection: null
 isPinned: false
 timestamp: 1781500001054

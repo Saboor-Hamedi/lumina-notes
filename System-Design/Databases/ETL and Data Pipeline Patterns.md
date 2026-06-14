@@ -2,7 +2,7 @@
 id: a1b2c3d4-1156-4000-8000-000000000156
 title: ETL and Data Pipeline Patterns
 language: markdown
-tags: ''
+tags: [system-design, databases, etl, data-pipeline]
 selection: null
 isPinned: false
 timestamp: 1781500001156

@@ -2,7 +2,7 @@
 id: git-032-0000-0000-0000-000000000032
 title: Git LFS
 language: markdown
-tags: ''
+tags: [git, lfs]
 selection: null
 isPinned: false
 timestamp: 1781500000032

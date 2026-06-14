@@ -2,7 +2,7 @@
 id: a1b2c3d4-1174-4000-8000-000000000174
 title: Feature Stores for Machine Learning
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, feature-store, ml-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001174

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1102-4000-8000-000000000102
 title: Consul
 language: markdown
-tags: ''
+tags: [devops, infrastructure, consul, service-discovery]
 selection: null
 isPinned: false
 timestamp: 1781500001102

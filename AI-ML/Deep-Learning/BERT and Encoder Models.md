@@ -2,7 +2,7 @@
 id: tf-005-0000-0000-0000-000000000015
 title: BERT and Encoder Models
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, bert, encoder, transformer]
 selection: null
 isPinned: false
 timestamp: 1781700000015

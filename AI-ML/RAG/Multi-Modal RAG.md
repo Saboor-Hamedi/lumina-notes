@@ -2,7 +2,7 @@
 id: a1b2c3d4-1043-4000-8000-000000000043
 title: Multi-Modal RAG
 language: markdown
-tags: ''
+tags: [ai-ml, rag, multi-modal]
 selection: null
 isPinned: false
 timestamp: 1781500001043

@@ -2,7 +2,7 @@
 id: git-006-0000-0000-0000-000000000006
 title: Git Commit
 language: markdown
-tags: ''
+tags: [git, commits]
 selection: null
 isPinned: false
 timestamp: 1781500000006

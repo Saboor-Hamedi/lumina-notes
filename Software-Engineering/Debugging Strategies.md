@@ -2,7 +2,7 @@
 id: a1b2c3d4-1007-4000-8000-000000000007
 title: Debugging Strategies
 language: markdown
-tags: ''
+tags: [software-engineering, debugging]
 selection: null
 isPinned: false
 timestamp: 1781500001007

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1099-4000-8000-000000000099
 title: Helm
 language: markdown
-tags: ''
+tags: [devops, infrastructure, helm, kubernetes]
 selection: null
 isPinned: false
 timestamp: 1781500001099

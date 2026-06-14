@@ -2,7 +2,7 @@
 id: a1b2c3d4-1164-4000-8000-000000000164
 title: UUID vs Snowflake vs ULID
 language: markdown
-tags: ''
+tags: [system-design, databases, id-generation, distributed-systems]
 selection: null
 isPinned: false
 timestamp: 1781500001164

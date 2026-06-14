@@ -2,7 +2,7 @@
 id: a1b2c3d4-1025-4000-8000-000000000025
 title: CSS and Styling
 language: markdown
-tags: ''
+tags: [web-dev, css, styling]
 selection: null
 isPinned: false
 timestamp: 1781500001025

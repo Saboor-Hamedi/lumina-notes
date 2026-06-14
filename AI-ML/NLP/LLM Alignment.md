@@ -2,7 +2,7 @@
 id: a1b2c3d4-1055-4000-8000-000000000055
 title: LLM Alignment
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781500001055

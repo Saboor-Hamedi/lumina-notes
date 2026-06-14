@@ -2,7 +2,7 @@
 id: db-025-0000-0000-0000-000000000049
 title: Database Views
 language: markdown
-tags: ''
+tags: [system-design, databases, views]
 selection: null
 isPinned: false
 timestamp: 1781900000001

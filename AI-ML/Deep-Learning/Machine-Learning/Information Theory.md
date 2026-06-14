@@ -2,7 +2,7 @@
 id: a1b2c3d4-1093-4000-8000-000000000093
 title: Information Theory
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, information-theory, statistics]
 selection: null
 isPinned: false
 timestamp: 1781500001093

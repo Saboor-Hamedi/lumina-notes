@@ -2,7 +2,7 @@
 id: a1b2c3d4-1059-4000-8000-000000000059
 title: Advanced Prompting Techniques
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781500001059

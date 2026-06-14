@@ -2,7 +2,7 @@
 id: new-002-0000-0000-0000-000000000002
 title: Build Tools
 language: markdown
-tags: ''
+tags: [devops, infrastructure, build-tools]
 selection: null
 isPinned: false
 timestamp: 1781600000002

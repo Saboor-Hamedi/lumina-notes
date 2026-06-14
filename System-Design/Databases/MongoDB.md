@@ -2,7 +2,7 @@
 id: a1b2c3d4-1111-4000-8000-000000000111
 title: MongoDB
 language: markdown
-tags: ''
+tags: [system-design, databases, mongodb, document-db]
 selection: null
 isPinned: false
 timestamp: 1781500001111

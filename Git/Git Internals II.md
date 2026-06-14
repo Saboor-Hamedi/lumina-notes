@@ -2,7 +2,7 @@
 id: git-043-0000-0000-0000-000000000043
 title: Git Internals II
 language: markdown
-tags: ''
+tags: [git, internals]
 selection: null
 isPinned: false
 timestamp: 1781500000043

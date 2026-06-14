@@ -2,7 +2,7 @@
 id: a1b2c3d4-1139-4000-8000-000000000139
 title: CRDTs
 language: markdown
-tags: ''
+tags: [system-design, databases, crdt, conflict-resolution]
 selection: null
 isPinned: false
 timestamp: 1781500001139

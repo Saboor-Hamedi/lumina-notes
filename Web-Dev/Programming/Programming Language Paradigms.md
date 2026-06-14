@@ -2,7 +2,7 @@
 id: 22db5f4c-9d55-40e3-8cb2-6a1f0e2f76c1
 title: Programming Language Paradigms
 language: markdown
-tags: ''
+tags: [web-dev, programming, paradigms, programming-languages]
 selection: null
 isPinned: false
 timestamp: 1781229805393

@@ -2,7 +2,7 @@
 id: git-007-0000-0000-0000-000000000007
 title: Git Log
 language: markdown
-tags: ''
+tags: [git, log, history]
 selection: null
 isPinned: false
 timestamp: 1781500000007

@@ -2,7 +2,7 @@
 id: dev-065-0000-0000-0000-000000000054
 title: GitHub Actions
 language: markdown
-tags: ''
+tags: [devops, ci-cd, github-actions]
 selection: null
 isPinned: false
 timestamp: 1781900000006

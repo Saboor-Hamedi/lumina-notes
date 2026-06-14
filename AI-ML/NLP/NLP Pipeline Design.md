@@ -2,7 +2,7 @@
 id: 8f7f303e-5739-4bc4-998c-b04c66f41384
 title: NLP Pipeline Design
 language: markdown
-tags: ''
+tags: [ai-ml, nlp, nlp-pipeline]
 selection: null
 isPinned: false
 timestamp: 1780932831136

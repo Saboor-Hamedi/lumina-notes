@@ -2,7 +2,7 @@
 id: git-034-0000-0000-0000-000000000034
 title: Git Attributes
 language: markdown
-tags: ''
+tags: [git, attributes]
 selection: null
 isPinned: false
 timestamp: 1781500000034

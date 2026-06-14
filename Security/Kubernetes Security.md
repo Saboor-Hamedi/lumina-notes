@@ -2,7 +2,7 @@
 id: a1b2c3d4-1160-4000-8000-000000000160
 title: Kubernetes Security
 language: markdown
-tags: ''
+tags: [security, kubernetes-security]
 selection: null
 isPinned: false
 timestamp: 1781500001160

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1090-4000-8000-000000000090
 title: Lua Scripting
 language: markdown
-tags: ''
+tags: [web-dev, programming, lua, scripting]
 selection: null
 isPinned: false
 timestamp: 1781500001090

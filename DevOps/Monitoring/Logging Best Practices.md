@@ -2,7 +2,7 @@
 id: a1b2c3d4-1011-4000-8000-000000000011
 title: Logging Best Practices
 language: markdown
-tags: ''
+tags: [devops, monitoring, logging, observability]
 selection: null
 isPinned: false
 timestamp: 1781500001011

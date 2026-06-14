@@ -2,7 +2,7 @@
 id: rag-009-0000-0000-0000-000000000009
 title: Evaluation of RAG Systems
 language: markdown
-tags: ''
+tags: [ai-ml, rag, evaluation]
 selection: null
 isPinned: false
 timestamp: 1781700000009

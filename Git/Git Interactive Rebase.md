@@ -2,7 +2,7 @@
 id: git-014-0000-0000-0000-000000000014
 title: Git Interactive Rebase
 language: markdown
-tags: ''
+tags: [git, rebase]
 selection: null
 isPinned: false
 timestamp: 1781500000014

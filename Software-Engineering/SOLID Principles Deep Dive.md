@@ -2,7 +2,7 @@
 id: a1b2c3d4-1207-4000-8000-000000000207
 title: SOLID Principles Deep Dive
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001207

@@ -2,7 +2,7 @@
 id: ml-012-0000-0000-0000-000000000061
 title: Ensemble Methods
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, ensemble]
 selection: null
 isPinned: false
 timestamp: 1781900000013

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1130-4000-8000-000000000130
 title: Integration Testing Patterns
 language: markdown
-tags: ''
+tags: [testing, integration-testing]
 selection: null
 isPinned: false
 timestamp: 1781500001130

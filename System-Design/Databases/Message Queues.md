@@ -2,7 +2,7 @@
 id: a1b2c3d4-0011-4000-8000-000000000011
 title: Message Queues
 language: markdown
-tags: ''
+tags: [system-design, databases, message-queues, async]
 selection: null
 isPinned: false
 timestamp: 1781400000011

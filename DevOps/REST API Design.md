@@ -2,7 +2,7 @@
 id: 2630e31a-7adf-4701-a131-f2d48ae9c955
 title: REST API Design
 language: markdown
-tags: ''
+tags: [devops, rest, api-design]
 selection: null
 isPinned: false
 timestamp: 1781226370013

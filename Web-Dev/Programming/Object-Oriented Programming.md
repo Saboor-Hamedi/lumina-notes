@@ -2,7 +2,7 @@
 id: dev-050-0000-0000-0000-000000000034
 title: Object-Oriented Programming
 language: markdown
-tags: ''
+tags: [web-dev, programming, oop, paradigm]
 selection: null
 isPinned: false
 timestamp: 1781800000012

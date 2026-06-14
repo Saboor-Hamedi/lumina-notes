@@ -2,7 +2,7 @@
 id: a1b2c3d4-1188-4000-8000-000000000188
 title: Cloud Cost Optimization
 language: markdown
-tags: ''
+tags: [devops, infrastructure, cloud-cost, finops]
 selection: null
 isPinned: false
 timestamp: 1781500001188

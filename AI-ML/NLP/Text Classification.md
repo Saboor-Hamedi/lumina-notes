@@ -2,7 +2,7 @@
 id: nlp-015-0000-0000-0000-000000000023
 title: Text Classification
 language: markdown
-tags: ''
+tags: [ai-ml, nlp, text-classification]
 selection: null
 isPinned: false
 timestamp: 1781800000001

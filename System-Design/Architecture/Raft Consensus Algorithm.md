@@ -2,7 +2,7 @@
 id: a1b2c3d4-1138-4000-8000-000000000138
 title: Raft Consensus Algorithm
 language: markdown
-tags: ''
+tags: [system-design, architecture, raft, consensus, distributed-systems]
 selection: null
 isPinned: false
 timestamp: 1781500001138

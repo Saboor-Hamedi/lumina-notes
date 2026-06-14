@@ -2,7 +2,7 @@
 id: git-041-0000-0000-0000-000000000041
 title: Git Advanced Merging
 language: markdown
-tags: ''
+tags: [git, merging]
 selection: null
 isPinned: false
 timestamp: 1781500000041

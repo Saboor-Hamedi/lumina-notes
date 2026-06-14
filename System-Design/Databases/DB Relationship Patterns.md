@@ -2,7 +2,7 @@
 id: 948fc0b3-bf06-4d3f-8c70-1ded217bc422
 title: DB Relationship Patterns
 language: markdown
-tags: ''
+tags: [system-design, databases, database-design, relationships]
 selection: null
 isPinned: false
 timestamp: 1780926643992

@@ -2,7 +2,7 @@
 id: new-015-0000-0000-0000-000000000015
 title: Service Mesh
 language: markdown
-tags: ''
+tags: [system-design, architecture, service-mesh, networking]
 selection: null
 isPinned: false
 timestamp: 1781600000015

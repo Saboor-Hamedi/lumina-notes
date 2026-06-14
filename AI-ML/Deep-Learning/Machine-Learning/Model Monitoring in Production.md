@@ -2,7 +2,7 @@
 id: a1b2c3d4-1175-4000-8000-000000000175
 title: Model Monitoring in Production
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, model-monitoring, mlops]
 selection: null
 isPinned: false
 timestamp: 1781500001175

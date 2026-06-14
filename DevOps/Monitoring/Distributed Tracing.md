@@ -2,7 +2,7 @@
 id: a1b2c3d4-1146-4000-8000-000000000146
 title: Distributed Tracing
 language: markdown
-tags: ''
+tags: [devops, monitoring, distributed-tracing, observability]
 selection: null
 isPinned: false
 timestamp: 1781500001146

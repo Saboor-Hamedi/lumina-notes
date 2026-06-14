@@ -2,7 +2,7 @@
 id: git-001-0000-0000-0000-000000000001
 title: Git Overview
 language: markdown
-tags: ''
+tags: [git, vcs]
 selection: null
 isPinned: true
 timestamp: 1781500000001

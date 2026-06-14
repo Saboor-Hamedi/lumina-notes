@@ -2,7 +2,7 @@
 id: ml-016-0000-0000-0000-000000000065
 title: Dimensionality Reduction
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, dimensionality-reduction, pca, unsupervised]
 selection: null
 isPinned: false
 timestamp: 1781900000017

@@ -2,7 +2,7 @@
 id: da8107ed-9237-4e63-89c3-730c84c04d38
 title: PostgreSQL Features
 language: markdown
-tags: ''
+tags: [system-design, databases, postgresql, relational]
 selection: null
 isPinned: false
 timestamp: 1781195166785

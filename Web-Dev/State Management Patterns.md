@@ -2,7 +2,7 @@
 id: a1b2c3d4-1133-4000-8000-000000000133
 title: State Management Patterns
 language: markdown
-tags: ''
+tags: [web-dev, state-management, frontend]
 selection: null
 isPinned: false
 timestamp: 1781500001133

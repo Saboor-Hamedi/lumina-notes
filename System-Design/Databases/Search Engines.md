@@ -2,7 +2,7 @@
 id: a1b2c3d4-1030-4000-8000-000000000030
 title: Search Engines
 language: markdown
-tags: ''
+tags: [system-design, databases, search, full-text]
 selection: null
 isPinned: false
 timestamp: 1781500001030

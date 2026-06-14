@@ -2,7 +2,7 @@
 id: a1b2c3d4-1172-4000-8000-000000000172
 title: Apache Flink
 language: markdown
-tags: ''
+tags: [system-design, databases, flink, stream-processing]
 selection: null
 isPinned: false
 timestamp: 1781500001172

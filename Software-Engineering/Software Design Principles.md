@@ -2,7 +2,7 @@
 id: d6ccefdc-89f6-49ac-bccd-b9193ef4e56c
 title: Software Design Principles
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781224004948

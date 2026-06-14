@@ -2,7 +2,7 @@
 id: a1b2c3d4-1152-4000-8000-000000000152
 title: CAP Theorem and PACELC
 language: markdown
-tags: ''
+tags: [system-design, architecture, cap-theorem, distributed-systems]
 selection: null
 isPinned: false
 timestamp: 1781500001152

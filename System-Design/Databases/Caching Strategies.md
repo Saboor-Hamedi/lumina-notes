@@ -2,7 +2,7 @@
 id: a1b2c3d4-0001-4000-8000-000000000001
 title: Caching Strategies
 language: markdown
-tags: ''
+tags: [system-design, databases, caching]
 selection: null
 isPinned: false
 timestamp: 1781400000001

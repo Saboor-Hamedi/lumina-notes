@@ -2,7 +2,7 @@
 id: a1b2c3d4-1048-4000-8000-000000000048
 title: Mixture of Experts
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, moe, efficiency]
 selection: null
 isPinned: false
 timestamp: 1781500001048

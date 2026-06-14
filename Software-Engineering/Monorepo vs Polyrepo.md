@@ -2,7 +2,7 @@
 id: a1b2c3d4-1016-4000-8000-000000000016
 title: Monorepo vs Polyrepo
 language: markdown
-tags: ''
+tags: [software-engineering, monorepo, polyrepo]
 selection: null
 isPinned: false
 timestamp: 1781500001016

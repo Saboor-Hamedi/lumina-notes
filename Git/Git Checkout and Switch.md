@@ -2,7 +2,7 @@
 id: git-010-0000-0000-0000-000000000010
 title: Git Checkout and Switch
 language: markdown
-tags: ''
+tags: [git, branching]
 selection: null
 isPinned: false
 timestamp: 1781500000010

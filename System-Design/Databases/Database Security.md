@@ -2,7 +2,7 @@
 id: new-010-0000-0000-0000-000000000010
 title: Database Security
 language: markdown
-tags: ''
+tags: [system-design, databases, database-security]
 selection: null
 isPinned: false
 timestamp: 1781600000010

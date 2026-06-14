@@ -2,7 +2,7 @@
 id: git-031-0000-0000-0000-000000000031
 title: Git Server Hooks
 language: markdown
-tags: ''
+tags: [git, hooks, server]
 selection: null
 isPinned: false
 timestamp: 1781500000031

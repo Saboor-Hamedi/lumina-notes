@@ -2,7 +2,7 @@
 id: a1b2c3d4-1173-4000-8000-000000000173
 title: Delta Lake and Apache Iceberg
 language: markdown
-tags: ''
+tags: [system-design, databases, delta-lake, iceberg, table-format]
 selection: null
 isPinned: false
 timestamp: 1781500001173

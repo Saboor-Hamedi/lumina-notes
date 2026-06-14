@@ -2,7 +2,7 @@
 id: a1b2c3d4-1177-4000-8000-000000000177
 title: Event Sourcing Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, databases, event-sourcing, architecture]
 selection: null
 isPinned: false
 timestamp: 1781500001177

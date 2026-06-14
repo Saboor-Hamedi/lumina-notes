@@ -2,7 +2,7 @@
 id: a1b2c3d4-0014-4000-8000-000000000014
 title: WebSockets
 language: markdown
-tags: ''
+tags: [web-dev, websocket, protocol]
 selection: null
 isPinned: false
 timestamp: 1781400000014

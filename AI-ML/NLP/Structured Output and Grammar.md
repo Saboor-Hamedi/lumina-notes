@@ -2,7 +2,7 @@
 id: a1b2c3d4-1060-4000-8000-000000000060
 title: Structured Output and Grammar
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781500001060

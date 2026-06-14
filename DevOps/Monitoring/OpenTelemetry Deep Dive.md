@@ -2,7 +2,7 @@
 id: a1b2c3d4-1179-4000-8000-000000000179
 title: OpenTelemetry Deep Dive
 language: markdown
-tags: ''
+tags: [devops, monitoring, opentelemetry, observability]
 selection: null
 isPinned: false
 timestamp: 1781500001179

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1072-4000-8000-000000000072
 title: Blockchain Fundamentals
 language: markdown
-tags: ''
+tags: [system-design, architecture, blockchain, distributed-systems]
 selection: null
 isPinned: false
 timestamp: 1781500001072

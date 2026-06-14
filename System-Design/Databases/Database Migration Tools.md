@@ -2,7 +2,7 @@
 id: db-027-0000-0000-0000-000000000051
 title: Database Migration Tools
 language: markdown
-tags: ''
+tags: [system-design, databases, migration, schema]
 selection: null
 isPinned: false
 timestamp: 1781900000003

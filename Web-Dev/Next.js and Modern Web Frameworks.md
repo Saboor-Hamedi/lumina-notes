@@ -2,7 +2,7 @@
 id: a1b2c3d4-1064-4000-8000-000000000064
 title: Next.js and Modern Web Frameworks
 language: markdown
-tags: ''
+tags: [web-dev, nextjs, frontend]
 selection: null
 isPinned: false
 timestamp: 1781500001064

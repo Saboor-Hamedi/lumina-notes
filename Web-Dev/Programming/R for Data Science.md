@@ -2,7 +2,7 @@
 id: a1b2c3d4-1089-4000-8000-000000000089
 title: R for Data Science
 language: markdown
-tags: ''
+tags: [web-dev, programming, r, data-science]
 selection: null
 isPinned: false
 timestamp: 1781500001089

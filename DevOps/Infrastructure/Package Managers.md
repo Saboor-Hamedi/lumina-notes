@@ -2,7 +2,7 @@
 id: a1b2c3d4-1014-4000-8000-000000000014
 title: Package Managers
 language: markdown
-tags: ''
+tags: [devops, infrastructure, package-managers]
 selection: null
 isPinned: false
 timestamp: 1781500001014

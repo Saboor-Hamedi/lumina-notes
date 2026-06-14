@@ -2,7 +2,7 @@
 id: rag-006-0000-0000-0000-000000000006
 title: Reranking
 language: markdown
-tags: ''
+tags: [ai-ml, rag, reranking]
 selection: null
 isPinned: false
 timestamp: 1781700000006

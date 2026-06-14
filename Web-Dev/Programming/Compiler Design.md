@@ -2,7 +2,7 @@
 id: a1b2c3d4-1092-4000-8000-000000000092
 title: Compiler Design
 language: markdown
-tags: ''
+tags: [web-dev, programming, compiler, programming-languages]
 selection: null
 isPinned: false
 timestamp: 1781500001092

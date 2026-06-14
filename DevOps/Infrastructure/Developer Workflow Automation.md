@@ -2,7 +2,7 @@
 id: 23c1b7e9-6db5-46a0-8373-b9bcd31c7e4c
 title: Developer Workflow Automation
 language: markdown
-tags: ''
+tags: [devops, infrastructure, workflow-automation]
 selection: null
 isPinned: true
 timestamp: 1781225071120

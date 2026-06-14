@@ -2,7 +2,7 @@
 id: dev-067-0000-0000-0000-000000000056
 title: Load Testing
 language: markdown
-tags: ''
+tags: [testing, load-testing]
 selection: null
 isPinned: false
 timestamp: 1781900000008

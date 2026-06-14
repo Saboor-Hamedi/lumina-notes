@@ -2,7 +2,7 @@
 id: a1b2c3d4-1148-4000-8000-000000000148
 title: Web Accessibility
 language: markdown
-tags: ''
+tags: [web-dev, a11y, accessibility]
 selection: null
 isPinned: false
 timestamp: 1781500001148

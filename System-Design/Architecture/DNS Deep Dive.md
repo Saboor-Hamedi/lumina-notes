@@ -2,7 +2,7 @@
 id: a1b2c3d4-1106-4000-8000-000000000106
 title: DNS Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, architecture, dns, networking]
 selection: null
 isPinned: false
 timestamp: 1781500001106

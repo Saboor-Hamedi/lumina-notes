@@ -2,7 +2,7 @@
 id: dev-059-0000-0000-0000-000000000045
 title: HTTP Caching
 language: markdown
-tags: ''
+tags: [web-dev, http, caching]
 selection: null
 isPinned: false
 timestamp: 1781800000023

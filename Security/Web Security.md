@@ -2,7 +2,7 @@
 id: a1b2c3d4-0007-4000-8000-000000000007
 title: Web Security
 language: markdown
-tags: ''
+tags: [security, web-security]
 selection: null
 isPinned: false
 timestamp: 1781400000007

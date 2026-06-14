@@ -2,7 +2,7 @@
 id: nlp-017-0000-0000-0000-000000000025
 title: Machine Translation
 language: markdown
-tags: ''
+tags: [ai-ml, nlp, machine-translation]
 selection: null
 isPinned: false
 timestamp: 1781800000003

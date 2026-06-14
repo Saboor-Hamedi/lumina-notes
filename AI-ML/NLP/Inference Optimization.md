@@ -2,7 +2,7 @@
 id: dev-057-0000-0000-0000-000000000041
 title: Inference Optimization
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781800000019

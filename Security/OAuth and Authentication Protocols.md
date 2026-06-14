@@ -2,7 +2,7 @@
 id: a1b2c3d4-1010-4000-8000-000000000010
 title: OAuth and Authentication Protocols
 language: markdown
-tags: ''
+tags: [security, oauth, authentication]
 selection: null
 isPinned: false
 timestamp: 1781500001010

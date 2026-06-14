@@ -2,7 +2,7 @@
 id: a1b2c3d4-1183-4000-8000-000000000183
 title: Apache Cassandra Deep Dive
 language: markdown
-tags: ''
+tags: [system-design, databases, cassandra, wide-column]
 selection: null
 isPinned: false
 timestamp: 1781500001183

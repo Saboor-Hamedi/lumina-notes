@@ -2,7 +2,7 @@
 id: rag-004-0000-0000-0000-000000000004
 title: Embedding Models for RAG
 language: markdown
-tags: ''
+tags: [ai-ml, rag, embeddings]
 selection: null
 isPinned: false
 timestamp: 1781700000004

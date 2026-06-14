@@ -2,7 +2,7 @@
 id: a1b2c3d4-1041-4000-8000-000000000041
 title: Hybrid Search for RAG
 language: markdown
-tags: ''
+tags: [ai-ml, rag, hybrid-search]
 selection: null
 isPinned: false
 timestamp: 1781500001041

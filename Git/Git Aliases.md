@@ -2,7 +2,7 @@
 id: git-038-0000-0000-0000-000000000038
 title: Git Aliases
 language: markdown
-tags: ''
+tags: [git, aliases]
 selection: null
 isPinned: false
 timestamp: 1781500000038

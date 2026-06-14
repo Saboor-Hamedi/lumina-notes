@@ -2,7 +2,7 @@
 id: 25964c2d-4cd0-46a0-a4dd-0113ab6d484d
 title: HTTP Protocol
 language: markdown
-tags: ''
+tags: [web-dev, http, protocol]
 selection: null
 isPinned: false
 timestamp: 1781325857249

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1074-4000-8000-000000000074
 title: Synthetic Data Generation
 language: markdown
-tags: ''
+tags: [ai-ml, machine-learning, synthetic-data, data-augmentation]
 selection: null
 isPinned: false
 timestamp: 1781500001074

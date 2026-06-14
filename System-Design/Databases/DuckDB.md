@@ -2,7 +2,7 @@
 id: a1b2c3d4-1115-4000-8000-000000000115
 title: DuckDB
 language: markdown
-tags: ''
+tags: [system-design, databases, duckdb, olap]
 selection: null
 isPinned: false
 timestamp: 1781500001115

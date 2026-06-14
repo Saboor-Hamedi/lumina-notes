@@ -2,7 +2,7 @@
 id: git-027-0000-0000-0000-000000000027
 title: Git Reflog
 language: markdown
-tags: ''
+tags: [git, reflog]
 selection: null
 isPinned: false
 timestamp: 1781500000027

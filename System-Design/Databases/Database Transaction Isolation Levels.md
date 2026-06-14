@@ -2,7 +2,7 @@
 id: a1b2c3d4-1162-4000-8000-000000000162
 title: Database Transaction Isolation Levels
 language: markdown
-tags: ''
+tags: [system-design, databases, transactions, isolation]
 selection: null
 isPinned: false
 timestamp: 1781500001162

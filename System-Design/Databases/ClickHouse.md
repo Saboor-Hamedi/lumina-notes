@@ -2,7 +2,7 @@
 id: a1b2c3d4-1114-4000-8000-000000000114
 title: ClickHouse
 language: markdown
-tags: ''
+tags: [system-design, databases, clickhouse, olap]
 selection: null
 isPinned: false
 timestamp: 1781500001114

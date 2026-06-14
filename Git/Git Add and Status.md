@@ -2,7 +2,7 @@
 id: git-005-0000-0000-0000-000000000005
 title: Git Add and Status
 language: markdown
-tags: ''
+tags: [git, staging]
 selection: null
 isPinned: false
 timestamp: 1781500000005

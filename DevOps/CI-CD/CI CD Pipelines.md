@@ -2,7 +2,7 @@
 id: a1b2c3d4-0010-4000-8000-000000000010
 title: CI CD Pipelines
 language: markdown
-tags: ''
+tags: [devops, ci-cd, pipelines]
 selection: null
 isPinned: false
 timestamp: 1781400000010

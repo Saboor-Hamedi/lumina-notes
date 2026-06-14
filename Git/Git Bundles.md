@@ -2,7 +2,7 @@
 id: git-037-0000-0000-0000-000000000037
 title: Git Bundles
 language: markdown
-tags: ''
+tags: [git, bundles]
 selection: null
 isPinned: false
 timestamp: 1781500000037

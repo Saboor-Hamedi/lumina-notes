@@ -2,7 +2,7 @@
 id: dev-069-0000-0000-0000-000000000058
 title: Python Type Hints
 language: markdown
-tags: ''
+tags: [web-dev, programming, python, type-hints, typing]
 selection: null
 isPinned: false
 timestamp: 1781900000010

@@ -2,7 +2,7 @@
 id: nlp-016-0000-0000-0000-000000000024
 title: Sentiment Analysis
 language: markdown
-tags: ''
+tags: [ai-ml, nlp]
 selection: null
 isPinned: false
 timestamp: 1781800000002

@@ -2,7 +2,7 @@
 id: a1b2c3d4-1199-4000-8000-000000000199
 title: Vim and Neovim
 language: markdown
-tags: ''
+tags: [software-engineering]
 selection: null
 isPinned: false
 timestamp: 1781500001199

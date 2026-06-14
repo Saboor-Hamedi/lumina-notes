@@ -2,7 +2,7 @@
 id: git-008-0000-0000-0000-000000000008
 title: Git Diff
 language: markdown
-tags: ''
+tags: [git, diff]
 selection: null
 isPinned: false
 timestamp: 1781500000008

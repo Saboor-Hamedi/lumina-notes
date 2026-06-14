@@ -2,7 +2,7 @@
 id: a1b2c3d4-0004-4000-8000-000000000004
 title: GraphQL API Design
 language: markdown
-tags: ''
+tags: [web-dev, graphql, api-design]
 selection: null
 isPinned: false
 timestamp: 1781360348577

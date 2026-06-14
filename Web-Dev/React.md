@@ -2,7 +2,7 @@
 id: a1b2c3d4-1024-4000-8000-000000000024
 title: React
 language: markdown
-tags: ''
+tags: [web-dev, react, frontend]
 selection: null
 isPinned: false
 timestamp: 1781500001024

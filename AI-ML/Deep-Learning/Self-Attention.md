@@ -2,7 +2,7 @@
 id: tf-002-0000-0000-0000-000000000012
 title: Self-Attention
 language: markdown
-tags: ''
+tags: [ai-ml, deep-learning, attention, transformer]
 selection: null
 isPinned: false
 timestamp: 1781700000012
