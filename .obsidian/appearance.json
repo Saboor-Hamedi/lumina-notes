@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Obsidianite",
+  "theme": "obsidian",
+  "accentColor": "#2594d0",
+  "baseFontSize": 20,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "cursor-width"
+  ]
+}
