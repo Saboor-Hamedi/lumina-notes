@@ -81,4 +81,4 @@ Choose **polyrepo** when:
 - You want team ownership of tech choices
 - You lack tooling investment capacity
 
-**Links**: [[Git Submodules]] | [[Git Worktrees]] | [[Git Workflows]] | [[Code Review Best Practices]] | [[CI CD Pipelines]]
+**Links**: [[Git/Submodules]] | [[Git/Worktrees]] | [[Git/Workflows]] | [[Code Review Best Practices]] | [[CI CD Pipelines]]

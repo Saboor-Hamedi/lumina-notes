@@ -9,7 +9,7 @@ timestamp: 1781900000006
 ---
 # GitHub Actions
 
-**Links**: [[CI CD Pipelines]] | [[Docker Compose]] | [[Git Workflows]] | [[Git Pull Requests]] | [[Unit Testing Guide]]
+**Links**: [[CI CD Pipelines]] | [[Docker Compose]] | [[Git/Workflows]] | [[Git/Pull Requests]] | [[Unit Testing Guide]]
 
 ## What is GitHub Actions?
 

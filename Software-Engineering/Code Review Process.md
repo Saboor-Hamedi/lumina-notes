@@ -551,4 +551,4 @@ Resolution: Discuss tradeoffs → Escalate to team lead if needed
 | Rework rate | Revisions per PR | 1-3 revisions |
 | Satisfaction | Developer survey | > 4/5 |
 
-**Links**: [[Code Review Best Practices]] | [[Clean Code Principles]] | [[Git Pull Requests]] | [[Developer Workflow Automation]] | [[CI CD Pipelines]] | [[Security Best Practices]] | [[Clean Code Principles]]
+**Links**: [[Code Review Best Practices]] | [[Clean Code Principles]] | [[Git/Pull Requests]] | [[Developer Workflow Automation]] | [[CI CD Pipelines]] | [[Security Best Practices]] | [[Clean Code Principles]]

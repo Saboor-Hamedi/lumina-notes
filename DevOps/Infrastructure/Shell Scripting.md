@@ -164,4 +164,4 @@ Greet "Alice"
 - Handle errors with `trap` (Bash) or `try/catch` (PowerShell)
 - Run `shellcheck` on all Bash scripts in CI
 
-**Links**: [[Command Line Productivity]] | [[Dev Environment Setup]] | [[Git Aliases]] | [[CI CD Pipelines]] | [[Environment Variables]]
+**Links**: [[Command Line Productivity]] | [[Dev Environment Setup]] | [[Git/Aliases]] | [[CI CD Pipelines]] | [[Environment Variables]]

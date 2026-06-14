@@ -10,7 +10,7 @@ timestamp: 1781600000009
 
 # Command Line Productivity
 
-**Links**: [[Dev Environment Setup]] | [[Git Aliases]] | [[Developer Workflow Automation]] | [[Docker Containers]] | [[Environment Variables]]
+**Links**: [[Dev Environment Setup]] | [[Git/Aliases]] | [[Developer Workflow Automation]] | [[Docker Containers]] | [[Environment Variables]]
 
 ## Essential Commands
 

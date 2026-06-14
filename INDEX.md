@@ -82,7 +82,7 @@ Quick-entry point to every MOC in the vault. Each link opens the Map of Content 
 
 Wiki-links must use the full relative path from vault root. For example:
 
-- `[[Git Overview]]` -- does NOT work (resolves to `Git Overview.md` at root, which does not exist)
+- `[[Git/Overview]]` -- does NOT work (resolves to `Git Overview.md` at root, which does not exist)
 - `[[Git/Git Overview]]` -- works (resolves to `Git/Git Overview.md`)
 - `[[Git/_MOC]]` -- works (resolves to `Git/_MOC.md`)
 

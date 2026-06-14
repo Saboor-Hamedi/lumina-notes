@@ -9,7 +9,7 @@ timestamp: 1781600000008
 ---
 # Agile Development
 
-**Links**: [[CI CD Pipelines]] | [[Code Review Best Practices]] | [[Unit Testing Guide]] | [[Git Workflows]] | [[Microservices Architecture]] | [[Scrum Framework]] | [[Estimation and Planning]] | [[Incident Response]] | [[Feature Flags and Toggles]]
+**Links**: [[CI CD Pipelines]] | [[Code Review Best Practices]] | [[Unit Testing Guide]] | [[Git/Workflows]] | [[Microservices Architecture]] | [[Scrum Framework]] | [[Estimation and Planning]] | [[Incident Response]] | [[Feature Flags and Toggles]]
 
 ## What is Agile?
 
@@ -319,6 +319,6 @@ See [[CI CD Pipelines]], [[Incident Response]], and [[Feature Flags and Toggles]
 - [[Estimation and Planning]]
 - [[Code Review Process]]
 - [[CI CD Pipelines]]
-- [[Git Workflows]]
+- [[Git/Workflows]]
 - [[Incident Response]]
 - [[Feature Flags and Toggles]]

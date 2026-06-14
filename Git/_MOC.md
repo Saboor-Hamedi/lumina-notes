@@ -76,13 +76,13 @@ graph TD
 
 | Category | Notes |
 |----------|-------|
-| **Getting Started** | [[Git Overview]], [[Git Installation]], [[Git Configuration]], [[Git Init and Clone]] |
-| **Basic Operations** | [[Git Add and Status]], [[Git Commit]], [[Git Diff]], [[Git Log]], [[Git Clean]] |
-| **Branching & Merging** | [[Git Branch]], [[Git Checkout and Switch]], [[Git Merge]], [[Git Rebase]], [[Git Interactive Rebase]], [[Git Advanced Merging]], [[Git Conflict Resolution]], [[Git Cherry-Pick]] |
-| **Sharing** | [[Git Push]], [[Git Pull and Fetch]], [[Git Remote]], [[Git Pull Requests]], [[Git Tag]], [[Git Submodules]], [[Git Bundles]], [[Git Archive]] |
-| **Advanced** | [[Git Stash]], [[Git Reset]], [[Git Restore]], [[Git Revert]], [[Git Reflog]], [[Git Bisect]], [[Git Blame]], [[Git Worktrees]], [[Git Hooks]], [[Git Server Hooks]], [[Git Attributes]], [[Git Ignore]], [[Git LFS]], [[Git GPG]], [[Git Aliases]] |
-| **Internals** | [[Git Internals I]], [[Git Internals II]], [[Git Internals III]] |
-| **Best Practices** | [[Git Workflows]], [[Git Best Practices]] |
+| **Getting Started** | [[Overview]], [[Installation]], [[Configuration]], [[Init and Clone]] |
+| **Basic Operations** | [[Add and Status]], [[Commit]], [[Diff]], [[Log]], [[Clean]] |
+| **Branching & Merging** | [[Branch]], [[Checkout and Switch]], [[Merge]], [[Rebase]], [[Interactive Rebase]], [[Advanced Merging]], [[Conflict Resolution]], [[Cherry-Pick]] |
+| **Sharing** | [[Push]], [[Pull and Fetch]], [[Remote]], [[Pull Requests]], [[Tag]], [[Submodules]], [[Bundles]], [[Archive]] |
+| **Advanced** | [[Stash]], [[Reset]], [[Restore]], [[Revert]], [[Reflog]], [[Bisect]], [[Blame]], [[Worktrees]], [[Hooks]], [[Server Hooks]], [[Attributes]], [[Ignore]], [[LFS]], [[GPG]], [[Aliases]] |
+| **Internals** | [[Internals I]], [[Internals II]], [[Internals III]] |
+| **Best Practices** | [[Workflows]], [[Best Practices]] |
 
 ## Cross-Domain Links
 

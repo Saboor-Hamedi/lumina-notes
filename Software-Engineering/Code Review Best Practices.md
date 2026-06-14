@@ -9,7 +9,7 @@ timestamp: 1781400000020
 ---
 # Code Review Best Practices
 
-**Links**: [[Code Review Process]] | [[Clean Code Principles]] | [[Onboarding and Mentoring]] | [[Developer Experience]] | [[Psychological Safety]] | [[Git Pull Requests]] | [[Git Workflows]]
+**Links**: [[Code Review Process]] | [[Clean Code Principles]] | [[Onboarding and Mentoring]] | [[Developer Experience]] | [[Psychological Safety]] | [[Git/Pull Requests]] | [[Git/Workflows]]
 
 Code review is the systematic examination of code changes by peers to catch bugs, improve quality, and share knowledge.
 
@@ -336,4 +336,4 @@ Reviewing infrastructure and CI/CD configurations.
 - [[Onboarding and Mentoring]]
 - [[Developer Experience]]
 - [[Psychological Safety]]
-- [[Git Pull Requests]]
+- [[Git/Pull Requests]]

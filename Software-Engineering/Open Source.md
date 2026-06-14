@@ -9,7 +9,7 @@ timestamp: 1781500001035
 ---
 # Open Source
 
-**Links**: [[Git Pull Requests]] | [[Git Workflows]] | [[Code Review Best Practices]] | [[Developer Workflow Automation]] | [[Documentation]] | [[Technical Writing]] | [[Developer Experience]]
+**Links**: [[Git/Pull Requests]] | [[Git/Workflows]] | [[Code Review Best Practices]] | [[Developer Workflow Automation]] | [[Documentation]] | [[Technical Writing]] | [[Developer Experience]]
 
 Open source software (OSS) is software with publicly accessible source code that anyone can inspect, modify, and distribute.
 
@@ -594,8 +594,8 @@ Fork → Clone → Branch → Commit → Push → PR → Review → Merge
 
 ## Further Reading
 
-- [[Git Pull Requests]]
-- [[Git Workflows]]
+- [[Git/Pull Requests]]
+- [[Git/Workflows]]
 - [[Code Review Best Practices]]
 - [[Technical Writing]]
 - [[Developer Experience]]

@@ -738,4 +738,4 @@ under concurrent payment timeouts.
 """
 ```
 
-**Links**: [[Error Handling Patterns]] | [[Unit Testing Guide]] | [[Git Bisect]] | [[Git Blame]] | [[Monitoring and Observability]] | [[Distributed Tracing]] | [[Performance Profiling]]
+**Links**: [[Error Handling Patterns]] | [[Unit Testing Guide]] | [[Git/Bisect]] | [[Git/Blame]] | [[Monitoring and Observability]] | [[Distributed Tracing]] | [[Performance Profiling]]

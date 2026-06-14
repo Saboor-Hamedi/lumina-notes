@@ -166,4 +166,4 @@ def test_add_parametrized(a, b, expected):
 
 **Links**: [[Software Testing Pyramid]] | [[Test-Driven Development]] | [[CI CD Pipelines]] | [[Clean Code Principles]] | [[Developer Workflow Automation]] | [[Software Design Principles]] | [[Code Architecture Patterns]] | [[Refactoring Techniques]]
 
-**See also**: [[API Testing]], [[Integration Testing Patterns]], [[Git Hooks]]
+**See also**: [[API Testing]], [[Integration Testing Patterns]], [[Git/Hooks]]
