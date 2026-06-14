@@ -19,6 +19,7 @@ Creates a new Git repository.
 git init                          # Current directory
 git init my-project               # Specific directory
 git init --bare my-project.git    # Bare repo (server, no working tree)
+git init --template ~/my-templates  # With custom templates
 ```
 
 After `git init`, Git creates a `.git` directory:
@@ -43,7 +44,18 @@ git clone git@github.com:user/repo.git
 git clone --branch develop https://github.com/user/repo.git
 git clone --depth 1 https://github.com/user/repo.git    # Shallow
 git clone --recursive https://github.com/user/repo.git   # With submodules
+git clone --single-branch https://github.com/user/repo.git  # Only one branch
 ```
+
+## Common Clone Options
+
+| Option | Purpose |
+|--------|---------|
+| `--depth <n>` | Shallow clone (last n commits, faster) |
+| `--branch <name>` | Clone a specific branch |
+| `--recursive` | Initialize and clone submodules |
+| `--single-branch` | Only fetch one branch |
+| `--bare` | Bare clone for server mirrors |
 
 ## Bare vs Non-Bare
 
@@ -51,5 +63,28 @@ git clone --recursive https://github.com/user/repo.git   # With submodules
 |------|-------------|-----|
 | Non-bare | Yes | Development |
 | Bare | No | Server/hub repos |
+
+## Use Cases
+
+```bash
+# Mirror a repo (all branches, tags, refs)
+git clone --mirror https://github.com/user/repo.git
+
+# Shallow clone for CI
+git clone --depth 1 --single-branch https://github.com/user/repo.git
+
+# Re-initialize .git (fix corruption)
+git init    # Safe to run again on existing repo
+```
+
+```mermaid
+flowchart LR
+    A[git init] --> B[Create .git directory]
+    B --> C[Set up refs/heads/]
+    C --> D[Stage files with git add]
+    D --> E[git commit]
+    F[git clone] --> G[Fetch remote objects]
+    G --> H[Check out default branch]
+```
 
 **Next**: [[Git Add and Status]] — Track changes in your working tree

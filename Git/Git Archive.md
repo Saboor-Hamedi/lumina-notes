@@ -31,6 +31,15 @@ git archive --format=zip --output=project-v1.0.zip v1.0.0
 git archive --format=tar --output=main.tar main
 ```
 
+## Supported Formats
+
+| Format | Flag | Extension |
+|--------|------|-----------|
+| tar | `--format=tar` | `.tar` |
+| zip | `--format=zip` | `.zip` |
+| tar.gz | `--format=tar.gz` | `.tar.gz` |
+| Auto | Omit flag | Detected from output filename |
+
 ## Prefix
 
 Add a prefix to all files in the archive:
@@ -38,6 +47,9 @@ Add a prefix to all files in the archive:
 ```bash
 git archive --output=project.tar --prefix=myapp/ HEAD
 # All files inside: myapp/src/, myapp/README.md, etc.
+
+# Useful for extraction with prefix
+tar -xf project.tar    # All files under myapp/
 ```
 
 ## Archive Specific Path
@@ -45,6 +57,9 @@ git archive --output=project.tar --prefix=myapp/ HEAD
 ```bash
 # Archive only a subdirectory
 git archive --output=src.zip HEAD:src/
+
+# Archive specific files
+git archive --output=docs.tar HEAD:docs/ HEAD:README.md
 ```
 
 ## Common Uses
@@ -52,14 +67,19 @@ git archive --output=src.zip HEAD:src/
 | Scenario | Command |
 |----------|---------|
 | Deliver source to client | `git archive --format=zip v1.0 > release.zip` |
-| Deploy to server | `git archive HEAD | tar -x -C /deploy/path` |
+| Deploy to server | `git archive HEAD \| tar -x -C /deploy/path` |
 | Share without .git | `git archive --format=tar HEAD \| gzip > project.tar.gz` |
+| Package a subdirectory | `git archive --output=src.zip HEAD:src/` |
+| Archive with version prefix | `git archive --prefix=app-v2.1/ --output=app-v2.1.tar v2.1` |
 
 ## Pipe to Remote
 
 ```bash
 # Extract directly on remote server
 git archive HEAD | ssh user@server "tar -x -C /var/www/app"
+
+# Pipe through gzip for large archives
+git archive --format=tar HEAD | gzip | ssh user@server "tar -xz -C /var/www/app"
 ```
 
 **Next**: [[Git Bundles]] — Share via file

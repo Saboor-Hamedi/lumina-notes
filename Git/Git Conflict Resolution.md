@@ -47,16 +47,20 @@ git add resolved-file.txt
 git commit
 ```
 
-## Resolution Tools
+## Using Mergetool
 
 ```bash
-# Use mergetool
+# Configure a merge tool
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd "code --wait $MERGED"
+
+# Launch mergetool for conflicted files
 git mergetool
 
-# See full conflict diff
+# View conflict diff
 git diff
 
-# See conflict summary
+# View merge history
 git log --merge
 ```
 
@@ -67,12 +71,43 @@ git log --merge
 | Keep ours | `git checkout --ours file.txt` | Accept current branch |
 | Keep theirs | `git checkout --theirs file.txt` | Accept incoming branch |
 | Manual edit | Edit file directly | Most control |
+| Use mergetool | `git mergetool` | Visual diff tool |
+
+## Conflict Resolution Workflow
+
+```bash
+# 1. See what's conflicted
+git status
+
+# 2. Pick a strategy
+# For simple cases, accept one side:
+git checkout --theirs src/feature.ts
+
+# For complex cases, edit manually:
+code src/feature.ts         # Remove markers, keep correct code
+
+# 3. Mark resolved
+git add src/feature.ts
+
+# 4. Commit
+git commit -m "Merge feature-branch: resolved conflicts in feature.ts"
+```
 
 ## Abort a Merge
 
 ```bash
 # Go back to before merge started
 git merge --abort
+
+# Go back to before rebase started
+git rebase --abort
 ```
+
+## Preventing Conflicts
+
+- Pull/rebase frequently
+- Communicate about large refactors
+- Use smaller, focused commits
+- Agree on code formatting standards
 
 **Next**: [[Git Rebase]] — Reapply commits on top of another branch

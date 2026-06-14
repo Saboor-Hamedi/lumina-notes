@@ -28,6 +28,9 @@ git restore .
 
 # Discard with caution
 git restore --source HEAD file.txt
+
+# Restore from staging area (same as above)
+git restore --worktree file.txt
 ```
 
 ## Restore from a Specific Commit
@@ -38,6 +41,12 @@ git restore --source a1b2c3d file.txt
 
 # Restore from two commits ago
 git restore --source HEAD~2 file.txt
+
+# Restore all files from a specific commit
+git restore --source a1b2c3d .
+
+# Restore from a tag
+git restore --source v1.0.0 file.txt
 ```
 
 ## Unstage Files
@@ -50,6 +59,9 @@ git restore --staged file.txt
 
 # Unstage all files
 git restore --staged .
+
+# Unstage and restore to HEAD
+git restore --source HEAD --staged --worktree file.txt
 ```
 
 ## Combined
@@ -70,6 +82,20 @@ git restore '*.py'
 
 # Restore entire directory
 git restore src/
+
+# Restore with exclusion
+git restore . -- ':!node_modules/'
 ```
+
+## Restore Options Table
+
+| Flag | Effect |
+|------|--------|
+| `--staged` | Restore staging area (unstage) |
+| `--worktree` | Restore working tree (default) |
+| `--source <ref>` | Restore from specific commit |
+| `--ours` | Keep current branch version |
+| `--theirs` | Keep merge branch version |
+| `-p` | Interactive (choose hunks) |
 
 **Next**: [[Git Clean]] — Remove untracked files

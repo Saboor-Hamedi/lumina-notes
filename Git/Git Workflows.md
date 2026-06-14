@@ -19,9 +19,9 @@ A Git workflow is a convention for how teams use branches, merges, and remotes t
 
 ```
 main ──────●─────────●─────────●──
-             \       / \       /
+              \       / \       /
 develop        ●───●   ●───●
-                 \       /
+                  \       /
 feature           ●─────●
 ```
 
@@ -39,7 +39,7 @@ feature           ●─────●
 
 ```
 main ──●────────●────────●────
-         \      / \      /
+          \      / \      /
 feature   ●──●   ●──●
 ```
 
@@ -72,5 +72,17 @@ short     ●      ●          ●
 | Team size | Any | Small-medium | Any |
 | Deployment freq | Low | High | Very high |
 | Complexity | High | Low | Medium |
+
+```mermaid
+flowchart TD
+    A[Choose Workflow] --> B{Release Cycle?}
+    B -->|Scheduled| C[GitFlow]
+    B -->|Continuous| D{Team Size?}
+    D -->|Small| E[GitHub Flow]
+    D -->|Large| F[Trunk-Based]
+    C --> G[main + develop + feature branches]
+    E --> H[main + feature branches + PRs]
+    F --> I[main + short-lived branches + feature flags]
+```
 
 **Next**: [[Git Pull Requests]] — PR workflow on GitHub

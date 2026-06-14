@@ -22,7 +22,12 @@ Git has three levels, each overriding the previous:
 | Local | Current repo | `.git/config` | `--local` (default) |
 
 ```bash
+# View all settings with origin
 git config --list --show-origin
+
+# View specific level
+git config --global --list
+git config --local --list
 ```
 
 ## Essential Settings
@@ -52,6 +57,37 @@ git config --global pull.rebase true
 git config --global rebase.autoStash true
 git config --global merge.conflictStyle zdiff3
 git config --global diff.algorithm histogram
+git config --global push.default current
+git config --global fetch.prune true
+```
+
+## Viewing and Editing
+
+```bash
+# Open config in editor
+git config --global --edit
+
+# Get a single value
+git config user.name
+
+# Unset a value
+git config --global --unset user.name
+
+# Conditional includes (different config per path)
+git config --global includeIf.gitdir:~/work/.path "~/work/.gitconfig"
+```
+
+## Common Configurations for Teams
+
+```bash
+# Safe force push
+git config --global pull.rebase true
+
+# Better merges
+git config --global merge.ff false
+
+# Case-insensitive filenames (Windows/macOS)
+git config --global core.ignorecase true
 ```
 
 **Next**: [[Git Init and Clone]] — Create or copy repositories

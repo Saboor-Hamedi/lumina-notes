@@ -26,6 +26,9 @@ git revert --no-edit a1b2c3d
 
 # Revert multiple commits (in order, newest first)
 git revert a1b2c3d..e4f5g6h
+
+# Revert the most recent commit
+git revert HEAD
 ```
 
 ## Revert vs Reset
@@ -48,6 +51,9 @@ git revert HEAD~3..HEAD
 
 # Revert a merge commit (needs -m flag)
 git revert -m 1 merge-commit-hash
+
+# Revert multiple specific commits
+git revert a1b2c3d e4f5g6h j4k5l6m
 ```
 
 ## Revert a Merge
@@ -58,6 +64,38 @@ Merges have two parents. The `-m` flag specifies which parent to keep:
 # -m 1 keeps the branch you were on
 # -m 2 keeps the branch you merged in
 git revert -m 1 a1b2c3d
+```
+
+## Handling Revert Conflicts
+
+```bash
+# If revert causes conflicts:
+# 1. Resolve conflicts manually
+# 2. Stage the resolved files
+git add .
+
+# 3. Continue the revert
+git revert --continue
+
+# Or abort entirely
+git revert --abort
+```
+
+## Practical Scenarios
+
+| Scenario | Command |
+|----------|---------|
+| Undo a buggy deploy commit | `git revert a1b2c3d` |
+| Roll back a feature from last week | `git revert OLDER_COMMIT` |
+| Undo a merge on main | `git revert -m 1 MERGE_HASH` |
+| Revert but keep changes for editing | `git revert --no-commit a1b2c3d` |
+
+```mermaid
+flowchart LR
+    A[Before] --> B[C1 - C2 - C3 - C4]
+    B --> C[git revert C3]
+    C --> D[C1 - C2 - C3 - C4 - C3']
+    D --> E[C3' undoes C3, history preserved]
 ```
 
 **Next**: [[Git Restore]] — Restore files to previous states

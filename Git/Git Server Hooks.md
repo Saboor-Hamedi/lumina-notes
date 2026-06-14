@@ -59,6 +59,25 @@ while read oldrev newrev refname; do
 done
 ```
 
+## Server Hook Comparison
+
+| Hook | Timing | Use Case |
+|------|--------|----------|
+| pre-receive | Before any refs update | Validation, policy enforcement |
+| update | Once per ref | Per-branch rules |
+| post-receive | After all refs update | CI/CD, notifications, deploy |
+
+## Testing Server Hooks Locally
+
+```bash
+# Create a test push file
+echo "old-ref new-ref refs/heads/main" | \
+    git update-ref --stdin
+
+# Simulate pre-receive
+cat test-input.txt | .git/hooks/pre-receive
+```
+
 ## Hosted Git Services
 
 | Service | Server Hooks Alternative |

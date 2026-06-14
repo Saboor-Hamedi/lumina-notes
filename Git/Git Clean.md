@@ -23,6 +23,9 @@ Always preview what clean will delete:
 # Preview what will be removed
 git clean -n
 git clean --dry-run
+
+# Preview including directories
+git clean -nd
 ```
 
 ## Basic Clean
@@ -51,6 +54,17 @@ git clean -i
 # 1: clean     2: filter by pattern  3: select by numbers
 ```
 
+## Interactive Commands
+
+| Command | Meaning |
+|---------|---------|
+| 1: clean | Remove selected items |
+| 2: filter by pattern | Filter files by glob |
+| 3: select by numbers | Pick specific files |
+| 4: ask each | Confirm each file |
+| 5: quit | Exit without cleaning |
+| 6: help | Show help |
+
 ## Safety Tips
 
 | Flag | Behavior | Safe? |
@@ -68,5 +82,15 @@ git clean -nfd          # Preview
 # Verify the list
 git clean -fd           # Execute
 ```
+
+## Practical Scenarios
+
+| Scenario | Command |
+|----------|---------|
+| Remove build artifacts | `git clean -fd` |
+| Wipe everything including ignored | `git clean -fdx` |
+| Remove only .log files | `git clean -f '*.log'` |
+| Interactive selection | `git clean -i` |
+| Clean entire repo to pristine state | `git clean -fdx && git checkout .` |
 
 **Next**: [[Git Blame]] — Find who changed what

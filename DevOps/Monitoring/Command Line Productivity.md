@@ -7,6 +7,7 @@ selection: null
 isPinned: false
 timestamp: 1781600000009
 ---
+
 # Command Line Productivity
 
 **Links**: [[Dev Environment Setup]] | [[Git Aliases]] | [[Developer Workflow Automation]] | [[Docker Containers]] | [[Environment Variables]]
@@ -55,8 +56,13 @@ cat data.json | jq '.users[] | {name, email}'
 | `Ctrl+A` | Go to start of line |
 | `Ctrl+W` | Delete word backward |
 | `Ctrl+U` | Delete entire line |
+| `Ctrl+K` | Delete to end of line |
+| `Ctrl+Y` | Paste deleted text |
+| `Ctrl+L` | Clear screen |
 | `!!` | Repeat last command |
 | `!$` | Last argument of last command |
+| `!$:p` | Print last argument without executing |
+| `!npm` | Run last npm command |
 
 ## Custom Prompt
 
@@ -64,6 +70,12 @@ cat data.json | jq '.users[] | {name, email}'
 # In .bashrc or .zshrc
 export PS1="\u@\h \w \$ "
 # Result: user@hostname ~/project $
+
+# With Git branch (bash)
+parse_git_branch() {
+  git branch 2>/dev/null | sed -n 's/* \(.*\)/ (\1)/p'
+}
+export PS1="\u@\h \w\$(parse_git_branch) \$ "
 ```
 
 ## Multiplexers
@@ -72,6 +84,31 @@ export PS1="\u@\h \w \$ "
 tmux new -s mysession        # Create session
 tmux detach                  # Detach (Ctrl+B d)
 tmux attach -t mysession     # Reattach
+tmux list-sessions           # List all sessions
+tmux kill-session -t mysess  # Kill a session
 ```
+
+## Modern Alternatives
+
+| Old | New | Benefit |
+|-----|-----|---------|
+| cat | bat | Syntax highlighting, line numbers |
+| ls | exa / eza | Colors, icons, tree view |
+| find | fd | Faster, sensible defaults |
+| grep | ripgrep (rg) | Blazing fast, git-aware |
+| sed/awk | sd | Simpler string replacement |
+| du | dust | Interactive disk usage |
+| top | htop / btm | Interactive process view |
+| history | fzf | Fuzzy search on history |
+
+## Productivity Tips
+
+- Use `Ctrl+R` with fzf for even better history search
+- Install `thefuck` to auto-correct mistyped commands
+- Use `z` or `zoxide` for quick directory jumping
+- Set up `bat` as the default pager for man pages
+- Use `tldr` instead of man for simplified examples
+
+- Use `tldr` instead of man for simplified examples
 
 **Next**: [[Database Security]] — Secure your data

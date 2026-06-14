@@ -47,13 +47,24 @@ git worktree list
 # /path/to/hotfix        e4f5g6h [hotfix]
 ```
 
+## Worktree with Locking
+
+```bash
+# Lock a worktree (prevent pruning)
+git worktree lock ../project-hotfix
+git worktree lock --reason "Active review branch" ../project-hotfix
+
+# Unlock
+git worktree unlock ../project-hotfix
+```
+
 ## Removing Worktrees
 
 ```bash
 # Remove worktree (after done)
 git worktree remove ../project-hotfix
 
-# Force remove
+# Force remove (even with uncommitted changes)
 git worktree remove --force ../project-hotfix
 
 # Prune stale worktree references
@@ -67,5 +78,14 @@ git worktree prune
 - A branch can only be checked out in one worktree
 - Worktrees share objects and refs (no duplication)
 - The `.git` file in a worktree points to the main repo
+
+## Common Worktree Workflows
+
+| Task | Command |
+|------|---------|
+| Hotfix while working | `git worktree add ../hotfix main` |
+| Review a PR | `git worktree add ../review origin/feature` |
+| Test old version | `git worktree add ../v1.0 v1.0.0` |
+| Run parallel CI checks | `git worktree add ../ci-run feature-x` |
 
 **Next**: [[Git Hooks]] — Client-side automation

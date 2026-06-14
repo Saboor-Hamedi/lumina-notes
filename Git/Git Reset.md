@@ -61,6 +61,9 @@ git reset --hard HEAD~3
 
 # Go back to commit hash
 git reset --hard a1b2c3d
+
+# Keep changes but move back 5 commits
+git reset --soft HEAD~5
 ```
 
 ## DANGER: --hard
@@ -68,5 +71,33 @@ git reset --hard a1b2c3d
 `git reset --hard` discards working tree changes permanently. Unstaged, uncommitted changes are **gone**.
 
 Safe alternative: `git stash` before resetting.
+
+## Before You Reset — Visual Guide
+
+```
+Before:                     After --hard HEAD~2:
+main → C → D → E (HEAD)    main → C (HEAD)
+              ↺ LOST        D and E are gone
+```
+
+## Recovery via Reflog
+
+```bash
+# If you did --hard too far:
+git reflog
+# a1b2c3d HEAD@{1}: commit: good stuff
+
+# Recover:
+git reset --hard a1b2c3d
+```
+
+## Practical Use Cases
+
+| Scenario | Command |
+|----------|---------|
+| "I committed too early" | `git reset --soft HEAD~1` |
+| "I staged the wrong files" | `git reset HEAD .` |
+| "Start over from scratch" | `git reset --hard origin/main` |
+| "Merge went wrong" | `git reset --hard ORIG_HEAD` |
 
 **Next**: [[Git Revert]] — Safe undo with new commits

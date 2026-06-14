@@ -19,6 +19,12 @@ timestamp: 1781500000025
 
 Git checks out commits between "good" and "bad", asking you to test each one. With binary search, it finds the culprit in **log₂(n)** steps.
 
+```
+Commits:  100
+Steps:    log₂(100) ≈ 7
+Instead of checking 100 commits, test only 7!
+```
+
 ## Manual Bisect
 
 ```bash
@@ -51,6 +57,17 @@ git bisect start
 git bisect bad
 git bisect good v1.0.0
 git bisect run node test.js
+
+# Multi-step test
+git bisect run bash -c "npm run build && npm test"
+```
+
+## Visual Bisect Flow
+
+```
+Good (v1.0)  ●━━━━━●━━━━━●━━━━━●━━━━━● Bad (HEAD)
+              ✓     ✓     ✗     ✗
+                    ↑ Found here!
 ```
 
 ## Reset
@@ -59,11 +76,33 @@ git bisect run node test.js
 git bisect reset
 ```
 
+## Custom Terms
+
+```bash
+# For non-bug scenarios (e.g., performance regression)
+git bisect start --term-old=fast --term-new=slow
+
+git bisect fast v1.0.0
+git bisect slow HEAD
+
+# Then mark commits as fast or slow
+```
+
 ## Tips
 
 - Start bisect as soon as you notice a regression
 - Good commit should be as close to bad as possible
 - Use automated tests when available
 - You can also bisect with `--term-old` and `--term-new` for custom terms
+
+| Command | Purpose |
+|---------|---------|
+| `git bisect start` | Begin bisect session |
+| `git bisect bad` | Mark current commit as bad |
+| `git bisect good <ref>` | Mark a known-good commit |
+| `git bisect run <script>` | Automate testing |
+| `git bisect reset` | End session, return to original |
+| `git bisect log` | Show bisect history |
+| `git bisect replay <file>` | Replay a previous bisect session |
 
 **Next**: [[Git Cherry-Pick]] — Apply specific commits

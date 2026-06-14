@@ -33,6 +33,27 @@ timestamp: 1781500000045
 - **Communicate force pushes**: Announce if you must force push
 - **Small PRs**: Under 400 lines is ideal for thorough review
 
+## Example Commit Messages
+
+```
+feat: Add user authentication module
+
+- Implement login with email/password
+- Add password reset flow
+- Add JWT token validation
+
+Closes #123
+```
+
+```
+fix: Handle edge case in date formatting
+
+When the input date is null, the formatter was crashing.
+Now it returns an empty string instead.
+
+Fixes JIRA-456
+```
+
 ## Safety
 
 - **Never force push to shared branches**: Use `--force-with-lease` if you must
@@ -46,6 +67,21 @@ timestamp: 1781500000045
 - **Run `git gc` periodically**: Keeps repo performant
 - **Check size**: Avoid bloating with large binary files (use LFS)
 - **Sign your commits**: GPG signing proves authorship
+
+## Workflow Summary
+
+```bash
+# Daily workflow
+git pull --rebase
+# ... make changes ...
+git add -p
+git commit -m "feat: concise description"
+git push
+
+# Before merging
+git rebase -i main    # Clean up local commits
+git push --force-with-lease  # If already pushed
+```
 
 ## The Golden Rules
 

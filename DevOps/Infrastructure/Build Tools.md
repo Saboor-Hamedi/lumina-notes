@@ -7,6 +7,7 @@ selection: null
 isPinned: false
 timestamp: 1781600000002
 ---
+
 # Build Tools
 
 **Links**: [[Developer Workflow Automation]] | [[Dev Environment Setup]] | [[CI CD Pipelines]] | [[Package Management]] | [[Web Development Fundamentals]]
@@ -14,6 +15,18 @@ timestamp: 1781600000002
 ## What are Build Tools?
 
 Build tools automate transforming source code into production-ready assets: bundling modules, transpiling code, minifying files, and more.
+
+## Build Pipeline
+
+```mermaid
+graph LR
+    Source["Source Code<br/>(.js .ts .jsx)"] --> Lint["Lint & Format"]
+    Lint --> Transpile["Transpile<br/>(Babel / TypeScript)"]
+    Transpile --> Bundle["Bundle<br/>(Webpack / Rollup)"]
+    Bundle --> Minify["Minify & Tree-Shake"]
+    Minify --> Assets["Static Assets<br/>(dist/ folder)"]
+    Assets --> Deploy["Deploy to<br/>CDN / Server"]
+```
 
 ## Module Bundlers
 
@@ -24,6 +37,18 @@ Build tools automate transforming source code into production-ready assets: bund
 | **esbuild** | JS/TS | Extremely fast (Go-based), simple config |
 | **Rollup** | JS/TS | Tree-shaking, library bundling |
 | **Parcel** | JS/TS | Zero config, fast |
+| **Turbopack** | JS/TS | Rust-based, incremental (Next.js) |
+
+## Bundler Comparison
+
+| Feature | Webpack | Vite | esbuild | Rollup |
+|---------|---------|------|---------|--------|
+| Dev server | Webpack Dev Server | Native ESM | None | Rollup Plugin |
+| HMR | ✓ | ✓ | ✗ | ✗ |
+| Code splitting | ✓ | ✓ | ✓ | ✓ |
+| CSS support | ✓ (loaders) | ✓ (native) | ✓ (plugin) | ✓ (plugin) |
+| Configuration | Complex | Simple | Minimal | Moderate |
+| Build speed | Slow | Fast | Fastest | Moderate |
 
 ## JavaScript Transpilers
 
@@ -38,7 +63,6 @@ npm install --save-dev typescript
 ## Vite Config Example
 
 ```javascript
-// vite.config.js
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -73,5 +97,17 @@ export default defineConfig({
   }
 }
 ```
+
+## Other Build Systems
+
+| Tool | Language | Purpose |
+|------|----------|---------|
+| **Make** | Any | Universal build orchestrator |
+| **CMake** | C/C++ | Cross-platform build generation |
+| **Bazel** | Multi-language | Monorepo-scale builds |
+| **Gradle** | Java/Kotlin | JVM builds, Android |
+| **Maven** | Java | Standard Java builds |
+| **Cargo** | Rust | Rust build + package mgmt |
+| **Go build** | Go | Single binary compilation |
 
 **Next**: [[Cloud Computing]] — Cloud service models

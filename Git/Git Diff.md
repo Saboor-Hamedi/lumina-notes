@@ -53,6 +53,31 @@ git diff --function-context
 git diff --diff-algorithm=histogram
 ```
 
+## Diff by File Type
+
+```bash
+# Diff only specific files
+git diff -- '*.ts'
+git diff -- src/ utils/
+
+# Exclude certain files
+git diff -- . ':!package-lock.json'
+
+# Show diff for renamed files
+git diff --find-renames
+```
+
+## Reading Diff Output
+
+```
+--- a/file.txt       # Original file
++++ b/file.txt       # New file
+@@ -10,6 +10,8 @@    # Hunk header: old line 10, 6 lines → new line 10, 8 lines
+ unchanged line
+-old line            # Removed (red)
++new line            # Added (green)
+```
+
 ## External Diff Tools
 
 ```bash
@@ -65,6 +90,18 @@ git difftool
 
 # Directory diff
 git difftool --dir-diff
+
+# List available tools
+git difftool --tool-help
 ```
+
+## Practical Examples
+
+| Command | Use Case |
+|---------|----------|
+| `git diff HEAD~1` | What changed in the last commit? |
+| `git diff --name-only main` | Which files differ from main? |
+| `git diff --check` | Find whitespace errors |
+| `git diff --cached` | Review staged changes before commit |
 
 **Next**: [[Git Branch]] — Work with branches

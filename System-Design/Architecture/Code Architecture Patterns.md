@@ -7,21 +7,25 @@ selection: null
 isPinned: true
 timestamp: 1780926621322
 ---
+
 # Code Architecture Patterns
 
-Software architecture patterns provide proven solutions to common design problems.
+Software architecture patterns provide proven solutions to common design problems. Choosing the right pattern depends on scale, team size, and requirements.
 
 ## Layered Architecture
 
+```mermaid
+graph TD
+    Presentation["Presentation Layer<br/>(UI / API)"]
+    Business["Business Logic Layer<br/>(Services)"]
+    Data["Data Access Layer<br/>(Repositories)"]
+    Database["Database Layer"]
+    Presentation --> Business
+    Business --> Data
+    Data --> Database
 ```
-Presentation Layer  (UI / API)
-    ↓
-Business Logic Layer  (services)
-    ↓
-Data Access Layer  (repositories)
-    ↓
-Database Layer
-```
+
+Each layer depends only on the layer below. Changes are isolated, making the system maintainable.
 
 ## MVC (Model-View-Controller)
 
@@ -31,13 +35,45 @@ Database Layer
 | View | User interface / presentation |
 | Controller | Handles input, updates model/view |
 
+Common in web frameworks (Django, Rails, Spring MVC). The controller receives input, updates the model, and selects a view.
+
 ## Microservices
+
+```mermaid
+graph LR
+    Gateway["API Gateway"]
+    Gateway --> UserSvc["User Service"]
+    Gateway --> OrderSvc["Order Service"]
+    Gateway --> PaymentSvc["Payment Service"]
+    OrderSvc --> UserSvc
+    OrderSvc --> PaymentSvc
+```
 
 Independent services that communicate via APIs. Each service owns its data and domain.
 
 ## Event-Driven Architecture
 
-Components communicate via events through a message broker (Kafka, RabbitMQ).
+Components communicate via events through a message broker.
+
+```mermaid
+graph LR
+    Producer["Producer"] --> Broker["Message Broker<br/>(Kafka / RabbitMQ)"]
+    Broker --> Consumer1["Consumer A"]
+    Broker --> Consumer2["Consumer B"]
+    Broker --> Consumer3["Consumer C"]
+```
+
+Decouples producers from consumers. Enables real-time processing and system resilience.
+
+## CQRS (Command Query Responsibility Segregation)
+
+| Aspect | Command (Write) | Query (Read) |
+|--------|----------------|---------------|
+| Purpose | Mutate state | Return data |
+| Model | Domain model | Denormalized view |
+| Scaling | Consistency-focused | Performance-optimized |
+
+Useful when read and write workloads differ significantly.
 
 ## Repository Pattern
 
@@ -52,6 +88,17 @@ class PostgresUserRepository(UserRepository):
     def get_by_id(self, id):
         return db.query("SELECT * FROM users WHERE id = %s", id)
 ```
+
+## Pattern Comparison
+
+| Pattern | Best For | Drawback |
+|---------|----------|----------|
+| Layered | Simple apps, familiar teams | Can become monolithic |
+| MVC | Web apps, UI-heavy projects | Controller bloat |
+| Microservices | Large teams, independent deploy | Network complexity, data consistency |
+| Event-Driven | Real-time, decoupled systems | Eventual consistency, debugging complexity |
+| CQRS | Read/write imbalance | Increased surface area |
+| Repository | Swappable data sources | Boilerplate for simple CRUD |
 
 **See also**: [[Software Design Principles]], [[REST API Design]], [[Programming Language Paradigms]], [[Unit Testing Guide]]
 

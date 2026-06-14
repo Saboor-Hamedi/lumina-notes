@@ -35,6 +35,21 @@ git fetch --prune
 # See what was fetched
 git log main..origin/main  # Commits ahead of your main
 git diff main origin/main  # Differences
+
+# Fetch a specific branch
+git fetch origin feature
+```
+
+## Inspecting After Fetch
+
+```bash
+# Compare local vs remote
+git log HEAD..origin/main --oneline
+git diff HEAD origin/main --stat
+
+# Merge or rebase after reviewing
+git merge origin/main
+git rebase origin/main
 ```
 
 ## git pull
@@ -74,6 +89,29 @@ git pull --rebase --autostash
 
 # Make it default
 git config --global rebase.autoStash true
+```
+
+## When to Use Which
+
+| Situation | Command |
+|-----------|---------|
+| Review before integrating | `git fetch` then `git log origin/main` |
+| Fast-forward (no local commits) | `git pull --ff-only` |
+| Rebase local work on remote | `git pull --rebase` |
+| Dirty working tree | `git pull --rebase --autostash` |
+| Want merge commit | `git pull --no-ff` |
+
+```mermaid
+flowchart TD
+    A[git fetch] --> B[Downloads remote commits]
+    B --> C{Review changes}
+    C -->|Looks good| D[git merge / git rebase]
+    C -->|Need changes| E[Discuss with team]
+    F[git pull] --> G[Fetch + integrate]
+    G --> H{Strategy?}
+    H -->|--rebase| I[Rebase local commits]
+    H -->|--no-ff| J[Create merge commit]
+    H -->|--ff-only| K[Fast-forward if possible]
 ```
 
 **Next**: [[Git Tag]] — Tag important commits

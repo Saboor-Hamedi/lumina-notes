@@ -57,6 +57,14 @@ cat .git/HEAD
 # a1b2c3d4...                (detached HEAD)
 ```
 
+## Symbolic Refs
+
+HEAD is a **symbolic ref** — it points to another ref, not directly to a commit.
+
+```
+HEAD → refs/heads/main → a1b2c3d...
+```
+
 ## Packfiles
 
 Git stores objects as **loose objects** initially. Over time, they get packed into `.pack` files for efficiency.
@@ -74,6 +82,24 @@ A packfile uses **delta compression** — storing just the differences between v
 ```bash
 # Verify pack integrity
 git verify-pack .git/objects/pack/*.pack
+
+# Count objects in pack
+git verify-pack -v .git/objects/pack/*.pack | head -20
+
+# Show packfile information
+git count-objects -v
+```
+
+## How Git Resolves a Ref
+
+```mermaid
+flowchart LR
+    A[git log main] --> B[Read .git/refs/heads/main]
+    B --> C{Found?}
+    C -->|Yes| D[Get commit hash]
+    C -->|No| E[Check .git/packed-refs]
+    E --> D
+    D --> F[Walk commit graph]
 ```
 
 **Next**: [[Git Internals III]] — Maintenance and garbage collection

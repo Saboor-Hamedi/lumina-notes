@@ -40,6 +40,9 @@ git switch -c new-feature
 
 # Return to previous branch
 git switch -
+
+# Switch to remote branch (creates local tracking)
+git switch origin/feature
 ```
 
 ## git restore (Modern)
@@ -55,7 +58,19 @@ git restore --staged file.txt
 
 # Restore from a specific commit
 git restore --source a1b2c3d file.txt
+
+# Restore with staging and working tree
+git restore --staged --worktree file.txt
 ```
+
+## Command Mapping (Legacy → Modern)
+
+| Legacy (checkout) | Modern Equivalent |
+|-------------------|-------------------|
+| `git checkout branch` | `git switch branch` |
+| `git checkout -b new` | `git switch -c new` |
+| `git checkout -- file` | `git restore file` |
+| `git checkout HEAD file` | `git restore --source HEAD file` |
 
 ## Detached HEAD
 
@@ -65,5 +80,15 @@ HEAD → a1b2c3d (not on any branch)
 ```
 - Changes can be lost unless you create a branch
 - Create one: `git switch -c new-branch`
+
+## Common Patterns
+
+| Action | Command |
+|--------|---------|
+| Switch to feature | `git switch feature` |
+| Create new branch | `git switch -c feature/user-auth` |
+| Go back to previous branch | `git switch -` |
+| Discard file changes | `git restore file.txt` |
+| Unstage file | `git restore --staged file.txt` |
 
 **Next**: [[Git Merge]] — Combine branches
