@@ -15,6 +15,23 @@ timestamp: 1781500001015
 
 WebAssembly (Wasm) is a binary instruction format for stack-based virtual machines. It runs at near-native speed in browsers and increasingly on servers.
 
+## Compilation Pipeline
+
+```mermaid
+flowchart LR
+    C["C/C++"] --> LLVM["LLVM Compiler<br/>Backend"]
+    Rust["Rust"] --> LLVM
+    Go["Go / TinyGo"] --> LLVM
+    LLVM --> Wasm["WebAssembly<br/>(.wasm binary)"]
+    Wasm --> Runtime["Wasm Runtime<br/>(browser / wasmtime / wasmer)"]
+    Runtime --> Execute["Execution<br/>(near-native speed)"]
+    Wasm --> WAT["WAT Text Format<br/>(human-readable)"]
+    style Wasm fill:#c93,color:#fff
+    style Execute fill:#4a9,color:#fff
+```
+
+Source languages compile through LLVM to produce `.wasm` binaries. These run in any Wasm runtime — browser, server (WASI), or embedded.
+
 ## Key Characteristics
 
 | Feature | Wasm | JavaScript |
@@ -41,8 +58,6 @@ JS still wins for:
 
 ## Compilation Targets
 
-Source languages that compile to Wasm:
-
 | Language | Toolchain | Example Use |
 |----------|-----------|-------------|
 | C/C++ | Emscripten | Port legacy libraries |
@@ -51,6 +66,18 @@ Source languages that compile to Wasm:
 | C# | Blazor | Full-stack .NET in browser |
 | Kotlin | Kotlin/Wasm | Kotlin in browser |
 | AssemblyScript | asc | TypeScript-like Wasm |
+
+## Wasm Ecosystem Tools
+
+| Tool | Purpose |
+|------|---------|
+| **Emscripten** | Compile C/C++ to Wasm with JS glue for DOM/browser APIs |
+| **wasm-pack** | Build, optimize, and publish Rust-generated Wasm to npm |
+| **wasmtime** | Standalone Wasm runtime for server-side execution (WASI) |
+| **wasmer** | Universal Wasm runtime supporting multiple compilation backends |
+| **wazero** | Zero-dependency Go-native Wasm runtime |
+| **wasm-bindgen** | Facilitates JS ↔ Wasm interop for Rust (DOM access, JS types) |
+| **Binaryen** | Toolchain for Wasm optimization, IR, and interpretation |
 
 ## Wasm System Interface (WASI)
 
