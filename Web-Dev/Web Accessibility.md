@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001148
 ---
+
+**Links**: [[CSS and Styling]] | [[Web Development Fundamentals]] | [[React]] | [[Web Components]] | [[Angular]] | [[Progressive Web Apps]]
+
+
 # Web Accessibility (a11y)
 
 Web accessibility ensures that people with disabilities can perceive, understand, navigate, and interact with the web. It's both an ethical responsibility and a legal requirement.

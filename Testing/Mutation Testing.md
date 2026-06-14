@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001167
 ---
+
+**Links**: [[Property-Based Testing]] | [[Unit Testing Guide]] | [[Test-Driven Development]] | [[Software Testing Pyramid]] | [[Integration Testing Patterns]] | [[Snapshot Testing]]
+
+
 # Mutation Testing
 
 Mutation testing evaluates test quality by introducing small changes (mutations) to code and checking whether tests catch them. It measures how well tests detect faults.

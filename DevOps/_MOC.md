@@ -9,6 +9,8 @@ timestamp: 1781700000002
 
 # ⚙️ DevOps — Map of Content
 
+DevOps bridges development and operations through automation, observability, and infrastructure-as-code practices. This folder spans the full DevOps lifecycle: CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins), container orchestration (Docker, Kubernetes), monitoring and observability (Prometheus, Grafana, OpenTelemetry), cloud infrastructure, and SRE practices. Start with [[DevOps/CI-CD/CI CD Pipelines]] for a high-level overview.
+
 ```mermaid
 graph TD
   DEVOPS["DevOps"] --> CICD["CI/CD"]
@@ -66,6 +68,7 @@ graph TD
 | [[DevOps/Containers/_MOC\|Containers]] | 5 | Docker & Kubernetes |
 | [[DevOps/Infrastructure/_MOC\|Infrastructure]] | 18 | IaC, cloud, config management |
 | [[DevOps/Monitoring/_MOC\|Monitoring]] | 11 | Observability, SRE, alerting |
+| [[DevOps/REST API Design]] | — | API design patterns and best practices |
 
 ## Cross-Domain Links
 

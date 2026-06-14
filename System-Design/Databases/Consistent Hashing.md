@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001153
 ---
+
+**Links**: [[Database Sharding]] | [[Database Replication Strategies]] | [[Caching Strategies]] | [[UUID vs Snowflake vs ULID]] | [[CRDTs]] | [[Database Engines Compared]]
+
+
 # Consistent Hashing
 
 Consistent hashing is a technique that distributes data across nodes while minimizing rebalancing when nodes are added or removed. Used by DynamoDB, Cassandra, Discord, and CDNs.

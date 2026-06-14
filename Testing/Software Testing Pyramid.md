@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001004
 ---
+
+**Links**: [[Unit Testing Guide]] | [[Integration Testing Patterns]] | [[Test-Driven Development]] | [[API Testing]] | [[Performance Testing]] | [[Visual Regression Testing]]
+
+
 # Software Testing Pyramid
 
 The testing pyramid guides teams to invest in many fast, isolated unit tests, fewer integration tests, and even fewer end-to-end tests.

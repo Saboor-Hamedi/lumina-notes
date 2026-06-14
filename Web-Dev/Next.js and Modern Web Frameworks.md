@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001064
 ---
+
+**Links**: [[React]] | [[Vue.js]] | [[Angular]] | [[Svelte]] | [[Vite and esbuild]] | [[Web Development Fundamentals]]
+
+
 # Next.js and Modern Web Frameworks
 
 Next.js is a React meta-framework that adds server-side rendering, static generation, routing, and API capabilities. It represents the modern full-stack web framework pattern.

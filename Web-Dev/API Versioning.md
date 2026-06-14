@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781400000017
 ---
+
+**Links**: [[REST API Design]] | [[API Gateway Patterns]] | [[GraphQL API Design]] | [[HTTP Protocol]] | [[API Documentation with OpenAPI]] | [[Web Development Fundamentals]]
+
+
 # API Versioning
 
 API versioning allows you to evolve your API without breaking existing clients.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001161
 ---
+
+**Links**: [[Kubernetes Security]] | [[WireGuard and VPN Technologies]] | [[OAuth and Authentication Protocols]] | [[Vault and Secret Management]] | [[Web Security]] | [[Threat Modeling]]
+
+
 # Zero Trust Architecture (ZTA)
 
 Zero Trust is a security model that assumes no entity is trusted by default — whether inside or outside the network perimeter. Every request must be authenticated, authorized, and continuously validated.

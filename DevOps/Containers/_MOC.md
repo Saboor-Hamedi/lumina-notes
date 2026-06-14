@@ -9,6 +9,8 @@ timestamp: 1781700000015
 
 # 🐳 Containers — Map of Content
 
+Containers package applications with their dependencies for consistent deployment across environments. This folder covers Docker (containers, compose, networking, storage) and Kubernetes (basics, deployments, services) — the standard stack for modern application orchestration. Start with [[DevOps/Containers/Docker Containers]] for the fundamentals.
+
 **Parent**: [[DevOps/_MOC|DevOps]]
 
 ```mermaid

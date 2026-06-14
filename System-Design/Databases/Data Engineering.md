@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001031
 ---
+
+**Links**: [[ETL and Data Pipeline Patterns]] | [[Data Warehouse Modeling]] | [[Apache Spark]] | [[Apache Airflow]] | [[Stream Processing]] | [[Delta Lake and Apache Iceberg]]
+
+
 # Data Engineering
 
 Data engineering builds infrastructure and pipelines to collect, store, process, and serve data for analytics and machine learning.

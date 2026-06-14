@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781226338647
 ---
+
+**Links**: [[SQL Query Optimization]] | [[Data Normalization Rules]] | [[DB Relationship Patterns]] | [[Database Indexing Deep Dive]] | [[PostgreSQL Features]] | [[Database Views]]
+
+
 # SQL JOIN Operations
 
 JOINs combine rows from two or more tables based on a related column. They are the backbone of relational database queries.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001133
 ---
+
+**Links**: [[React]] | [[Angular]] | [[Vue.js]] | [[Micro-Frontends]] | [[Web Components]] | [[Svelte]]
+
+
 # State Management Patterns
 
 State management handles how application data flows, changes, and is shared across components. Different patterns suit different application scales.

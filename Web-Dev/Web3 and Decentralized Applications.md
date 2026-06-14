@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001190
 ---
+
+**Links**: [[Web Development Fundamentals]] | [[Web Security]] | [[API Gateway Patterns]] | [[GraphQL]] | [[HTTP Protocol]] | [[WebAssembly]]
+
+
 # Web3 and Decentralized Applications
 
 Web3 refers to decentralized applications (dApps) running on blockchain networks. Users control their own data and assets through cryptographic wallets.

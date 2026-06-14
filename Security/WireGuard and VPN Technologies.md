@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001108
 ---
+
+**Links**: [[TLS 1.3 Deep Dive]] | [[Cryptography Basics]] | [[Zero Trust Architecture]] | [[Kubernetes Security]] | [[Web Security]] | [[Vault and Secret Management]]
+
+
 # WireGuard and VPN Technologies
 
 WireGuard is a modern, high-performance VPN protocol designed for simplicity, speed, and cryptographic soundness. It has been included in the Linux kernel since 5.6.

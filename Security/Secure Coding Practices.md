@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001135
 ---
+
+**Links**: [[OWASP Top 10]] | [[Web Security]] | [[API Security]] | [[Threat Modeling]] | [[Cryptography Basics]] | [[Vault and Secret Management]]
+
+
 # Secure Coding Practices
 
 Secure coding prevents vulnerabilities at the source. These practices apply across all languages and frameworks.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001165
 ---
+
+**Links**: [[Cryptography Basics]] | [[Web Security]] | [[WireGuard and VPN Technologies]] | [[Zero Trust Architecture]] | [[OAuth and Authentication Protocols]] | [[Vault and Secret Management]]
+
+
 # TLS 1.3 Deep Dive
 
 TLS 1.3 (RFC 8446) is the latest version of the Transport Layer Security protocol. It improves security and performance over TLS 1.2 by reducing handshake latency and removing weak cryptographic options.

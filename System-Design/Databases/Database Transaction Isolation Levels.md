@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001162
 ---
+
+**Links**: [[Database Transactions]] | [[Database Replication Strategies]] | [[Database Engines Compared]] | [[PostgreSQL Features]] | [[SQL Query Optimization]] | [[CRDTs]]
+
+
 # Database Transaction Isolation Levels
 
 Isolation levels control how concurrent transactions interact. Higher isolation prevents anomalies but reduces concurrency.

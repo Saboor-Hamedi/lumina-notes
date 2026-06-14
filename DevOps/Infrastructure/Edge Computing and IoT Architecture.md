@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001191
 ---
+
+**Links**: [[Edge Computing and Edge AI]] | [[Cloud Computing]] | [[Cloud Cost Optimization]] | [[Infrastructure as Code]] | [[Envoy Proxy]] | [[Ansible]]
+
+
 # Edge Computing and IoT Architecture
 
 Edge computing processes data near its source rather than in a centralized cloud. IoT (Internet of Things) devices generate data at the edge.

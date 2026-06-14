@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001196
 ---
+
+**Links**: [[React]] | [[Desktop Apps with Electron and Tauri]] | [[Progressive Web Apps]] | [[State Management Patterns]] | [[Web Development Fundamentals]] | [[WebAssembly]]
+
+
 # React Native
 
 React Native builds native mobile apps using React and JavaScript. It compiles to native UI components rather than web views.

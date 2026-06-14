@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781190061407
 ---
+
+**Links**: [[DB Relationship Patterns]] | [[SQL JOIN Operations]] | [[Database Indexing Deep Dive]] | [[Database Transactions]] | [[SQL Query Optimization]] | [[Database Engines Compared]]
+
+
 # Data Normalization Rules
 
 Normalization organizes data to reduce redundancy and improve integrity. Each normal form addresses a specific type of anomaly.

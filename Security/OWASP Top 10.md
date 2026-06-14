@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001134
 ---
+
+**Links**: [[Web Security]] | [[API Security]] | [[Secure Coding Practices]] | [[Threat Modeling]] | [[Cryptography Basics]] | [[OAuth and Authentication Protocols]]
+
+
 # OWASP Top 10
 
 The OWASP Top 10 is a standard awareness document representing the most critical security risks to web applications.

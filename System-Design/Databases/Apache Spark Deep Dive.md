@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001155
 ---
+
+**Links**: [[Apache Spark]] | [[Apache Flink]] | [[Data Engineering]] | [[Stream Processing]] | [[ETL and Data Pipeline Patterns]] | [[Delta Lake and Apache Iceberg]]
+
+
 # Apache Spark Deep Dive
 
 Spark is a unified analytics engine for large-scale data processing. It provides batch processing, streaming, SQL, machine learning, and graph processing in a single framework.

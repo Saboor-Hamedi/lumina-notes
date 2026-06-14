@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001110
 ---
+
+**Links**: [[Web Components]] | [[Angular]] | [[React]] | [[Vue.js]] | [[State Management Patterns]] | [[Next.js and Modern Web Frameworks]]
+
+
 # Micro-Frontends
 
 Micro-frontends extend microservices principles to the frontend — independently developed, tested, and deployed UI pieces that compose into a cohesive application.

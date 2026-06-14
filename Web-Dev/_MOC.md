@@ -9,6 +9,8 @@ timestamp: 1781700000007
 
 # 🌐 Web Development — Map of Content
 
+Web development spans protocols, frontend frameworks, APIs, and emerging standards. This folder covers the full stack: HTTP protocol fundamentals, caching strategies, and real-time communication (WebSockets, WebRTC); frontend frameworks (React, Vue, Angular, Svelte); API design patterns (GraphQL, gRPC, REST); and next-gen technologies (WebAssembly, Web3). Start with [[Web-Dev/Web Development Fundamentals]] for a broad overview.
+
 ```mermaid
 graph TD
   WEB["Web Development"] --> FUND["Fundamentals"]

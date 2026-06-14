@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001139
 ---
+
+**Links**: [[Event Sourcing Deep Dive]] | [[Consistent Hashing]] | [[Database Replication Strategies]] | [[Database Transactions]] | [[Event Sourcing]] | [[UUID vs Snowflake vs ULID]]
+
+
 # CRDTs (Conflict-Free Replicated Data Types)
 
 CRDTs are data structures that allow multiple replicas to be updated concurrently and independently, then automatically merged into a consistent state without conflicts.

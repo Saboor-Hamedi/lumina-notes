@@ -9,6 +9,8 @@ timestamp: 1781700000001
 
 # 🤖 AI / ML — Map of Content
 
+Artificial intelligence and machine learning are reshaping how software understands, generates, and interacts with data. This folder covers deep learning (transformers, attention, training), NLP (tokenization, LLMs, prompt engineering, alignment), and retrieval-augmented generation (RAG architecture, vector databases, embedding models, evaluation). Start with [[AI-ML/Deep-Learning/Attention Mechanism]] for the foundational concept behind modern AI.
+
 ```mermaid
 graph TD
   AIML["AI / ML"] --> DL["Deep Learning"]

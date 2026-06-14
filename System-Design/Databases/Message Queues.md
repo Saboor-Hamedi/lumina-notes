@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781400000011
 ---
+
+**Links**: [[Apache Kafka Deep Dive]] | [[Stream Processing]] | [[Event Sourcing]] | [[Database Transactions]] | [[Caching Strategies]] | [[Event Sourcing Deep Dive]]
+
+
 # Message Queues
 
 Message queues enable asynchronous communication between services by buffering and delivering messages.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001158
 ---
+
+**Links**: [[ETL and Data Pipeline Patterns]] | [[Data Engineering]] | [[Stream Processing]] | [[Apache Spark]] | [[Data Warehouse Modeling]] | [[Delta Lake and Apache Iceberg]]
+
+
 # Apache Airflow
 
 Airflow is a platform for programmatically authoring, scheduling, and monitoring workflows. DAGs (Directed Acyclic Graphs) define pipeline structure.

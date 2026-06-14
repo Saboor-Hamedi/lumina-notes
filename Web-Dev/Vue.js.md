@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001192
 ---
+
+**Links**: [[React]] | [[Angular]] | [[Svelte]] | [[Next.js and Modern Web Frameworks]] | [[State Management Patterns]] | [[Vite and esbuild]]
+
+
 # Vue.js
 
 Vue.js is a progressive JavaScript framework for building user interfaces. It's designed to be incrementally adoptable.

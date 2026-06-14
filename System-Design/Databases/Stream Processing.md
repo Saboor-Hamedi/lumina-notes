@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001012
 ---
+
+**Links**: [[Apache Flink]] | [[Apache Kafka Deep Dive]] | [[Apache Spark]] | [[Event Sourcing Deep Dive]] | [[Message Queues]] | [[Data Engineering]]
+
+
 # Stream Processing
 
 Stream processing handles unbounded data in real time, enabling low-latency analytics, event-driven architectures, and data pipelines.

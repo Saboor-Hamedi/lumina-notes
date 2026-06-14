@@ -9,6 +9,8 @@ timestamp: 1781700000005
 
 # 🔒 Security — Map of Content
 
+Security spans authentication protocols, network encryption, application hardening, and infrastructure defense. This folder covers OAuth 2.0, TLS 1.3, OWASP Top 10, zero trust architecture, cryptography fundamentals, and secure coding practices — providing both theoretical foundations and practical implementation guidance.
+
 ```mermaid
 graph TD
   SEC["Security"] --> WEB["Web Security"]

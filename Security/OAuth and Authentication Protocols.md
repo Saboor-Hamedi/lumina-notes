@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001010
 ---
+
+**Links**: [[OAuth 2.0 in Practice]] | [[SAML and Enterprise SSO]] | [[JSON Web Tokens]] | [[Web Security]] | [[TLS 1.3 Deep Dive]] | [[Zero Trust Architecture]]
+
+
 # OAuth and Authentication Protocols
 
 Authentication verifies identity (who you are). Authorization grants permissions (what you can do). Modern web uses multiple protocols for these.

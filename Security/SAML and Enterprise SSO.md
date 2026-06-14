@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001128
 ---
+
+**Links**: [[OAuth and Authentication Protocols]] | [[OAuth 2.0 in Practice]] | [[JSON Web Tokens]] | [[Web Security]] | [[Zero Trust Architecture]] | [[TLS 1.3 Deep Dive]]
+
+
 # SAML and Enterprise SSO
 
 SAML (Security Assertion Markup Language) is an XML-based enterprise SSO protocol. It enables users to authenticate once with an Identity Provider (IdP) and access multiple Service Providers (SPs).

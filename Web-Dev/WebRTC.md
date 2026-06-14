@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001126
 ---
+
+**Links**: [[WebSocket Deep Dive]] | [[WebSockets]] | [[HTTP-3 and QUIC]] | [[HTTP Protocol]] | [[Web Development Fundamentals]] | [[Desktop Apps with Electron and Tauri]]
+
+
 # WebRTC
 
 WebRTC (Web Real-Time Communication) enables peer-to-peer audio, video, and data sharing between browsers without plugins or intermediaries.

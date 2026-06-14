@@ -9,6 +9,8 @@ timestamp: 1781700000003
 
 # 🏗️ System Design — Map of Content
 
+System design is the art of building scalable, reliable, and maintainable distributed systems. This folder organizes knowledge across four pillars: architecture patterns (microservices, event-driven, DDD), databases (SQL, NoSQL, engines, indexing), algorithms, and data structures. Use these notes to prepare for system design interviews or to architect production systems.
+
 ```mermaid
 graph TD
   SD["System Design"] --> ARCH["Architecture"]

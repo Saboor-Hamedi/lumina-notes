@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001129
 ---
+
+**Links**: [[Visual Regression Testing]] | [[Integration Testing Patterns]] | [[Unit Testing Guide]] | [[Software Testing Pyramid]] | [[Test-Driven Development]] | [[API Testing]]
+
+
 # Snapshot Testing
 
 Snapshot testing captures the output of a component or function and compares future runs against the stored snapshot. It catches unexpected changes by diffing against the reference.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001015
 ---
+
+**Links**: [[Web Development Fundamentals]] | [[Web Components]] | [[Web Accessibility]] | [[Web3 and Decentralized Applications]] | [[Desktop Apps with Electron and Tauri]] | [[React]]
+
+
 # WebAssembly
 
 WebAssembly (Wasm) is a binary instruction format for stack-based virtual machines. It runs at near-native speed in browsers and increasingly on servers.

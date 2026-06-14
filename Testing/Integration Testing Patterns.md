@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001130
 ---
+
+**Links**: [[Software Testing Pyramid]] | [[Unit Testing Guide]] | [[API Testing]] | [[Test-Driven Development]] | [[Snapshot Testing]] | [[Performance Testing]]
+
+
 # Integration Testing Patterns
 
 Integration testing verifies that multiple components work together correctly — testing real interactions between modules, databases, APIs, and external services.

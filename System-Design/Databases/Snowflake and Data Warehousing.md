@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001113
 ---
+
+**Links**: [[Data Warehouse Modeling]] | [[ClickHouse]] | [[Database Engines Compared]] | [[DuckDB]] | [[ETL and Data Pipeline Patterns]] | [[Delta Lake and Apache Iceberg]]
+
+
 # Snowflake and Data Warehousing
 
 Snowflake is a cloud-native data warehouse that separates compute from storage, allowing independent scaling. It supports structured and semi-structured data with standard SQL.

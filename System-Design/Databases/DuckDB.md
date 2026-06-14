@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001115
 ---
+
+**Links**: [[ClickHouse]] | [[SQLite Reference]] | [[Database Engines Compared]] | [[Data Warehouse Modeling]] | [[Snowflake and Data Warehousing]] | [[SQL vs NoSQL Databases]]
+
+
 # DuckDB
 
 DuckDB is an embeddable, in-process SQL OLAP database designed for analytical workloads. It has no external dependencies and runs in-process with Python, R, or Node.js.

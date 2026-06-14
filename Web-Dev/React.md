@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001024
 ---
+
+**Links**: [[Angular]] | [[Vue.js]] | [[Svelte]] | [[Next.js and Modern Web Frameworks]] | [[State Management Patterns]] | [[Vite and esbuild]]
+
+
 # React
 
 React is a declarative, component-based UI library for building interactive user interfaces.

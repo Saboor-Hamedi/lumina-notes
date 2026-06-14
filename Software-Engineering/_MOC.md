@@ -9,6 +9,8 @@ timestamp: 1781700000004
 
 # Software Engineering -- Map of Content
 
+Software engineering principles govern how code is structured, reviewed, tested, and delivered. This folder covers design patterns (SOLID, GoF, architectural), clean code practices, code review workflows, testing strategies (unit, integration, property-based), agile methodologies, and developer experience (DX) — the practices that scale engineering teams.
+
 **Parent**: [[_MOC|Master Index]]
 
 ## Structure

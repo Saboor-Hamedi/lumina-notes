@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001127
 ---
+
+**Links**: [[OAuth and Authentication Protocols]] | [[SAML and Enterprise SSO]] | [[JSON Web Tokens]] | [[Web Security]] | [[API Security]] | [[Secure Coding Practices]]
+
+
 # OAuth 2.0 in Practice
 
 OAuth 2.0 is the industry-standard protocol for authorization. This note covers real-world implementation patterns, common pitfalls, and deployment considerations.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001077
 ---
+
+**Links**: [[Edge Computing and IoT Architecture]] | [[Cloud Computing]] | [[Cloud Cost Optimization]] | [[Infrastructure as Code]] | [[Envoy Proxy]] | [[Ansible]]
+
+
 # Edge Computing and Edge AI
 
 Edge computing processes data near its source rather than in a centralized cloud. Edge AI runs ML models on edge devices — phones, cameras, sensors, gateways.

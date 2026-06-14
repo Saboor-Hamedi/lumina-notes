@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001070
 ---
+
+**Links**: [[Mutation Testing]] | [[Unit Testing Guide]] | [[Test-Driven Development]] | [[Software Testing Pyramid]] | [[Snapshot Testing]] | [[Integration Testing Patterns]]
+
+
 # Property-Based Testing
 
 Property-based testing defines properties that should always hold, then automatically generates random inputs to verify them — catching edge cases that example-based tests miss.

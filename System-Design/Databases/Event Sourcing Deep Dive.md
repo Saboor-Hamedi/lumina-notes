@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001177
 ---
+
+**Links**: [[Event Sourcing]] | [[CRDTs]] | [[Message Queues]] | [[Database Transactions]] | [[Stream Processing]] | [[Apache Kafka Deep Dive]]
+
+
 # Event Sourcing Deep Dive
 
 Event sourcing persists state changes as an append-only log of events. Current state is derived by replaying events.

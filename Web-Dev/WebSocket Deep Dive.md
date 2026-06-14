@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001176
 ---
+
+**Links**: [[WebSockets]] | [[WebRTC]] | [[HTTP Protocol]] | [[HTTP-3 and QUIC]] | [[API Gateway Patterns]] | [[Web Development Fundamentals]]
+
+
 # WebSocket Deep Dive
 
 WebSocket provides full-duplex communication over a single TCP connection. It's the foundation for real-time web applications.

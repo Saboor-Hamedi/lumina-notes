@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001172
 ---
+
+**Links**: [[Stream Processing]] | [[Apache Kafka Deep Dive]] | [[Apache Spark]] | [[Event Sourcing Deep Dive]] | [[Data Engineering]] | [[Message Queues]]
+
+
 # Apache Flink
 
 Apache Flink is a distributed stream processing framework with true event-time processing, exactly-once semantics, and stateful computations.

@@ -11,11 +11,13 @@ timestamp: 1781700000019
 
 **Parent**: [[System-Design/_MOC|System Design]]
 
+Databases are the persistence layer of every system. This folder covers 55+ notes spanning relational engines (PostgreSQL, SQLite), distributed NoSQL systems (Cassandra, MongoDB), streaming platforms (Kafka, Flink), OLAP warehouses (Snowflake, ClickHouse), and foundational concepts (indexing, transactions, sharding, replication). Use the guide below to find the right database for your use case.
+
 ## Categories
 
 | Category | Databases |
 |----------|-----------|
-| **Relational** | [[PostgreSQL Features]], [[PostgreSQL Performance Tuning]], [[PostgreSQL Extensions]], [[SQLite Reference]], [[SQL vs NoSQL Databases]] |
+| **Relational** | [[PostgreSQL Features]], [[PostgreSQL Performance Tuning]], [[PostgreSQL Extensions]], [[SQLite Reference]], [[SQL vs NoSQL Databases]], [[Database Triggers]], [[Database Views]] |
 | **Document** | [[MongoDB]], [[MongoDB Deep Dive]] |
 | **Key-Value** | [[Redis Deep Dive]] |
 | **Wide-Column** | [[Cassandra]], [[Apache Cassandra Deep Dive]] |
@@ -23,9 +25,12 @@ timestamp: 1781700000019
 | **Graph** | [[Neo4j and Graph Databases]], [[Graph Databases]] |
 | **Time Series** | [[Time Series Databases]] |
 | **Streaming** | [[Apache Kafka Deep Dive]], [[Apache Flink]], [[Stream Processing]] |
-| **OLAP** | [[ClickHouse]], [[DuckDB]], [[Snowflake and Data Warehousing]], [[Apache Spark]] |
+| **OLAP** | [[ClickHouse]], [[DuckDB]], [[Snowflake and Data Warehousing]], [[Apache Spark]], [[Apache Spark Deep Dive]] |
 | **Workflow** | [[Apache Airflow]] |
 | **NewSQL** | [[CRDTs]], [[Delta Lake and Apache Iceberg]] |
+| **Data Engineering** | [[Data Engineering]], [[Data Serialization]], [[Data Warehouse Modeling]], [[ETL and Data Pipeline Patterns]] |
+| **Operations** | [[Database Backup Strategies]], [[Database Connection Pooling]], [[Database Migration Tools]] |
+| **Security & Reliability** | [[Database Security]], [[Rate Limiting]] |
 
 ## Core Concepts
 
@@ -37,6 +42,7 @@ timestamp: 1781700000019
 | **Caching** | [[Caching Strategies]] |
 | **Modeling** | [[Data Warehouse Modeling]], [[Data Normalization Rules]], [[DB Relationship Patterns]] |
 | **Querying** | [[SQL JOIN Operations]], [[SQL Query Optimization]] |
+| **ID Generation** | [[UUID vs Snowflake vs ULID]] |
 | **Architecture** | [[Event Sourcing]], [[Event Sourcing Deep Dive]], [[Message Queues]], [[Database Engines Compared]] |
 
 ## Key Comparisons

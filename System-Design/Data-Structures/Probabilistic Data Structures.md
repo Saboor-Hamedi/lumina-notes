@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001137
 ---
+
+**Links**: [[Data Structures]] | [[Data Structures Overview]]
+
+
 # Probabilistic Data Structures
 
 Probabilistic data structures trade exactness for memory efficiency and speed. They give approximate answers with quantifiable error bounds.

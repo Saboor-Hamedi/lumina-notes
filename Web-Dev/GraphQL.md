@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001131
 ---
+
+**Links**: [[GraphQL API Design]] | [[REST API Design]] | [[API Gateway Patterns]] | [[WebSocket Deep Dive]] | [[gRPC]] | [[State Management Patterns]]
+
+
 # GraphQL
 
 GraphQL is a query language and runtime for APIs. Clients request exactly the data they need, nothing more and nothing less.

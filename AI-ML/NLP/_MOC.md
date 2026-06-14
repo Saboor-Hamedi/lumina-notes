@@ -9,6 +9,8 @@ timestamp: 1781700000011
 
 # 📝 NLP / LLMs — Map of Content
 
+Natural language processing enables machines to understand, generate, and manipulate human language. This folder covers the full NLP stack: tokenization strategies, LLM architectures (GPT, LLaMA, Mistral), prompt engineering techniques, alignment methods (RLHF, DPO), and production considerations (quantization, caching, evaluation). These notes trace the pipeline from raw text to deployed language applications.
+
 **Parent**: [[AI-ML/_MOC|AI/ML]]
 
 ```mermaid

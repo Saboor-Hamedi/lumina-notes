@@ -9,6 +9,8 @@ timestamp: 1781700000000
 
 # 🗺️ Map of Content — Master Index
 
+lumina-notes is a structured engineering knowledge base — 400+ interconnected notes across AI/ML, system design, databases, DevOps, security, and software engineering. Every folder contains a `_MOC.md` index (Map of Content) that links to all notes within it, forming a browsable knowledge graph. Use the mindmap below to navigate domains, then drill into any area via its MOC.
+
 ```mermaid
 mindmap
   root((Tech Knowledge))

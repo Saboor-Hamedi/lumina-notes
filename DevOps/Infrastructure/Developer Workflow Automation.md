@@ -7,6 +7,10 @@ selection: null
 isPinned: true
 timestamp: 1781225071120
 ---
+
+**Links**: [[Dev Environment Setup]] | [[Shell Scripting]] | [[Build Tools]] | [[CI CD Pipelines]] | [[Ansible]] | [[Package Managers]]
+
+
 # Developer Workflow Automation
 
 Automating repetitive development tasks boosts productivity and reduces errors. From git hooks to CI/CD pipelines, automation is a cornerstone of modern software engineering.

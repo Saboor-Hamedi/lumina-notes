@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001104
 ---
+
+**Links**: [[Terraform]] | [[Vagrant]] | [[Infrastructure as Code]] | [[Cloud Computing]] | [[Ansible]] | [[Shell Scripting]]
+
+
 # Packer
 
 Packer is a tool for creating identical machine images (AMI, Docker, Vagrant, VMDK) for multiple platforms from a single source configuration.

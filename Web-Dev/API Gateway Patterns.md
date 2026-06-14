@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001109
 ---
+
+**Links**: [[REST API Design]] | [[API Versioning]] | [[gRPC]] | [[Micro-Frontends]] | [[WebSocket Deep Dive]] | [[HTTP Protocol]]
+
+
 # API Gateway Patterns
 
 An API gateway is a reverse proxy that sits between clients and backend services, handling cross-cutting concerns like auth, routing, throttling, and aggregation.

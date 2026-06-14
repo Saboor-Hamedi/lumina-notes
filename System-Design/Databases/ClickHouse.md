@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001114
 ---
+
+**Links**: [[Snowflake and Data Warehousing]] | [[Database Engines Compared]] | [[Data Warehouse Modeling]] | [[SQL vs NoSQL Databases]] | [[DuckDB]] | [[Time Series Databases]]
+
+
 # ClickHouse
 
 ClickHouse is a column-oriented DBMS for online analytical processing (OLAP) that enables real-time queries on petabyte-scale datasets.

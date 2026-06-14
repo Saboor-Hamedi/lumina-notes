@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001186
 ---
+
+**Links**: [[REST API Design]] | [[API Gateway Patterns]] | [[API Versioning]] | [[GraphQL API Design]] | [[HTTP Protocol]] | [[gRPC]]
+
+
 # API Documentation with OpenAPI
 
 OpenAPI (formerly Swagger) is a specification for describing REST APIs. It generates documentation, client SDKs, and server stubs.

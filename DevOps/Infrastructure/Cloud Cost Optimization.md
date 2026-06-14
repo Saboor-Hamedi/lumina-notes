@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001188
 ---
+
+**Links**: [[Cloud Computing]] | [[Infrastructure as Code]] | [[Terraform]] | [[Developer Workflow Automation]] | [[Dev Environment Setup]] | [[Shell Scripting]]
+
+
 # Cloud Cost Optimization (FinOps)
 
 FinOps brings financial accountability to cloud spending through collaboration between engineering, finance, and product teams.

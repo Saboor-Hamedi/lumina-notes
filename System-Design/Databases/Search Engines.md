@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001030
 ---
+
+**Links**: [[Elasticsearch Deep Dive]] | [[Database Indexing Strategies]] | [[Database Engines Compared]] | [[MongoDB]] | [[Data Serialization]] | [[SQL vs NoSQL Databases]]
+
+
 # Search Engines
 
 Search engines index, store, and retrieve information. Elasticsearch (backed by Apache Lucene) is the dominant open-source search engine.

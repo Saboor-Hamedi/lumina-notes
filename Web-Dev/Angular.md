@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001194
 ---
+
+**Links**: [[React]] | [[Vue.js]] | [[Svelte]] | [[Next.js and Modern Web Frameworks]] | [[State Management Patterns]] | [[Web Components]]
+
+
 # Angular
 
 Angular is a TypeScript-based web application framework by Google. It provides a complete solution including routing, state management, forms, and HTTP client.

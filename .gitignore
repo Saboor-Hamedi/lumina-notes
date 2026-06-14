@@ -1,2 +1,38 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/plugins/persistent-graph/data.json
+.obsidian/graph.json
+
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+node_modules/
+dist/
+build/
+target/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Temp
+*.tmp
+temp/
+
+# Personal scratch / external refs
 lumina.md
 Sakila-schema.md

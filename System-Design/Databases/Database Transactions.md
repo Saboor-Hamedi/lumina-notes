@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781400000016
 ---
+
+**Links**: [[Database Transaction Isolation Levels]] | [[Database Replication Strategies]] | [[Database Indexing Deep Dive]] | [[SQL Query Optimization]] | [[CRDTs]] | [[Event Sourcing Deep Dive]]
+
+
 # Database Transactions
 
 A transaction groups multiple operations into a single atomic unit that either succeeds completely or fails entirely.

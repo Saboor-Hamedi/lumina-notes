@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001184
 ---
+
+**Links**: [[MongoDB]] | [[Database Engines Compared]] | [[SQL vs NoSQL Databases]] | [[Cassandra]] | [[Database Replication Strategies]] | [[Database Sharding]]
+
+
 # MongoDB Deep Dive
 
 MongoDB is a document-oriented NoSQL database with flexible schema, horizontal scaling, and rich query capabilities.

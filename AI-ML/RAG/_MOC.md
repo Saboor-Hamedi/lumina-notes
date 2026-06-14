@@ -9,6 +9,8 @@ timestamp: 1781700000012
 
 # 🔍 RAG (Retrieval-Augmented Generation) — Map of Content
 
+Retrieval-Augmented Generation (RAG) combines information retrieval with large language models to produce grounded, up-to-date, and verifiable answers. This folder covers the full RAG stack: architecture patterns, embedding models, vector databases, chunking strategies, retrieval techniques (dense, sparse, hybrid), reranking, evaluation metrics, and advanced patterns (agentic RAG, graph RAG, corrective RAG). Start with [[AI-ML/RAG/RAG Architecture]] for a high-level overview.
+
 **Parent**: [[AI-ML/_MOC|AI/ML]]
 
 ```mermaid

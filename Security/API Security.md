@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001017
 ---
+
+**Links**: [[OWASP Top 10]] | [[Web Security]] | [[Secure Coding Practices]] | [[Threat Modeling]] | [[OAuth and Authentication Protocols]] | [[JSON Web Tokens]]
+
+
 # API Security
 
 API security protects endpoints from unauthorized access, data breaches, injection attacks, and abuse.

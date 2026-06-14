@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001198
 ---
+
+**Links**: [[React Native]] | [[Progressive Web Apps]] | [[Web Development Fundamentals]] | [[WebAssembly]] | [[Web Components]] | [[Vite and esbuild]]
+
+
 # Desktop Apps with Electron and Tauri
 
 Electron and Tauri build cross-platform desktop applications using web technologies. Tauri is newer, smaller, and more secure.

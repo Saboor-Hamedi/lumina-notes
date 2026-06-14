@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781400000014
 ---
+
+**Links**: [[WebSocket Deep Dive]] | [[WebRTC]] | [[HTTP Protocol]] | [[HTTP-3 and QUIC]] | [[Web Development Fundamentals]] | [[API Gateway Patterns]]
+
+
 # WebSockets
 
 WebSockets provide full-duplex communication over a single TCP connection, enabling real-time data flow.

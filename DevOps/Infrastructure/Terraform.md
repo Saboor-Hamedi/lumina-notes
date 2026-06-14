@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001066
 ---
+
+**Links**: [[Packer]] | [[Ansible]] | [[Infrastructure as Code]] | [[Cloud Computing]] | [[Vagrant]] | [[Helm]]
+
+
 # Terraform
 
 Terraform is an Infrastructure as Code (IaC) tool by HashiCorp that uses declarative configuration to provision and manage infrastructure across cloud providers.

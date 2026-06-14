@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781229861605
 ---
+
+**Links**: [[Software Testing Pyramid]] | [[Integration Testing Patterns]] | [[Test-Driven Development]] | [[API Testing]] | [[Mutation Testing]] | [[Property-Based Testing]]
+
+
 # Unit Testing Guide
 
 Unit testing verifies that individual units of source code work correctly. It is the first line of defense against bugs and enables confident refactoring.

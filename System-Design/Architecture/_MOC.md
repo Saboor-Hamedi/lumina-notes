@@ -11,6 +11,8 @@ timestamp: 1781700000018
 
 **Parent**: [[System-Design/_MOC|System Design]]
 
+System architecture defines how components interact, scale, and fail. This folder covers fundamental concepts (CAP theorem, consensus algorithms), architectural patterns (microservices, event-driven, DDD), infrastructure primitives (DNS, CDN, service mesh), and distributed systems theory (Raft, Saga, blockchain). These notes prepare you to design, evaluate, and communicate system architectures.
+
 ```mermaid
 mindmap
   root((Architecture))
@@ -44,7 +46,7 @@ mindmap
 
 | Category | Notes |
 |----------|-------|
-| **Fundamentals** | [[System Design Fundamentals]], [[CAP Theorem and PACELC]], [[Computer Networking]], [[Operating Systems]], [[Memory Management]], [[Concurrency Models]] |
+| **Fundamentals** | [[System Design Fundamentals]], [[CAP Theorem and PACELC]], [[Computer Networking]], [[Operating Systems]], [[Memory Management]], [[Concurrency Models]], [[Computer Architecture and Organization]] |
 | **Patterns** | [[Architecture Patterns]], [[Microservices Architecture]], [[Event-Driven Architecture]], [[Domain-Driven Design]], [[Code Architecture Patterns]], [[Serverless Computing]] |
 | **Infrastructure** | [[CDN Architecture]], [[DNS Deep Dive]], [[Service Mesh]], [[Istio Service Mesh]] |
 | **Distributed** | [[Raft Consensus Algorithm]], [[Saga and Distributed Transactions]], [[Blockchain Fundamentals]] |

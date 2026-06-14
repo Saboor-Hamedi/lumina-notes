@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001112
 ---
+
+**Links**: [[Apache Cassandra Deep Dive]] | [[Database Engines Compared]] | [[Consistent Hashing]] | [[LSM-Tree Storage Engines]] | [[SQL vs NoSQL Databases]] | [[Database Replication Strategies]]
+
+
 # Cassandra
 
 Apache Cassandra is a distributed, wide-column NoSQL database designed for high availability, linear scalability, and fault tolerance across commodity hardware.

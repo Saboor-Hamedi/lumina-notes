@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001173
 ---
+
+**Links**: [[Data Warehouse Modeling]] | [[Apache Spark Deep Dive]] | [[Data Engineering]] | [[ETL and Data Pipeline Patterns]] | [[Apache Airflow]] | [[Snowflake and Data Warehousing]]
+
+
 # Delta Lake and Apache Iceberg
 
 Delta Lake and Apache Iceberg are open-source table formats that bring ACID transactions, schema evolution, and time travel to data lakes.

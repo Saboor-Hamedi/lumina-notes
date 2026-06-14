@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1780926643992
 ---
+
+**Links**: [[Data Normalization Rules]] | [[SQL JOIN Operations]] | [[Database Indexing Deep Dive]] | [[Database Triggers]] | [[SQL Query Optimization]] | [[Database Views]]
+
+
 # DB Relationship Patterns
 
 Relationships between tables are the heart of relational databases.

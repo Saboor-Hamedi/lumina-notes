@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781400000007
 ---
+
+**Links**: [[OWASP Top 10]] | [[API Security]] | [[Secure Coding Practices]] | [[Threat Modeling]] | [[Cryptography Basics]] | [[OAuth and Authentication Protocols]] | [[Zero Trust Architecture]]
+
+
 # Web Security
 
 Web security protects applications from attacks, data breaches, and unauthorized access.

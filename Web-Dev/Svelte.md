@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001193
 ---
+
+**Links**: [[React]] | [[Vue.js]] | [[Angular]] | [[Next.js and Modern Web Frameworks]] | [[Vite and esbuild]] | [[Web Components]]
+
+
 # Svelte
 
 Svelte is a compiler-based frontend framework that shifts work from runtime to compile time, producing highly optimized vanilla JavaScript.

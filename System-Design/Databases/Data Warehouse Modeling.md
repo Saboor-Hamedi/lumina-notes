@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001157
 ---
+
+**Links**: [[Snowflake and Data Warehousing]] | [[ETL and Data Pipeline Patterns]] | [[Data Engineering]] | [[ClickHouse]] | [[DuckDB]] | [[Delta Lake and Apache Iceberg]]
+
+
 # Data Warehouse Modeling
 
 Data warehouse modeling structures data for analytical querying. The three main approaches are Kimball (dimensional), Inmon (normalized), and Data Vault.

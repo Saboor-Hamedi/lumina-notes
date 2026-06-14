@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001205
 ---
+
+**Links**: [[Unit Testing Guide]] | [[Integration Testing Patterns]] | [[Software Testing Pyramid]] | [[Mutation Testing]] | [[Property-Based Testing]] | [[API Testing]]
+
+
 # Test-Driven Development (TDD)
 
 TDD is a software development process where tests are written before the implementation. The cycle is Red-Green-Refactor.

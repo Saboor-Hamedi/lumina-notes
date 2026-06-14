@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001156
 ---
+
+**Links**: [[Data Engineering]] | [[Apache Airflow]] | [[Apache Spark]] | [[Stream Processing]] | [[Data Warehouse Modeling]] | [[Delta Lake and Apache Iceberg]]
+
+
 # ETL and Data Pipeline Patterns
 
 ETL (Extract, Transform, Load) pipelines move and transform data from source systems to target systems for analytics, reporting, and machine learning.

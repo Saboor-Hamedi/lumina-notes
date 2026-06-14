@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001166
 ---
+
+**Links**: [[HTTP Protocol]] | [[WebSocket Deep Dive]] | [[HTTP Caching]] | [[Web Development Fundamentals]] | [[WebRTC]] | [[gRPC]]
+
+
 # HTTP/3 and QUIC
 
 HTTP/3 is the next major version of HTTP, using QUIC (Quick UDP Internet Connections) as its transport layer instead of TCP.

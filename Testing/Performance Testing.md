@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001080
 ---
+
+**Links**: [[Load Testing]] | [[Integration Testing Patterns]] | [[Software Testing Pyramid]] | [[Visual Regression Testing]] | [[Unit Testing Guide]] | [[API Testing]]
+
+
 # Performance Testing
 
 Performance testing measures system speed, responsiveness, stability, and scalability under various load conditions.

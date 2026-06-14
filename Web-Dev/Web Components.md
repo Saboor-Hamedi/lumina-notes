@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001132
 ---
+
+**Links**: [[Micro-Frontends]] | [[Web Development Fundamentals]] | [[React]] | [[Angular]] | [[Vue.js]] | [[Web Accessibility]]
+
+
 # Web Components
 
 Web Components are a set of browser-native APIs for creating reusable, encapsulated custom HTML elements. They work across all frameworks and libraries.

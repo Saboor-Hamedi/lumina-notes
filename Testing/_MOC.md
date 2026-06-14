@@ -9,6 +9,8 @@ timestamp: 1781700000006
 
 # 🧪 Testing — Map of Content
 
+Testing ensures software behaves correctly under expected and unexpected conditions. This folder covers the testing pyramid — unit tests, integration tests, end-to-end tests — along with property-based testing, performance and load testing, API testing, and mocking strategies. Each note includes practical examples and patterns for writing maintainable test suites.
+
 ```mermaid
 graph TD
   TEST["Testing"] --> STRAT["Strategy"]

@@ -118,18 +118,18 @@ lumina-notes/
 
 ## Domains
 
-| Domain | Notes | Key Topics |
-|--------|-------|------------|
-| AI/ML and NLP | 80+ | LLMs, transformers, RAG, prompt engineering, alignment, RLHF |
-| Databases | 55 | Indexing, sharding, transactions, replication, engines, modeling |
-| System Design | 85+ | Architecture patterns, microservices, CAP theorem, DDD, consensus |
-| DevOps | 40+ | Docker, Kubernetes, CI/CD, monitoring, observability, IaC |
-| Git | 45 | Complete reference from init to internals, workflows, hooks |
-| Security | 15 | OAuth 2.0, TLS 1.3, OWASP Top 10, zero trust, threat modeling |
-| Software Engineering | 30+ | SOLID, design patterns, code review, testing, agile practices |
-| Data Science | 5+ | R, pandas, scikit-learn, data engineering pipelines |
-| Web Development | 30+ | React, HTTP, GraphQL, WebSocket, WASM, PWAs |
-| Programming Languages | 34 | Python, Rust, Go, TypeScript, Java, Haskell, Julia, and more |
+| Domain | Notes | MOC Entry | Key Topics |
+|--------|-------|-----------|------------|
+| 🧠 AI/ML & NLP | 80+ | `AI-ML/_MOC.md` | LLMs, transformers, RAG, prompt engineering, alignment, RLHF |
+| 🗄️ Databases | 55 | `System-Design/Databases/_MOC.md` | Indexing, sharding, transactions, replication, engines, modeling |
+| 🏗️ System Design | 85+ | `System-Design/_MOC.md` | Architecture, microservices, CAP theorem, DDD, consensus |
+| ⚙️ DevOps | 40+ | `DevOps/_MOC.md` | Docker, Kubernetes, CI/CD, monitoring, IaC |
+| 🔧 Git | 45 | `Git/_MOC.md` | From init to internals, workflows, hooks |
+| 🔒 Security | 15 | `Security/_MOC.md` | OAuth 2.0, TLS 1.3, OWASP Top 10, zero trust |
+| 📐 Software Eng. | 30+ | `Software-Engineering/_MOC.md` | SOLID, design patterns, code review, testing, agile |
+| 📊 Data Science | 5+ | `Data-Science/_MOC.md` | R, pandas, scikit-learn, data pipelines |
+| 🌐 Web Dev | 30+ | `Web-Dev/_MOC.md` | React, HTTP, GraphQL, WebSocket, PWAs |
+| 💻 Languages | 34 | `Web-Dev/Programming/_MOC.md` | Python, Rust, Go, TypeScript, Java, Haskell, Julia |
 
 ---
 
@@ -192,16 +192,18 @@ The Markdown files can be ingested by any static site generator (MkDocs, Docusau
 
 ## Stats
 
-| Metric | Value |
-|--------|-------|
-| Total notes | 400+ |
-| Total lines | ~190,000 |
-| Programming languages covered | 34 |
-| Database notes | 55 |
-| Git notes | 45 |
-| MOC index files | 21 |
-| Root MOC cross-links | ~100 |
-| Domains | 10 |
+| Metric | Value | Detail | Reference |
+|--------|-------|--------|-----------|
+| Total notes | 400+ | Across 10 domains | [[_MOC.md\|Root MOC]] |
+| Total lines | ~190,000 | Pure Markdown | — |
+| MOC index files | 21 | One per folder | [[_MOC.md\|Master Index]] |
+| Cross-links | ~100 | Root MOC connections | [[_MOC.md\|Knowledge Graph]] |
+| Programming languages | 34 | Deep dives with code | [[Web-Dev/Programming/_MOC.md\|Languages]] |
+| Database notes | 55 | SQL + NoSQL + engines | [[System-Design/Databases/_MOC.md\|Databases]] |
+| Git notes | 45 | Basic to internals | [[Git/_MOC.md\|Git]] |
+| AI/ML notes | 80+ | LLMs, RAG, alignment | [[AI-ML/_MOC.md\|AI-ML]] |
+| System design notes | 85+ | Architecture, patterns | [[System-Design/_MOC.md\|System Design]] |
+| DevOps notes | 40+ | CI/CD, containers, infra | [[DevOps/_MOC.md\|DevOps]] |
 
 ---
 

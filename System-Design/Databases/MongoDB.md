@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001111
 ---
+
+**Links**: [[MongoDB Deep Dive]] | [[Database Engines Compared]] | [[SQL vs NoSQL Databases]] | [[Cassandra]] | [[Database Sharding]] | [[Database Replication Strategies]]
+
+
 # MongoDB
 
 MongoDB is a document-oriented NoSQL database that stores data in flexible, JSON-like documents with a dynamic schema.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001168
 ---
+
+**Links**: [[Snapshot Testing]] | [[Integration Testing Patterns]] | [[Performance Testing]] | [[Unit Testing Guide]] | [[Software Testing Pyramid]] | [[Test-Driven Development]]
+
+
 # Visual Regression Testing
 
 Visual regression testing compares screenshots of UI components to detect unintended visual changes. It catches CSS issues, layout shifts, and rendering differences.

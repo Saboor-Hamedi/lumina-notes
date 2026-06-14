@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001185
 ---
+
+**Links**: [[Graph Databases]] | [[DB Relationship Patterns]] | [[SQL vs NoSQL Databases]] | [[Database Engines Compared]] | [[SQL JOIN Operations]] | [[MongoDB]]
+
+
 # Neo4j and Graph Databases
 
 Graph databases store data as nodes (entities) and relationships (connections), optimized for traversing connected data.

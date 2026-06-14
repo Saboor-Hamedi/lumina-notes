@@ -11,12 +11,14 @@ timestamp: 1781700000017
 
 **Parent**: [[DevOps/_MOC|DevOps]]
 
+Infrastructure is the foundation that software runs on. This folder covers the modern infrastructure stack: Infrastructure as Code (Terraform, Ansible, Packer), cloud platforms, Kubernetes tooling (Helm), service proxies (Envoy, Nginx), and developer environment automation. These notes will help you provision, configure, and operate production infrastructure.
+
 ## Topics
 
 | Category | Notes |
 |----------|-------|
 | **IaC** | [[Infrastructure as Code]], [[Terraform]], [[Ansible]], [[Packer]], [[Vagrant]] |
-| **Cloud** | [[Cloud Computing]], [[Cloud Cost Optimization]], [[Edge Computing and Edge AI]] |
+| **Cloud** | [[Cloud Computing]], [[Cloud Cost Optimization]], [[Edge Computing and Edge AI]], [[Edge Computing and IoT Architecture]] |
 | **Service Mesh & Proxy** | [[Envoy Proxy]], [[Consul]], [[Nginx Configuration]] |
 | **Kubernetes Tools** | [[Helm]] |
 | **Dev Environment** | [[Dev Environment Setup]], [[Developer Workflow Automation]], [[Shell Scripting]] |

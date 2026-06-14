@@ -12,6 +12,8 @@ timestamp: 1781700000010
 **Parent**: [[AI-ML/_MOC|AI/ML]]
 **Children**: [[AI-ML/Deep-Learning/Machine-Learning/_MOC|Machine Learning]]
 
+Deep learning is the engine behind modern AI — from transformers that power LLMs to diffusion models that generate images. This folder traces the full stack: foundational mechanisms (attention, positional encoding), major architectures (transformer, BERT, GPT, RNN), training techniques (RLHF, LoRA, scaling laws), and inference optimization (Flash Attention, KV cache, speculative decoding). Start with [[Attention Mechanism]] if you're new.
+
 ```mermaid
 graph TD
   DL["Deep Learning"] --> CORE["Core Concepts"]
@@ -57,6 +59,8 @@ graph TD
 |---------|----------|
 | [[Transformer Architecture]] | [[Self-Attention]], [[Multi-Head Attention]], [[Positional Encoding]] |
 | [[Attention Mechanism]] | [[Self-Attention]], [[Multi-Head Attention]] |
+| [[Sequence-to-Sequence Models]] | [[Encoder-Decoder Architecture]], [[Attention Mechanism]] |
+| [[Encoder-Decoder Architecture]] | [[Sequence-to-Sequence Models]], [[Transformer Architecture]] |
 | [[Pre-training and Fine-tuning]] | [[LoRA and Parameter-Efficient Fine-Tuning]], [[AI-ML/RAG/RAG vs Fine-tuning]] |
 | [[Scaling Laws]] | [[Mixture of Experts]], [[AI-ML/NLP/Quantization for LLMs]] |
 

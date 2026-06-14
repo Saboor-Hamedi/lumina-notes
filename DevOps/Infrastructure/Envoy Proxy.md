@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001101
 ---
+
+**Links**: [[Consul]] | [[API Gateway Patterns]] | [[Nginx Configuration]] | [[Infrastructure as Code]] | [[Terraform]] | [[Ansible]]
+
+
 # Envoy Proxy
 
 Envoy is a high-performance L3/L4/L7 proxy designed for service mesh architectures. It's the default data plane for Istio and can function as API gateway, edge proxy, or sidecar.

@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001008
 ---
+
+**Links**: [[Dev Environment Setup]] | [[Developer Workflow Automation]] | [[Package Managers]] | [[Ansible]] | [[Terraform]] | [[Vagrant]]
+
+
 # Shell Scripting
 
 Shell scripting automates repetitive tasks, pipelines, and system administration. This covers both Bash (Linux/macOS) and PowerShell (Windows).

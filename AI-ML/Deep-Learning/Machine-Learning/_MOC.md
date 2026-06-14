@@ -9,6 +9,8 @@ timestamp: 1781700000013
 
 # 📊 Machine Learning — Map of Content
 
+Machine learning provides the statistical foundations for modern AI systems. This folder covers classical ML (ensembles, clustering, dimensionality reduction), deep learning fundamentals (neural networks, backpropagation), model evaluation, MLOps (experiment tracking, feature stores, model monitoring), and production best practices. Start with [[AI-ML/Deep-Learning/Machine-Learning/Ensemble Methods]] for a practical introduction.
+
 **Parent**: [[AI-ML/Deep-Learning/_MOC|Deep Learning]]
 
 ## Topics

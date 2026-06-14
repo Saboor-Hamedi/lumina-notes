@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001164
 ---
+
+**Links**: [[Consistent Hashing]] | [[Database Sharding]] | [[Database Replication Strategies]] | [[Database Engines Compared]] | [[CRDTs]] | [[SQL vs NoSQL Databases]]
+
+
 # UUID vs Snowflake vs ULID
 
 Different ID generation strategies for distributed systems. The choice affects sortability, index performance, and collaboration.

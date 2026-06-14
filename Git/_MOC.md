@@ -9,6 +9,8 @@ timestamp: 1781700000008
 
 # 📦 Git — Map of Content
 
+Git is a distributed version control system created by Linus Torvalds in 2005. Unlike centralized systems, every clone is a full backup — enabling offline work, lightweight branching, and cryptographic integrity. This folder covers the complete Git landscape from first-time installation to plumbing-level internals, organized by skill progression.
+
 ```mermaid
 graph TD
   GIT["Git"] --> START["Getting Started"]
@@ -74,11 +76,11 @@ graph TD
 
 | Category | Notes |
 |----------|-------|
-| **Getting Started** | [[Git Installation]], [[Git Configuration]], [[Git Init and Clone]] |
+| **Getting Started** | [[Git Overview]], [[Git Installation]], [[Git Configuration]], [[Git Init and Clone]] |
 | **Basic Operations** | [[Git Add and Status]], [[Git Commit]], [[Git Diff]], [[Git Log]], [[Git Clean]] |
 | **Branching & Merging** | [[Git Branch]], [[Git Checkout and Switch]], [[Git Merge]], [[Git Rebase]], [[Git Interactive Rebase]], [[Git Advanced Merging]], [[Git Conflict Resolution]], [[Git Cherry-Pick]] |
 | **Sharing** | [[Git Push]], [[Git Pull and Fetch]], [[Git Remote]], [[Git Pull Requests]], [[Git Tag]], [[Git Submodules]], [[Git Bundles]], [[Git Archive]] |
-| **Advanced** | [[Git Stash]], [[Git Reset]], [[Git Restore]], [[Git Revert]], [[Git Bisect]], [[Git Blame]], [[Git Worktrees]], [[Git Hooks]], [[Git Server Hooks]], [[Git Attributes]], [[Git Ignore]], [[Git LFS]], [[Git GPG]], [[Git Aliases]] |
+| **Advanced** | [[Git Stash]], [[Git Reset]], [[Git Restore]], [[Git Revert]], [[Git Reflog]], [[Git Bisect]], [[Git Blame]], [[Git Worktrees]], [[Git Hooks]], [[Git Server Hooks]], [[Git Attributes]], [[Git Ignore]], [[Git LFS]], [[Git GPG]], [[Git Aliases]] |
 | **Internals** | [[Git Internals I]], [[Git Internals II]], [[Git Internals III]] |
 | **Best Practices** | [[Git Workflows]], [[Git Best Practices]] |
 

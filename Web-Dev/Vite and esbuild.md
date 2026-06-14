@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781500001169
 ---
+
+**Links**: [[Next.js and Modern Web Frameworks]] | [[React]] | [[Vue.js]] | [[Svelte]] | [[Angular]] | [[Web Development Fundamentals]]
+
+
 # Vite and esbuild
 
 Vite is a modern build tool that leverages esbuild for fast development and Rollup for production builds. It provides instant server start and fast HMR.

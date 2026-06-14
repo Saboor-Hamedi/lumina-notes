@@ -9,6 +9,8 @@ timestamp: 1781700000016
 
 # 📊 Monitoring & Observability — Map of Content
 
+Monitoring and observability provide visibility into production systems — metrics, logs, traces, and alerts. This folder covers the O11y stack: Prometheus for metrics collection, Grafana for visualization, OpenTelemetry for distributed tracing, logging best practices, SLOs and error budgets, and incident response with chaos engineering.
+
 **Parent**: [[DevOps/_MOC|DevOps]]
 
 ```mermaid

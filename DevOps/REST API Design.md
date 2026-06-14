@@ -7,6 +7,10 @@ selection: null
 isPinned: false
 timestamp: 1781226370013
 ---
+
+**Links**: [[CI CD Pipelines]] | [[Docker Containers]] | [[Kubernetes Basics]] | [[API Gateway Patterns]] | [[gRPC]]
+
+
 # REST API Design
 
 REST (Representational State Transfer) is an architectural style for designing networked applications. It uses HTTP methods to perform CRUD operations on resources.
