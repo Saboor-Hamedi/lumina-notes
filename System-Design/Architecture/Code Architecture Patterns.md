@@ -54,3 +54,5 @@ class PostgresUserRepository(UserRepository):
 ```
 
 **See also**: [[Software Design Principles]], [[REST API Design]], [[Programming Language Paradigms]], [[Unit Testing Guide]]
+
+**Links**: [[Architecture Patterns]] | [[Blockchain Fundamentals]] | [[CAP Theorem and PACELC]] | [[CDN Architecture]] | [[Computer Architecture and Organization]] | [[Computer Networking]] | [[Concurrency Models]] | [[DNS Deep Dive]] | [[Domain-Driven Design]] | [[Event-Driven Architecture]] | [[Istio Service Mesh]] | [[Memory Management]] | [[Microservices Architecture]] | [[Operating Systems]] | [[Raft Consensus Algorithm]] | [[Saga and Distributed Transactions]] | [[Serverless Computing]] | [[Service Mesh]] | [[System Design Fundamentals]]

@@ -301,3 +301,5 @@ For production agents, fine-tune the LLM on tool-use trajectories to improve:
 **Security Links**: [[Security/LLM Prompt Injection]] | [[Security/API Security]] | [[Security/Identity and Access Management]]
 
 **Related Concepts**: [[System-Design/Architecture/Computer Architecture]] | [[System-Design/Architecture/Operating Systems]] | [[System-Design/Algorithms/_MOC|Algorithms MOC]] | [[Web-Dev/HTTP Protocol]] | [[System-Design/Databases/Database Indexing]] | [[System-Design/Databases/Consistent Hashing]]
+
+**Links**: [[Advanced Prompting Techniques]] | [[Context Window Strategies]] | [[Inference Optimization]] | [[LLM Alignment]] | [[LLM Evaluation and Benchmarks]] | [[LLM Safety and Guardrails]] | [[LLM]] | [[Machine Translation]] | [[Model Quantization]] | [[Named Entity Recognition]] | [[NLP Pipeline Design]] | [[Prompt Engineering]] | [[Quantization for LLMs]] | [[Sentiment Analysis]] | [[Structured Output and Grammar]] | [[Text Classification]] | [[Text Embedding Models]] | [[Tokenization]] | [[Tool Use and Function Calling]]

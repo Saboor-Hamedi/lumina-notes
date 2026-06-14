@@ -189,3 +189,5 @@ test_schedule:
 | No capacity in DR region | Test scaling in DR |
 | Stale runbook | Version control + regular review |
 | No communication plan | Define notification tree |
+
+**Links**: [[Chaos Engineering]] | [[Command Line Productivity]] | [[Distributed Tracing]] | [[Grafana Deep Dive]] | [[Logging Best Practices]] | [[Monitoring and Observability]] | [[OpenTelemetry Deep Dive]] | [[Prometheus and Monitoring Systems]] | [[Service Level Objectives]] | [[Site Reliability Engineering]]

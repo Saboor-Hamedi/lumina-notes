@@ -198,3 +198,5 @@ async def run_with_timeout(saga_id, saga_coro, timeout_seconds=30):
 | Visibility | Harder to trace | Easy (orchestrator state) |
 | Cyclic dependencies | Possible | Avoided |
 | Scale | Large number of services | Fewer services |
+
+**Links**: [[Architecture Patterns]] | [[Blockchain Fundamentals]] | [[CAP Theorem and PACELC]] | [[CDN Architecture]] | [[Code Architecture Patterns]] | [[Computer Architecture and Organization]] | [[Computer Networking]] | [[Concurrency Models]] | [[DNS Deep Dive]] | [[Domain-Driven Design]] | [[Event-Driven Architecture]] | [[Istio Service Mesh]] | [[Memory Management]] | [[Microservices Architecture]] | [[Operating Systems]] | [[Raft Consensus Algorithm]] | [[Serverless Computing]] | [[Service Mesh]] | [[System Design Fundamentals]]

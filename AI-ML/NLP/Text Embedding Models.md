@@ -557,3 +557,5 @@ graph TD
 - [ ] Fine-tune on domain data for >5% accuracy gains
 - [ ] Monitor embedding drift in production
 - [ ] Use Matryoshka embeddings for flexible deployment
+
+**Links**: [[Advanced Prompting Techniques]] | [[Context Window Strategies]] | [[Inference Optimization]] | [[LLM Agents Framework]] | [[LLM Alignment]] | [[LLM Evaluation and Benchmarks]] | [[LLM Safety and Guardrails]] | [[LLM]] | [[Machine Translation]] | [[Model Quantization]] | [[Named Entity Recognition]] | [[NLP Pipeline Design]] | [[Prompt Engineering]] | [[Quantization for LLMs]] | [[Sentiment Analysis]] | [[Structured Output and Grammar]] | [[Text Classification]] | [[Tokenization]] | [[Tool Use and Function Calling]]
