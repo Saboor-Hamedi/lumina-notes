@@ -6,6 +6,8 @@ tags: [index, navigation, map-of-content]
 
 Quick-entry point to every MOC in the vault. Each link opens the Map of Content for that domain.
 
+**First time here?** Start with [[LEARNING_ROADMAP]] — a prioritized reading plan designed for short sessions.
+
 ## AI / ML
 
 | MOC | Description |
