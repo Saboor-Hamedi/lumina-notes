@@ -53,7 +53,7 @@ OOV is what happens when the tokenizer encounters a token it has never seen:
 
 - **Word-level**: Any unseen word becomes `[UNK]` — information is **lost**. The model has no way to guess the meaning. Frequent in morphologically rich languages (Turkish, Finnish) and domains with specialized terminology (medical, legal).
 - **Character-level**: Every character is in the vocab, so **zero OOV**. But the model must learn word boundaries and morphology from scratch — no built-in linguistic priors.
-- **Subword (BPE/WordPiece/Unigram)**: Novel words are decomposed into known subword pieces. "tokenization" with a 50k vocab might become ["token", "ization"] — the model can infer meaning from pieces it already knows. **Rare words get more tokens** but never become UNK.
+																			- **Subword (BPE/WordPiece/Unigram)**: Novel words are decomposed into known subword pieces. "tokenization" with a 50k vocab might become ["token", "ization"] — the model can infer meaning from pieces it already knows. **Rare words get more tokens** but never become UNK.
 - **SentencePiece (bytes)**: Falls back to raw byte-level encoding. Every possible byte sequence is representable — **true zero OOV** even for emoji, Unicode corruption, or arbitrary binary.
 
 ### Language Agnostic
