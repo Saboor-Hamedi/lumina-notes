@@ -8,6 +8,12 @@ Quick-entry point to every MOC in the vault. Each link opens the Map of Content 
 
 **First time here?** Start with [[LEARNING_ROADMAP]] — a prioritized reading plan designed for short sessions.
 
+## AI Engineering
+
+| MOC | Description |
+| --- | --- |
+| [[AI/AI Engineering/_MOC\|AI Engineering]] | Production ML: MLOps, serving, distributed training, optimization, LLM patterns, guardrails, evaluation, infrastructure |
+
 ## AI / ML
 
 | MOC | Description |
