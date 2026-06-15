@@ -74,3 +74,13 @@ A feature store centralizes feature computation, storage, and serving:
 - **Feature flags**: Toggle model behavior without redeploying
 
 **Links**: [[03 Distributed Training]] | [[08 Infrastructure]] | [[07 Evaluation]] | [[DevOps/CI-CD/_MOC]]
+
+## External Resources
+
+- [MLflow Documentation](https://mlflow.org/docs/latest/index.html)
+- [Weights & Biases Docs](https://docs.wandb.ai/)
+- [Feast Feature Store](https://feast.dev/)
+- [Kubeflow Documentation](https://www.kubeflow.org/docs/)
+- [DVC (Data Version Control)](https://dvc.org/)
+- [Great Expectations — Data Validation](https://greatexpectations.io/)
+- [MLOps Zoomcamp (DataTalksClub)](https://github.com/DataTalksClub/mlops-zoomcamp)

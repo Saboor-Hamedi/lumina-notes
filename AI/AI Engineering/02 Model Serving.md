@@ -62,3 +62,15 @@ print(output[0].outputs[0].text)
 | Quantization (FP16→INT4) | 4× | Accuracy impact |
 
 **Links**: [[04 Model Optimization]] | [[05 Production LLM]] | [[08 Infrastructure]] | [[DevOps/Containers/_MOC]]
+
+## External Resources
+
+- [vLLM GitHub](https://github.com/vllm-project/vllm)
+- [TGI (Text Generation Inference)](https://huggingface.co/docs/text-generation-inference/)
+- [Triton Inference Server Docs](https://docs.nvidia.com/deeplearning/triton-inference-server/)
+- [ONNX Runtime](https://onnxruntime.ai/)
+- [TorchServe](https://pytorch.org/serve/)
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+- [NVIDIA NIM](https://build.nvidia.com/)
+- [Flash Attention Paper](https://arxiv.org/abs/2205.14135)
+- [PagedAttention Paper](https://arxiv.org/abs/2309.06180)

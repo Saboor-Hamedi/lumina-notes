@@ -99,3 +99,17 @@ graph LR
 ```
 
 **Links**: [[05 Production LLM]] | [[06 Guardrails & Safety]] | [[01 MLOps]] | [[AI-ML/NLP/LLM/08 Safety, Evaluation & Hallucination]]
+
+## External Resources
+
+- [LMSys Chatbot Arena](https://chat.lmsys.org/)
+- [HELM (Holistic Evaluation)](https://crfm.stanford.edu/helm/latest/)
+- [MMLU Benchmark](https://github.com/hendrycks/test)
+- [HumanEval](https://github.com/openai/human-eval)
+- [LangChain LangSmith](https://smith.langchain.com/)
+- [DeepEval](https://github.com/confident-ai/deepeval)
+- [EleutherAI LM Eval Harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- [RAGAS](https://docs.ragas.io/)
+- [SelfCheckGPT — Hallucination Detection](https://github.com/potsawee/selfcheckgpt)
+- [Evaluating LLMs Survey](https://arxiv.org/abs/2310.19341)
+- [Anthropic Evaluation Guidelines](https://docs.anthropic.com/en/docs/build-with-claude/evaluations)

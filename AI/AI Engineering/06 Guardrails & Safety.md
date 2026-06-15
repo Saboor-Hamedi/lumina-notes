@@ -116,3 +116,15 @@ Systematic testing to find vulnerabilities before deployment:
 | **Adversarial attacks** | Gradient-based, token-flipping, embedding-space attacks |
 
 **Links**: [[Security/_MOC]] | [[05 Production LLM]] | [[07 Evaluation]] | [[AI-ML/NLP/LLM Safety and Guardrails]]
+
+## External Resources
+
+- [NeMo Guardrails GitHub](https://github.com/NVIDIA/NeMo-Guardrails)
+- [Guardrails AI](https://www.guardrailsai.com/)
+- [Lakera Guard](https://www.lakera.ai/)
+- [Rebuff — Prompt Injection Detector](https://github.com/protectai/rebuff)
+- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [Microsoft Presidio (PII)](https://github.com/microsoft/presidio)
+- [Garak — LLM Vulnerability Scanner](https://github.com/NVIDIA/garak)
+- [The Prompt Report](https://arxiv.org/abs/2406.06608)
+- [Anthropic Red-Teaming Guide](https://www.anthropic.com/red-teaming)

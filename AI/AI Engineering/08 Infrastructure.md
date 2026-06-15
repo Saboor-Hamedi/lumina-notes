@@ -138,3 +138,16 @@ class LLMDeployment:
 | **Right-sizing** | 20-40% | Overprovisioned GPU = wasted $ |
 
 **Links**: [[DevOps/Containers/_MOC]] | [[DevOps/Infrastructure/_MOC]] | [[02 Model Serving]] | [[03 Distributed Training]]
+
+## External Resources
+
+- [NVIDIA H100 Datasheet](https://www.nvidia.com/en-us/data-center/h100/)
+- [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)
+- [Ray Documentation](https://docs.ray.io/en/latest/)
+- [Kubernetes — Run ML on GPUs](https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/)
+- [Volcano — ML Batch Scheduling](https://volcano.sh/en/)
+- [Lambda Labs GPU Cloud](https://lambdalabs.com/service/gpu-cloud)
+- [CoreWeave](https://www.coreweave.com/)
+- [MIG (Multi-Instance GPU) Guide](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/)
+- [Cloud TPU Docs](https://cloud.google.com/tpu/docs)
+- [Kueue — Job Queueing](https://kueue.sigs.k8s.io/)

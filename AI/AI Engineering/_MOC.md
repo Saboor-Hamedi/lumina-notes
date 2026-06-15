@@ -31,3 +31,11 @@ AI Engineering bridges model development and production deployment. It covers th
 1. **Start**: Pick your gap — serving (if you have models but can't ship), training (if you can't scale), or eval (if you can't measure)
 2. **Build**: Each note is self-contained. Read in any order.
 3. **Connect**: Follow cross-links to relate AI Engineering to your existing DevOps and System Design knowledge
+
+## External Resources
+
+- [MLOps.org — Guides & Patterns](https://ml-ops.org/)
+- [Made With ML — MLOps Resources](https://madewithml.com/)
+- [Chip Huyen's ML Engineering Book](https://github.com/chiphuyen/mlops-book)
+- [Full Stack Deep Learning — Course](https://fullstackdeeplearning.com/)
+- [Stanford MLSys Seminar](https://mlsys.stanford.edu/)

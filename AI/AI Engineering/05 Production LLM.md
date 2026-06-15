@@ -94,3 +94,15 @@ result = generator("Patient presents with fever and cough")
 | **Chain cache** | Intermediate results | Computed values | Medium (repeated sub-queries) |
 
 **Links**: [[AI-ML/RAG/_MOC]] | [[02 Model Serving]] | [[06 Guardrails & Safety]] | [[04 Model Optimization]]
+
+## External Resources
+
+- [LangSmith](https://smith.langchain.com/)
+- [LLM Caching with GPTCache](https://github.com/zilliztech/GPTCache)
+- [Redis — Semantic Cache](https://redis.io/solutions/vector-search/)
+- [Outlines — Structured Generation](https://github.com/outlines-dev/outlines)
+- [RAGAS — RAG Evaluation](https://docs.ragas.io/)
+- [LangChain Prompt Management](https://python.langchain.com/docs/modules/model_io/prompts/)
+- [Context Window Strategies (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/context-windows)
+- [RAG Survey Paper](https://arxiv.org/abs/2312.10997)
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)

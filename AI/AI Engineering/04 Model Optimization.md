@@ -84,3 +84,16 @@ Large model (e.g., 70B): verifies all 5 in one forward pass
 | **TensorRT-LLM** | LLM-specific TensorRT | In-flight batching, paged KV cache, quantization plugins |
 
 **Links**: [[02 Model Serving]] | [[03 Distributed Training]] | [[05 Production LLM]] | [[AI-ML/NLP/Inference Optimization]]
+
+## External Resources
+
+- [GPTQ Paper](https://arxiv.org/abs/2210.17323)
+- [AWQ Paper](https://arxiv.org/abs/2306.00978)
+- [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ)
+- [AutoAWQ](https://github.com/casper-hansen/AutoAWQ)
+- [BitsAndBytes](https://github.com/TimDettmers/bitsandbytes)
+- [SmoothQuant Paper (KV Cache)](https://arxiv.org/abs/2211.10438)
+- [Speculative Decoding Paper](https://arxiv.org/abs/2211.17192)
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+- [ONNX Model Zoo](https://github.com/onnx/models)
+- [LLM Quantization Survey (Medium)](https://medium.com/@jonathanyeh_95698/llm-quantization-a-comprehensive-guide-6f3b8a6e0a7f)

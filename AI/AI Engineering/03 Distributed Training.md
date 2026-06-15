@@ -106,3 +106,15 @@ model = FSDP(
 | **Weights & Biases Sweeps** | Bayesian, grid, random | Easy setup, visualization |
 
 **Links**: [[04 Model Optimization]] | [[02 Model Serving]] | [[08 Infrastructure]] | [[01 MLOps]]
+
+## External Resources
+
+- [PyTorch DDP Tutorial](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
+- [PyTorch FSDP Docs](https://pytorch.org/docs/stable/fsdp.html)
+- [DeepSpeed GitHub](https://github.com/microsoft/DeepSpeed)
+- [DeepSpeed ZeRO Paper](https://arxiv.org/abs/1910.02054)
+- [Megatron-LM (Tensor/Pipeline Parallelism)](https://github.com/NVIDIA/Megatron-LM)
+- [The Efficient Large Model Training Bible](https://github.com/mosaicml/llm-foundry)
+- [Mixed Precision Training Paper](https://arxiv.org/abs/1710.03740)
+- [Optuna](https://optuna.org/)
+- [Ray Tune](https://docs.ray.io/en/latest/tune/)
