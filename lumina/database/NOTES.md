@@ -7,8 +7,7 @@ selection: null
 isPinned: false
 timestamp: 1781790335026
 ---
-# Teaching Notes
----
+# Teaching Notes: Database
 
 ## User Preferences (captured 2026-06-18)
 

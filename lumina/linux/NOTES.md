@@ -7,4 +7,4 @@
 - Running Windows — needs WSL, Docker, or VM setup guidance
 - Self-paced, basic → advanced progression
 - Hands-on exercises > theory
-- Has existing /database workspace for PostgreSQL — this is a separate track
+- Has existing `database/` workspace for PostgreSQL — this is a separate track

@@ -116,7 +116,7 @@ INSERT INTO orders (user_id, amount, status, created_at)
 EXPLAIN ANALYZE SELECT * FROM users WHERE name = 'User 5000';
 ```
 
-You should see a `Seq Scan`. Note the `actual time` vs `rows`. Now add an index and see the difference:
+You should see a `Seq Scan`. Note the `actual rows` vs `estimated rows` — how far apart are they? Now add an index and see the difference:
 
 ```sql
 CREATE INDEX idx_users_name ON users (name);
@@ -176,7 +176,7 @@ SELECT
   shared_blks_read
 FROM pg_stat_statements
 ORDER BY total_exec_time DESC
-LIMIT 5;
+LIMIT 10;
 ```
 
 > [!NOTE] Requires `CREATE EXTENSION pg_stat_statements;` — see [Explain Output Reference](../reference/0001-explain-output-reference.md) for the full query.
