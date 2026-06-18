@@ -221,6 +221,7 @@ Prints the current working directory — tells you where you are in the filesyst
 2. Spend 5 minutes exploring `/`, `/etc`, `/var/log`, and `/tmp`
 3. Read `man` pages for `ls`, `cd`, `pwd` — just browse them
 4. When comfortable, move to [Lesson 2: Working with Files & Permissions](0002-files-and-permissions.md)
+5. Then continue through: [Lesson 3](0003-pipes-redirection.md) → [Lesson 4](0004-processes-and-monitoring.md) → [Lesson 5](0005-networking-essentials.md)
 
 > [!NOTE] Ask followup questions!
 > Got stuck setting up WSL? Confused about something in the filesystem? Ask your teacher anytime.
