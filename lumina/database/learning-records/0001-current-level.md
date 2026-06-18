@@ -1,3 +1,12 @@
+---
+id: 0001-current-level
+title: 0001-current-level
+language: markdown
+tags: ''
+selection: null
+isPinned: false
+timestamp: 1781791843461.963
+---
 # Current PostgreSQL Level: Intermediate
 
 Established at session start (2026-06-18). User has intermediate PostgreSQL knowledge:
