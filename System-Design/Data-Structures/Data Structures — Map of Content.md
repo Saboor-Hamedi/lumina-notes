@@ -2,9 +2,13 @@
 id: moc-ds-0000-0000-0000-000000000021
 title: Data Structures — Map of Content
 language: markdown
-tags: [moc, index, data-structures]
+tags:
+  - moc
+  - index
+  - data-structures
+selection: null
 isPinned: true
-timestamp: 1781700000021
+timestamp: 1781533564394
 ---
 
 # 📦 Data Structures — Map of Content

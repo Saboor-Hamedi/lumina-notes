@@ -1,5 +1,14 @@
 ---
-tags: [index, navigation, map-of-content]
+id: INDEX
+title: INDEX
+language: markdown
+tags:
+  - index
+  - navigation
+  - map-of-content
+selection: null
+isPinned: false
+timestamp: 1781510415029
 ---
 
 # INDEX — Domain Map
@@ -7,12 +16,6 @@ tags: [index, navigation, map-of-content]
 Quick-entry point to every MOC in the vault. Each link opens the Map of Content for that domain.
 
 **First time here?** Start with [[LEARNING_ROADMAP]] — a prioritized reading plan designed for short sessions.
-
-## AI Engineering
-
-| MOC | Description |
-| --- | --- |
-| [[AI/AI Engineering/_MOC\|AI Engineering]] | Production ML: MLOps, serving, distributed training, optimization, LLM patterns, guardrails, evaluation, infrastructure |
 
 ## AI / ML
 

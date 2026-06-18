@@ -2,9 +2,14 @@
 id: new-ai-025-0000-0000-0000-000000000025
 title: LLMOps and AI Observability
 language: markdown
-tags: [mlops, monitoring, devops, llm]
+tags:
+  - mlops
+  - monitoring
+  - devops
+  - llm
+selection: null
 isPinned: false
-timestamp: 1781900000025
+timestamp: 1781767592094
 ---
 
 # LLMOps and AI Observability
@@ -18,6 +23,8 @@ timestamp: 1781900000025
 LLMOps extends MLOps to the unique challenges of LLMs: prompt management, token cost tracking, output quality monitoring, and safety evaluation.
 
 ## LLM-Specific Monitoring
+
+
 
 ### Quality Metrics
 
@@ -66,6 +73,7 @@ def detect_prompt_drift(recent_prompts, reference_embeddings, threshold=0.1):
     drift = cosine_distance(recent_embeddings.mean(0), reference_embeddings.mean(0))
     alert(drift > threshold, f"Prompt drift detected: {drift:.3f}")
 ```
+
 
 ## Tracing LLM Calls
 

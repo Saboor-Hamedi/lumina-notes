@@ -2,9 +2,13 @@
 id: moc-db-0000-0000-0000-000000000019
 title: Databases — Map of Content
 language: markdown
-tags: [moc, index, databases]
+tags:
+  - moc
+  - index
+  - databases
+selection: null
 isPinned: true
-timestamp: 1781700000019
+timestamp: 1781762054227
 ---
 
 # 🗄️ Databases — Map of Content

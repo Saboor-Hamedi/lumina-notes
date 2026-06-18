@@ -2,9 +2,13 @@
 id: new-web-032-0000-0000-0000-000000000032
 title: Progressive Web Apps (PWAs)
 language: markdown
-tags: [web-dev, frontend, mobile]
+tags:
+  - web-dev
+  - frontend
+  - mobile
+selection: null
 isPinned: false
-timestamp: 1781900000032
+timestamp: 1781769201734
 ---
 
 # Progressive Web Apps (PWAs)
@@ -27,6 +31,7 @@ Progressive Web Apps combine the reach of the web with the capabilities of nativ
 | **Responsive** | Works on any screen size | CSS media queries |
 
 ## Service Worker Lifecycle
+
 
 ```
 Registered → Installing → Installed → Activating → Activated

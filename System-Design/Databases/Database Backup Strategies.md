@@ -2,10 +2,14 @@
 id: dev-058-0000-0000-0000-000000000043
 title: Database Backup Strategies
 language: markdown
-tags: [system-design, databases, backup, disaster-recovery]
+tags:
+  - system-design
+  - databases
+  - backup
+  - disaster-recovery
 selection: null
 isPinned: false
-timestamp: 1781800000021
+timestamp: 1781794339539
 ---
 # Database Backup Strategies
 

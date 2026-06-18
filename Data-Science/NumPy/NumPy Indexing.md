@@ -2,10 +2,14 @@
 id: ds-np-0002-0000-0000-000000000002
 title: NumPy Indexing
 language: markdown
-tags: [numpy, indexing, slicing, boolean]
+tags:
+  - numpy
+  - indexing
+  - slicing
+  - boolean
 selection: null
 isPinned: false
-timestamp: 1781700000602
+timestamp: 1781769373076
 ---
 # NumPy Indexing
 

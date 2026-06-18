@@ -2,9 +2,14 @@
 id: moc-prog-0000-0000-0000-000000000001
 title: Programming Languages — Map of Content
 language: markdown
-tags: [moc, index, programming, languages]
+tags:
+  - moc
+  - index
+  - programming
+  - languages
+selection: null
 isPinned: true
-timestamp: 1781700000800
+timestamp: 1781497186747
 ---
 
 # 💻 Programming Languages — Map of Content

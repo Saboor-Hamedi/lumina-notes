@@ -2,9 +2,13 @@
 id: new-ai-022-0000-0000-0000-000000000022
 title: RLHF and Preference Optimization
 language: markdown
-tags: [deep-learning, nlp, alignment]
+tags:
+  - deep-learning
+  - nlp
+  - alignment
+selection: null
 isPinned: false
-timestamp: 1781900000022
+timestamp: 1781796134931
 ---
 
 # RLHF and Preference Optimization

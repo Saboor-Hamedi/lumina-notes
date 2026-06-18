@@ -2,10 +2,15 @@
 id: a1b2c3d4-1159-4000-8000-000000000159
 title: Docker Networking and Storage
 language: markdown
-tags: [devops, containers, docker, networking, storage]
+tags:
+  - devops
+  - containers
+  - docker
+  - networking
+  - storage
 selection: null
 isPinned: false
-timestamp: 1781500001159
+timestamp: 1781795932453
 ---
 # Docker Networking and Storage
 

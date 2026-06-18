@@ -2,10 +2,14 @@
 id: a1b2c3d4-1116-4000-8000-000000000116
 title: LoRA and Parameter-Efficient Fine-Tuning
 language: markdown
-tags: [ai-ml, deep-learning, peft, fine-tuning]
+tags:
+  - ai-ml
+  - deep-learning
+  - peft
+  - fine-tuning
 selection: null
 isPinned: false
-timestamp: 1781500001116
+timestamp: 1781795658458
 ---
 # LoRA and Parameter-Efficient Fine-Tuning
 

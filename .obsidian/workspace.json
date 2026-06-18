@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-ML/NLP/Tokenization.md",
+                "file": "Git/Blame.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tokenization"
+              "title": "Blame"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 338.5
   },
   "right": {
     "id": "15f9bec1d7a784c8",
@@ -186,26 +185,6 @@
   },
   "active": "37205db06cb887aa",
   "lastOpenFiles": [
-    "AI/_MOC.md",
-    "AI/AI Engineering/08 Infrastructure.md",
-    "AI/AI Engineering/07 Evaluation.md",
-    "AI/AI Engineering/06 Guardrails & Safety.md",
-    "AI/AI Engineering/05 Production LLM.md",
-    "AI/AI Engineering/04 Model Optimization.md",
-    "AI/AI Engineering/03 Distributed Training.md",
-    "AI/AI Engineering/02 Model Serving.md",
-    "AI/AI Engineering/01 MLOps.md",
-    "AI/AI Engineering/_MOC.md",
-    "AI/AI Engineering",
-    "AI",
-    "LEARNING_ROADMAP.md",
-    "AI-ML/NLP/Tokenization.md",
-    "Data-Science/Pandas/01 Basics.md",
-    "System-Design/Databases/Database Views.md",
-    "Data-Science/Visualization/Matplotlib.md",
-    "Data-Science/Visualization/_MOC.md",
-    "Data-Science/Pandas/_MOC.md",
-    "Git/Blame.md",
     "Git/Add and Status.md",
     "Git/Log.md",
     "Git/Commit.md",
@@ -214,6 +193,24 @@
     "Git/Worktrees.md",
     "Git/Workflows.md",
     "Git/Tag.md",
+    "Git/Submodules.md",
+    "Git/Stash.md",
+    "Git/Server Hooks.md",
+    "Git/Revert.md",
+    "Git/Restore.md",
+    "Git/Reset.md",
+    "Git/Remote.md",
+    "Git/Reflog.md",
+    "Git/Rebase.md",
+    "Git/Push.md",
+    "Git/Pull Requests.md",
+    "Git/Pull and Fetch.md",
+    "Git/Overview.md",
+    "Git/Merge.md",
+    "Git/LFS.md",
+    "Git/Internals III.md",
+    "Git/Internals II.md",
+    "Git/Internals I.md",
     "Software-Engineering/GoF Design Patterns",
     "Software-Engineering/Error Handling Patterns",
     "AI-ML/NLP/Advanced Prompting Techniques",
@@ -222,6 +219,8 @@
     "Web-Dev/Programming/R for Data Science",
     "Web-Dev/Programming/scikit-learn",
     "_fix_tags.ps1",
+    "Data-Science/Visualization",
+    "Data-Science/NumPy",
     "banner.png",
     "Untitled.canvas",
     "Learning Canvas.canvas",

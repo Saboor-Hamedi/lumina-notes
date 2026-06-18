@@ -2,10 +2,13 @@
 id: a1b2c3d4-1103-4000-8000-000000000103
 title: Vault and Secret Management
 language: markdown
-tags: [security, vault, secrets]
+tags:
+  - security
+  - vault
+  - secrets
 selection: null
 isPinned: false
-timestamp: 1781500001103
+timestamp: 1781497186381
 ---
 
 **Links**: [[Kubernetes Security]] | [[API Security]] | [[Zero Trust Architecture]] | [[Cryptography Basics]] | [[TLS 1.3 Deep Dive]] | [[Threat Modeling]]

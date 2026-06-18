@@ -2,10 +2,14 @@
 id: ds-np-0007-0000-0000-000000000007
 title: NumPy Performance
 language: markdown
-tags: [numpy, performance, strides, memory-layout]
+tags:
+  - numpy
+  - performance
+  - strides
+  - memory-layout
 selection: null
 isPinned: false
-timestamp: 1781700000607
+timestamp: 1781701112759
 ---
 # NumPy Performance
 

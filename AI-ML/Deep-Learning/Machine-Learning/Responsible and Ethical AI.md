@@ -2,14 +2,22 @@
 id: a1b2c3d4-1075-4000-8000-000000000075
 title: Responsible and Ethical AI
 language: markdown
-tags: [ai-ml, machine-learning, responsible-ai, ethics, fairness]
+tags:
+  - ai-ml
+  - machine-learning
+  - responsible-ai
+  - ethics
+  - fairness
 selection: null
 isPinned: false
-timestamp: 1781500001075
+timestamp: 1781761193941
 ---
 # Responsible and Ethical AI
 
 Responsible AI ensures ML systems are fair, transparent, accountable, and respect human rights throughout their lifecycle.
+
+
+---
 
 ## Core Principles
 
@@ -25,12 +33,13 @@ Responsible AI ensures ML systems are fair, transparent, accountable, and respec
 ## Types of Bias
 
 | Bias Type | Description | Example |
-|-----------|-------------|---------|
+| --- | --- | --- |
 | Data bias | Training data doesn't represent population | Facial recognition fails on dark skin |
-| Label bias | Annotator subjectivity | Sentiment analysis marks AAVE as negative |
+| Label bias | Annotator subjectivity | Sentiment analysis marks AAVE |
 | Algorithmic bias | Model amplifies existing patterns | Hiring model penalizes women |
 | Deployment bias | Different populations get different service | Credit scoring varies by zip code |
 | Measurement bias | Features don't capture the true construct | GPA as proxy for job performance |
+
 
 ## Fairness Definitions
 
@@ -40,6 +49,8 @@ Responsible AI ensures ML systems are fair, transparent, accountable, and respec
 | Equal opportunity | Equal true positive rate across groups |
 | Equalized odds | Equal TPR + equal FPR across groups |
 | Individual fairness | Similar individuals get similar predictions |
+
+---
 
 ```python
 # Check demographic parity
@@ -96,7 +107,7 @@ shap.force_plot(explainer.expected_value, shap_values[0], X_test.iloc[0])
 ## Regulatory Landscape
 
 | Regulation | Scope | Key Requirements |
-|-----------|-------|-----------------|
+| --- | --- | --- |
 | EU AI Act | Risk-based regulation | High-risk systems need conformity assessment |
 | GDPR | Data privacy | Right to explanation, data minimization |
 | CCPA | California consumer privacy | Opt-out of data sale |
@@ -106,9 +117,9 @@ shap.force_plot(explainer.expected_value, shap_values[0], X_test.iloc[0])
 
 Before deploying an ML system:
 
-- [ ] Was training data audited for bias?
-- [ ] Can decisions be explained to affected users?
-- [ ] Is there a human review process for high-stakes decisions?
+- [x] Was training data audited for bias?
+- [x] Can decisions be explained to affected users?
+- [x] Is there a human review process for high-stakes decisions?
 - [ ] Are model cards or documentation published?
 - [ ] Is performance monitored for drift across population subgroups?
 - [ ] Has a fairness-utility tradeoff analysis been done?
