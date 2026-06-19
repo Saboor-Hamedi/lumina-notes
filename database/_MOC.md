@@ -8,6 +8,8 @@ Hands-on lessons for PostgreSQL mastery. Start with Lesson 1 if you're new, or j
 | [[database/lessons/0002-indexing-strategies\|02 — Indexing Strategies]] | B-tree, GiST, GIN, BRIN, partial, covering | 25 min |
 | [[database/lessons/0003-mvcc-internals\|03 — MVCC Internals]] | xmin/xmax, snapshots, isolation levels | 25 min |
 | [[database/lessons/0004-vacuum-and-bloat\|04 — VACUUM & Bloat]] | Dead tuples, autovacuum tuning, wraparound | 25 min |
+| [[database/lessons/0005-replication-and-ha\|05 — Replication & HA]] | Streaming replication, failover, logical replication | 25 min |
+| [[database/lessons/0006-backup-and-pitr\|06 — Backup & PITR]] | pg_dump, pg_basebackup, WAL archiving, point-in-time recovery | 25 min |
 
 ## Reference
 

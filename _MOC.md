@@ -375,6 +375,14 @@ mindmap
         Networking_Essentials
         Shell_Scripting
         Package_Management
+    Docker
+      Running_Containers
+    Git_Deep
+      Objects_and_Data_Model
+    Python
+      Basics_and_First_Script
+    Networking
+      URL_to_Browser
 ```
 
 ---
@@ -425,6 +433,10 @@ graph LR
   subgraph TCH["🗄️ Teaching"]
     DB_T["PostgreSQL"]
     LX_T["Linux CLI"]
+    DK_T["Docker"]
+    GT_T["Git"]
+    PY_T["Python"]
+    NW_T["Networking"]
   end
 
   DL --> NLP
@@ -456,6 +468,12 @@ graph LR
   DB_T --> ARCH
   LX_T --> INF
   LX_T --> CICD
+  DK_T --> CICD
+  DK_T --> CT
+  GT_T --> GIT_N
+  PY_T --> SE_N
+  NW_T --> ARCH
+  NW_T --> WEB_N
 ```
 
 ---
@@ -474,6 +492,10 @@ graph LR
 | [[Git/_MOC\|📦 Git]]                                   | All things Git                                | ~45 notes |
 | [[database/_MOC\|🗄️ Database Teaching]]                 | PostgreSQL: query plans, indexing, MVCC       | ~7 notes  |
 | [[linux/_MOC\|🐧 Linux Teaching]]                       | CLI from basics to shell scripting            | ~12 notes |
+| [[docker/_MOC\|🐳 Docker Teaching]]                     | Containers, images, Dockerfiles                | ~1 note   |
+| [[git/_MOC\|📦 Git Deep Teaching]]                      | Internals, branching, rebase, workflows        | ~1 note   |
+| [[python/_MOC\|🐍 Python Teaching]]                     | Scripting, automation, fundamentals            | ~1 note   |
+| [[networking/_MOC\|🌐 Networking Teaching]]              | HTTP, DNS, TCP/IP, how the internet works     | ~1 note   |
 
 ---
 

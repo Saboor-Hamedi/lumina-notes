@@ -9,7 +9,8 @@ tags:
   - nlp
 selection: null
 isPinned: false
-timestamp: 1781777997050
+customIcon: null
+timestamp: 1781840990290
 ---
 # CNNs for NLP
 
@@ -74,17 +75,18 @@ class TextCNN(nn.Module):
 
 ## Filter Sizes
 
-| Filter Size | Captures | Analogy |
-|-------------|----------|---------|
-| 2 | Bigrams | "not good" |
-| 3 | Trigrams | "was not good" |
-| 4 | 4-grams | "was not very good" |
-| 5 | 5-grams | "This was not very good" |
+| Filter Size | Captures |
+| --- | --- |
+| 2 | Bigrams |
+| 3 | Trigrams |
+| 4 | 4-grams |
+| 5 | 5-grams |
+
 
 ## Pros and Cons
 
 | Pros | Cons |
-|------|------|
+| --- | --- |
 | Very fast to train | Fixed context window (limited long-range) |
 | Good at detecting key phrases | No sequential order beyond window |
 | Few parameters | Position-invariant (loses word order nuance) |

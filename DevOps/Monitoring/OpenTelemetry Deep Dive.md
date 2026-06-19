@@ -9,7 +9,8 @@ tags:
   - observability
 selection: null
 isPinned: false
-timestamp: 1781830690820
+customIcon: LucideTelescope
+timestamp: 1781838295758
 ---
 # OpenTelemetry Deep Dive
 
@@ -38,7 +39,7 @@ Application
 ## Signals
 
 | Signal | Description | Temporal | Example |
-|--------|-------------|----------|---------|
+| --- | --- | --- | --- |
 | Traces | Request flow across services | Spans in time | "HTTP GET /api/orders" |
 | Metrics | Aggregated measurements | Points in time | request_count, latency_p99 |
 | Logs | Discrete events with timestamp | Events | "Failed to connect to DB" |

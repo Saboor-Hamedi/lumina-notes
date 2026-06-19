@@ -5,6 +5,7 @@ language: markdown
 tags: ''
 selection: null
 isPinned: false
+customIcon: null
 timestamp: 1781510397627
 ---
 # --- Sensitive Configuration ---

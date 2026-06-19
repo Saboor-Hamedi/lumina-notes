@@ -2,10 +2,16 @@
 id: ds-pd-0010-0000-0000-000000000010
 title: Pandas Advanced
 language: markdown
-tags: [pandas, memory, performance, chunking, polars]
+tags:
+  - pandas
+  - memory
+  - performance
+  - chunking
+  - polars
 selection: null
 isPinned: false
-timestamp: 1781700000510
+customIcon: null
+timestamp: 1781840361329
 ---
 # Pandas Advanced: Performance and Optimization
 

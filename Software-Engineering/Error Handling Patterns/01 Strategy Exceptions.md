@@ -1,5 +1,15 @@
 ---
-tags: [error-handling, exceptions, strategy]
+id: 01 Strategy & Exceptions
+title: 01 Strategy Exceptions
+language: markdown
+tags:
+  - error-handling
+  - exceptions
+  - strategy
+selection: null
+isPinned: false
+customIcon: null
+timestamp: 1781839029031
 ---
 
 # 01 — Strategy & Exceptions

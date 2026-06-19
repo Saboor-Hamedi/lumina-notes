@@ -8,6 +8,7 @@ tags:
   - active-learning
 selection: null
 isPinned: false
+customIcon: Airplay
 timestamp: 1781533158678
 ---
 # Active Learning
