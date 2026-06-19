@@ -489,11 +489,10 @@ graph LR
 | [[Security/_MOC\|🔒 Security]]                         | Auth, Crypto, Network Security                | ~15 notes |
 | [[Testing/_MOC\|🧪 Testing]]                           | Pyramids, Types, Methodologies                | ~11 notes |
 | [[Web-Dev/_MOC\|🌐 Web Development]]                   | Frameworks, APIs, Protocols                   | ~31 notes |
-| [[Git/_MOC\|📦 Git]]                                   | All things Git                                | ~45 notes |
+| [[Git/_MOC\|📦 Git]]                                   | Reference notes + hands-on lessons             | ~46 notes |
 | [[database/_MOC\|🗄️ Database Teaching]]                 | PostgreSQL: query plans, indexing, MVCC       | ~7 notes  |
 | [[linux/_MOC\|🐧 Linux Teaching]]                       | CLI from basics to shell scripting            | ~12 notes |
 | [[docker/_MOC\|🐳 Docker Teaching]]                     | Containers, images, Dockerfiles                | ~1 note   |
-| [[git/_MOC\|📦 Git Deep Teaching]]                      | Internals, branching, rebase, workflows        | ~1 note   |
 | [[python/_MOC\|🐍 Python Teaching]]                     | Scripting, automation, fundamentals            | ~1 note   |
 | [[networking/_MOC\|🌐 Networking Teaching]]              | HTTP, DNS, TCP/IP, how the internet works     | ~1 note   |
 
