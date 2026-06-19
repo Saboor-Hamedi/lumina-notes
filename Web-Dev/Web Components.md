@@ -2,10 +2,13 @@
 id: a1b2c3d4-1132-4000-8000-000000000132
 title: Web Components
 language: markdown
-tags: [web-dev, web-components, frontend]
+tags:
+  - web-dev
+  - web-components
+  - frontend
 selection: null
 isPinned: false
-timestamp: 1781500001132
+timestamp: 1781832136825
 ---
 
 **Links**: [[Micro-Frontends]] | [[Web Development Fundamentals]] | [[React]] | [[Angular]] | [[Vue.js]] | [[Web Accessibility]]

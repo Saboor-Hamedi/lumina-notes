@@ -204,7 +204,7 @@ If `ping google.com` fails but `ping 8.8.8.8` works, you have a DNS problem. If 
 - Try `curl` against a public API (e.g., `curl -s https://api.github.com/users/octocat`)
 - Check what ports are open on your own machine
 - Practice `scp` by copying a file between two directories (simulating remote)
-- Move to Lesson 6: Shell Scripting Basics (coming next)
+- Move to [Lesson 6: Shell Scripting](0006-shell-scripting.md)
 
 > [!NOTE] Ask followup questions!
 > Can't connect somewhere? Getting weird DNS results? Ask your teacher.

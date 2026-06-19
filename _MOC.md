@@ -361,6 +361,20 @@ mindmap
       Git_Internals_II
       Git_Internals_III
       Git_Best_Practices
+    Teaching
+      PostgreSQL_Mastery
+        Query_Plans
+        Indexing_Strategies
+        MVCC_Internals
+        VACUUM_and_Bloat
+      Linux_CLI
+        Shell_and_Filesystem
+        Files_and_Permissions
+        Pipes_and_Redirection
+        Processes_and_Monitoring
+        Networking_Essentials
+        Shell_Scripting
+        Package_Management
 ```
 
 ---
@@ -408,6 +422,11 @@ graph LR
     GIT_N["Git Topics"]
   end
 
+  subgraph TCH["🗄️ Teaching"]
+    DB_T["PostgreSQL"]
+    LX_T["Linux CLI"]
+  end
+
   DL --> NLP
   DL --> ML
   NLP --> RAG
@@ -433,6 +452,10 @@ graph LR
   NLP --> SEC_N
   RAG --> DB
   RAG --> WEB_N
+  DB_T --> DB
+  DB_T --> ARCH
+  LX_T --> INF
+  LX_T --> CICD
 ```
 
 ---
@@ -449,6 +472,8 @@ graph LR
 | [[Testing/_MOC\|🧪 Testing]]                           | Pyramids, Types, Methodologies                | ~11 notes |
 | [[Web-Dev/_MOC\|🌐 Web Development]]                   | Frameworks, APIs, Protocols                   | ~31 notes |
 | [[Git/_MOC\|📦 Git]]                                   | All things Git                                | ~45 notes |
+| [[database/_MOC\|🗄️ Database Teaching]]                 | PostgreSQL: query plans, indexing, MVCC       | ~7 notes  |
+| [[linux/_MOC\|🐧 Linux Teaching]]                       | CLI from basics to shell scripting            | ~12 notes |
 
 ---
 

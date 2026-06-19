@@ -9,9 +9,10 @@ tags:
   - disaster-recovery
 selection: null
 isPinned: false
-timestamp: 1781794339539
+timestamp: 1781825330377
 ---
 # Database Backup Strategies
+
 
 **Links**: [[PostgreSQL Features]] | [[Database Security]] | [[Cloud Computing]] | [[Infrastructure as Code]] | [[Disaster Recovery]]
 
