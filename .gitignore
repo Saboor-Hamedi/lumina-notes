@@ -33,6 +33,9 @@ __pycache__/
 *.tmp
 temp/
 
+# Lumina viewer auto-generated assets
+.lumina/assets/
+
 # Personal scratch / external refs
 lumina.md
 Sakila-schema.md
