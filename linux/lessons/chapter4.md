@@ -1,6 +1,6 @@
-# Lesson 4: Processes & System Monitoring
+# Chapter 4: Processes & System Monitoring
 
-**Lesson 4** · ~25 min · Hands-on
+**Chapter 4** · ~25 min · Hands-on
 
 > [!NOTE] Mission tie-in
 > When a server goes slow, something is eating CPU, memory, or disk. DevOps means knowing how to find what's wrong, kill what's broken, and monitor what matters. This lesson gives you those skills.
@@ -211,11 +211,11 @@ The system is about 62% utilized (5.0 ÷ 8 cores). Not critical, but worth monit
 
 - Run `top` for a few minutes on your system and watch how processes behave
 - Try `nohup` with a test script
-- Move to [Lesson 5: Networking Essentials](0005-networking-essentials.md)
+- Move to [Chapter 5: Networking Essentials](chapter5.md)
 
 > [!NOTE] Ask followup questions!
 > Not sure what a process is doing? Server running slow? Ask your teacher.
 
 ---
 
-*Reference: [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md)*
+*Reference: [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md)*

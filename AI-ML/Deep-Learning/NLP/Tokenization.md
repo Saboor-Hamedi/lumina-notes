@@ -2,14 +2,19 @@
 id: nlp-011-0000-0000-0000-000000000019
 title: Tokenization
 language: markdown
-tags: [ai-ml, nlp, tokenization]
+tags:
+  - ai-ml
+  - nlp
+  - tokenization
 selection: null
 isPinned: false
-timestamp: 1781700000019
+customIcon: null
+timestamp: 1781941041117
 ---
 # Tokenization
 
 ## What is Tokenization?
+
 
 Tokenization splits text into smaller units (tokens) that a model can process. It is the first step in any NLP pipeline — the quality of tokenization directly impacts vocabulary size, out-of-vocabulary (OOV) handling, and downstream task performance.
 
@@ -39,13 +44,14 @@ graph LR
 The vocabulary is the set of all tokens the model knows. Size is a fundamental tradeoff:
 
 | Size | Range | Example Models | Tradeoff |
-|------|-------|----------------|----------|
+| --- | --- | --- | --- |
 | **Small** | 8k-16k | Few | Compact embeddings, fast softmax, but longer sequences (more tokens per word) |
 | **Medium** | 30k-50k | BERT, GPT-2, LLaMA | Sweet spot — balance between sequence length and representation quality |
 | **Large** | 100k-500k | Word-level models | Short sequences but huge embedding table, sparse gradients, higher memory |
 | **Character** | ~100-200 | ByT5, CANINE | Minimal vocab, no OOV, but sequences 5-7× longer than subword |
 
 Smaller vocab → more tokens per word → longer context windows needed → more compute at inference (inflated by quadratic attention). Larger vocab → bigger embedding and LM head → more parameters but shorter sequences. Every model family picks a vocab based on this tradeoff (GPT-2: 50k, LLaMA: 32k, GPT-4: ~100k).
+
 
 ### OOV (Out-of-Vocabulary)
 
@@ -105,7 +111,7 @@ SentencePiece treats the input as a raw byte sequence, removing the need for lan
 ## Vocabulary Size Trade-offs
 
 | Vocab Size | Pros | Cons |
-|------------|------|------|
+| --- | --- | --- |
 | **Small (8k-16k)** | Compact model, faster inference | Longer sequences, harder to represent rare words |
 | **Medium (30k-50k)** | Good balance, common in BERT/GPT | Moderate embedding table size |
 | **Large (100k+)** | Short sequences, rare words preserved | Large embeddings, risk of data sparsity, more parameters |

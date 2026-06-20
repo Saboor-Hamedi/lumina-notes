@@ -2,10 +2,15 @@
 id: ds-np-0004-0000-0000-000000000004
 title: NumPy Universal Functions
 language: markdown
-tags: [numpy, ufunc, aggregation, vectorization]
+tags:
+  - numpy
+  - ufunc
+  - aggregation
+  - vectorization
 selection: null
 isPinned: false
-timestamp: 1781700000604
+customIcon: null
+timestamp: 1781944489219
 ---
 # NumPy Universal Functions (ufuncs)
 
@@ -40,6 +45,17 @@ np.sqrt(arr), np.square(arr)
 np.power(arr, 2)
 np.cbrt(arr)                   # Cube root
 ```
+
+
+
+
+
+
+
+![Untitled design.png](.lumina/assets/untitled-design-1781944478180.png)
+
+
+
 
 ## Aggregation ufuncs
 

@@ -16,16 +16,16 @@ timestamp: 1781700000009
 RAG evaluation spans three dimensions: **retrieval quality**, **generation quality**, and **end-to-end performance**. Each dimension requires distinct metrics and datasets.
 
 ```mermaid
-flowchart LR
+graph LR
     Q[Query] --> R[Retriever]
     R --> C[Context]
     C --> G[Generator]
     G --> A[Answer]
 
     subgraph Retrieval Metrics
-        R --> R1[Recall@K]
-        R --> R2[Precision@K]
-        R --> R3[MRR / NDCG]
+        R --> R1["Recall@K"]
+        R --> R2["Precision@K"]
+        R --> R3["MRR / NDCG"]
     end
 
     subgraph Generation Metrics

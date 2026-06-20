@@ -9,7 +9,7 @@ tags:
   - disaster-recovery
 selection: null
 isPinned: false
-customIcon: null
+customIcon: "\U0001F310"
 timestamp: 1781838872539
 ---
 # Database Backup Strategies

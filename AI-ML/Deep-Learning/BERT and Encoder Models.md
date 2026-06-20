@@ -2,10 +2,16 @@
 id: tf-005-0000-0000-0000-000000000015
 title: BERT and Encoder Models
 language: markdown
-tags: [ai-ml, deep-learning, bert, encoder, transformer]
+tags:
+  - ai-ml
+  - deep-learning
+  - bert
+  - encoder
+  - transformer
 selection: null
 isPinned: false
-timestamp: 1781700000015
+customIcon: Angry
+timestamp: 1781852163520
 ---
 # BERT and Encoder Models
 
@@ -87,13 +93,14 @@ NSP teaches cross-sentence relationship understanding. Note: RoBERTa (Liu et al.
 ## Downstream Task Adaptation
 
 | Task | Input Format | Output Head | Objective |
-|------|-------------|-------------|-----------|
+| --- | --- | --- | --- |
 | **Text Classification** | [CLS] + text + [SEP] | Linear layer on [CLS] | Softmax over classes |
 | **Named Entity Recognition** | Token sequence | Linear per token → CRF | Token-level tags (B-PER, I-ORG, O) |
 | **Question Answering** | [CLS] + Q + [SEP] + Passage | Start/end logits per token | Span extraction |
 | **Text Similarity (STS)** | [CLS] + A + [SEP] + B | Linear on [CLS] | Regression / class scores |
 | **Token Classification** | Token sequence | Linear per token | POS tagging, chunking |
 | **Multiple Choice** | [CLS] + ctx + [SEP] + option_i | Linear on [CLS] for each option | Softmax over options |
+|  |  |  |  |
 
 Fine-tuning adds a randomly initialized classification head and updates all parameters end-to-end with a small learning rate (2e-5 to 5e-5).
 

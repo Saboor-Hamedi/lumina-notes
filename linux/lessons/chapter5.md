@@ -1,6 +1,6 @@
-# Lesson 5: Networking Essentials
+# Chapter 5: Networking Essentials
 
-**Lesson 5** · ~30 min · Hands-on
+**Chapter 5** · ~30 min · Hands-on
 
 > [!NOTE] Mission tie-in
 > Servers exist to serve over networks. Debugging connectivity, downloading files, checking ports — these are daily tasks for anyone managing infrastructure. This lesson gives you the networking toolkit you'll use constantly.
@@ -204,11 +204,11 @@ If `ping google.com` fails but `ping 8.8.8.8` works, you have a DNS problem. If 
 - Try `curl` against a public API (e.g., `curl -s https://api.github.com/users/octocat`)
 - Check what ports are open on your own machine
 - Practice `scp` by copying a file between two directories (simulating remote)
-- Move to [Lesson 6: Shell Scripting](0006-shell-scripting.md)
+- Move to [Chapter 6: Shell Scripting](chapter6.md)
 
 > [!NOTE] Ask followup questions!
 > Can't connect somewhere? Getting weird DNS results? Ask your teacher.
 
 ---
 
-*Reference: [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md)*
+*Reference: [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md)*

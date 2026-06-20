@@ -9,7 +9,7 @@ timestamp: 1781800000020
 ---
 # PostgreSQL Extensions
 
-**Links**: [[PostgreSQL Features]] | [[JSON in PostgreSQL]] | [[Full-Text Search]] | [[Vector Databases for RAG]] | [[Database Indexing Deep Dive]]
+**Links**: [[PostgreSQL Features]] | [[JSON in PostgreSQL]] | [[System-Design/Databases/Full-Text Search]] | [[Vector Databases for RAG]] | [[Database Indexing Deep Dive]]
 
 ## What are Extensions?
 
@@ -87,4 +87,4 @@ SELECT * FROM categories
 WHERE path @> 'Root.Electronics';
 ```
 
-**Next**: [[Full-Text Search]] — PostgreSQL text search
+**Next**: [[System-Design/Databases/Full-Text Search]] — PostgreSQL text search

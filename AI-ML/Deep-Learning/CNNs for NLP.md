@@ -10,11 +10,13 @@ tags:
 selection: null
 isPinned: false
 customIcon: null
-timestamp: 1781840990290
+timestamp: 1781849439116
 ---
 # CNNs for NLP
 
 **Links**: [[Text Classification]] | [[RNNs and LSTMs]] | [[BERT and Encoder Models]] | [[NLP Pipeline Design]] | [[Word Embeddings]]
+
+
 
 ## Why CNNs for Text?
 
@@ -77,10 +79,12 @@ class TextCNN(nn.Module):
 
 | Filter Size | Captures |
 | --- | --- |
-| 2 | Bigrams |
+| 2 | Bigram |
 | 3 | Trigrams |
 | 4 | 4-grams |
 | 5 | 5-grams |
+|  |  |
+|  |  |
 
 
 ## Pros and Cons

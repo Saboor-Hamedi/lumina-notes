@@ -2,10 +2,14 @@
 id: rag-005-0000-0000-0000-000000000005
 title: Retrieval Strategies
 language: markdown
-tags: [ai-ml, rag, retrieval]
+tags:
+  - ai-ml
+  - rag
+  - retrieval
 selection: null
 isPinned: false
-timestamp: 1781700000005
+customIcon: null
+timestamp: 1781960028920
 ---
 # Retrieval Strategies
 
@@ -381,7 +385,7 @@ Hypothetical answer:"""
 flowchart TD
     subgraph HyDE_Pipeline
         Q[Query] --> LLM[LLM]
-        LLM --> HD[Hypothetical Document<br/>"A relevant document would discuss..."]
+        LLM --> HD[Hypothetical Document<br/>A relevant document would discuss...]
         HD --> E[Embedder]
         E --> HE[HyDE Embedding]
         HE --> VS[Vector Search]
@@ -446,14 +450,14 @@ What specific piece of information should we search for next? Query:"""
 
 ```mermaid
 flowchart TD
-    Q[Initial Query<br/>"What caused the 2008 financial crisis?"] --> R1[Retrieve: Mortgage-backed securities]
-    R1 --> A1[Analyze: Mentions CDOs]
-    A1 --> NQ2[Next Query:<br/>"How did CDOs work?"]
-    NQ2 --> R2[Retrieve: Collateralized Debt Obligations]
-    R2 --> A2[Analyze: Mentions rating agencies]
-    A2 --> NQ3[Next Query:<br/>"Role of rating agencies in 2008"]
-    NQ3 --> R3[Retrieve: Credit rating failures]
-    R3 --> S[Synthesize all evidence]
+    Q[Initial Query] --> R1[Retrieve MBS]
+    R1 --> A1[Analyze CDOs]
+    A1 --> NQ2[Query: CDO mechanics]
+    NQ2 --> R2[Retrieve CDO data]
+    R2 --> A2[Analyze rating agencies]
+    A2 --> NQ3[Query: Rating failures]
+    NQ3 --> R3[Retrieve credit ratings]
+    R3 --> S[Synthesize]
     S --> A[Final Answer]
 ```
 
@@ -692,13 +696,14 @@ class CachedRetriever:
 
 ```mermaid
 flowchart LR
-    subgraph Benchmarks[Recall@k vs Latency]
-        BM25_1[BM25: 65% recall<br/>5ms latency] --> DENSE1[Dense: 78% recall<br/>20ms latency]
-        DENSE1 --> HYBRID1[Hybrid: 85% recall<br/>30ms latency]
-        HYBRID1 --> MQ1[Multi-query: 90% recall<br/>200ms latency]
-        MQ1 --> LR1[+Rerank: 94% recall<br/>400ms latency]
+    subgraph Benchmarks["Recall@k vs Latency"]
+        BM25_1["BM25: 65% recall<br/>5ms latency"] --> DENSE1["Dense: 78% recall<br/>20ms latency"]
+        DENSE1 --> HYBRID1["Hybrid: 85% recall<br/>30ms latency"]
+        HYBRID1 --> MQ1["Multi-query: 90% recall<br/>200ms latency"]
+        MQ1 --> LR1["+Rerank: 94% recall<br/>400ms latency"]
     end
 ```
+
 
 | Strategy | Recall@10 | Recall@100 | P50 Latency | P99 Latency | Throughput (QPS) |
 |----------|-----------|------------|-------------|-------------|------------------|

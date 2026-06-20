@@ -5,6 +5,7 @@ language: markdown
 tags: ''
 selection: null
 isPinned: false
+customIcon: ☎️
 timestamp: 1781531072659
 ---
 # Coffee Cafe — Full-Stack E-Commerce Application

@@ -1,3 +1,13 @@
+---
+id: 0001-explain-output-reference
+title: 0001-explain-output-reference
+language: markdown
+tags: ''
+selection: null
+isPinned: false
+customIcon: null
+timestamp: 1781870832130
+---
 # Explain Output Reference
 
 **Reference** · Quick lookup

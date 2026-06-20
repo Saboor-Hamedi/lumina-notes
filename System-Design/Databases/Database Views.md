@@ -8,12 +8,12 @@ tags:
   - views
 selection: null
 isPinned: false
-timestamp: 1781779946589
+customIcon: "\U0001F5C4️"
+timestamp: 1781963651733
 ---
 # Database Views
 
 **Links**: [[SQL Query Optimization]] | [[Common Table Expressions]] | [[PostgreSQL Features]] | [[Database Security]] | [[Full-Text Search]]
-
 
 ---
 

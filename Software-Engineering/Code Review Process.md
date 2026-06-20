@@ -2,10 +2,12 @@
 id: a1b2c3d4-1078-4000-8000-000000000078
 title: Code Review Process
 language: markdown
-tags: [software-engineering]
+tags:
+  - software-engineering
 selection: null
 isPinned: false
-timestamp: 1781500001078
+customIcon: null
+timestamp: 1781936852651
 ---
 # Code Review Process
 
@@ -514,8 +516,8 @@ Resolution: Discuss tradeoffs → Escalate to team lead if needed
 
 ## Review Checklist
 
-- [ ] Does the code satisfy acceptance criteria?
-- [ ] Are there edge cases not handled?
+- [x] Does the code satisfy acceptance criteria?
+- [x] Are there edge cases not handled?
 - [ ] Is error handling appropriate?
 - [ ] Are there tests for new functionality?
 - [ ] Do existing tests still pass?

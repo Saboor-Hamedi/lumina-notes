@@ -10,7 +10,7 @@ tags:
 selection: null
 isPinned: false
 customIcon: LucideTelescope
-timestamp: 1781838295758
+timestamp: 1781872480786
 ---
 # OpenTelemetry Deep Dive
 
@@ -44,6 +44,7 @@ Application
 | Metrics | Aggregated measurements | Points in time | request_count, latency_p99 |
 | Logs | Discrete events with timestamp | Events | "Failed to connect to DB" |
 | Baggage | Context propagation (key-value) | Throughout trace | "user_tier=premium" |
+
 
 ## Manual Instrumentation
 

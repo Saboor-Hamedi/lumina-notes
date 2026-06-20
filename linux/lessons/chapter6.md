@@ -1,6 +1,16 @@
-# Lesson 6: Shell Scripting
+---
+id: 0006-shell-scripting
+title: 0006-shell-scripting
+language: markdown
+tags: ''
+selection: null
+isPinned: false
+customIcon: null
+timestamp: 1781834651322.4685
+---
+# Chapter 6: Shell Scripting
 
-**Lesson 6** · ~35 min · Hands-on
+**Chapter 6** · ~35 min · Hands-on
 
 > [!NOTE] Mission tie-in
 > Shell scripting is where you stop typing commands and start automating. A deployment script, a backup cron job, a log rotator, a health check — these are all shell scripts. This is the skill that makes you productive on any Linux server.
@@ -277,11 +287,11 @@ Check the exit code with `$?` right after the command, or use `if command; then 
 
 - Customize the backup script for your own use (back up a real directory)
 - Try writing a script that monitors disk space and emails you if it's low
-- Move to [Lesson 7: Package Management & Services](0007-packages-and-services.md)
+- Move to [Chapter 7: Package Management & Services](chapter7.md)
 
 > [!NOTE] Ask followup questions!
 > Script not working as expected? Want to automate something specific? Ask your teacher.
 
 ---
 
-*Reference: [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md) | [Bash Guide (Greg's Wiki)](https://mywiki.wooledge.org/BashGuide)*
+*Reference: [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md) | [Bash Guide (Greg's Wiki)](https://mywiki.wooledge.org/BashGuide)*

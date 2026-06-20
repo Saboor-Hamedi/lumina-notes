@@ -1,6 +1,6 @@
-# Lesson 3: Pipes, Redirection & Text Processing
+# Chapter 3: Pipes, Redirection & Text Processing
 
-**Lesson 3** · ~30 min · Hands-on
+**Chapter 3** · ~30 min · Hands-on
 
 > [!NOTE] Mission tie-in
 > On a server, you rarely use one command alone. You chain them. Pipes and redirection are what make the Unix philosophy powerful: combine small tools to solve big problems. Log analysis, data extraction, automated reports — all built on these patterns.
@@ -213,11 +213,11 @@ Append `2>/dev/null` to the command. For example: `rm file 2>/dev/null` silences
 
 - Apply the log analysis pattern on a real log file from your system
 - Try building a pipeline that processes CSV data
-- Move to [Lesson 4: Processes & System Monitoring](0004-processes-and-monitoring.md)
+- Move to [Chapter 4: Processes & System Monitoring](chapter4.md)
 
 > [!NOTE] Ask followup questions!
 > Stuck on a pipeline? Want to extract something specific from a file? Ask your teacher.
 
 ---
 
-*Reference: [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md)*
+*Reference: [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md)*

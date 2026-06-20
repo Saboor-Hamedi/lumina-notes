@@ -12,7 +12,7 @@ timestamp: 1781761995508
 ---
 # Database Triggers
 
-**Links**: [[PostgreSQL Features]] | [[Database Views]] | [[Full-Text Search]] | [[Database Security]] | [[Database Transactions]]
+**Links**: [[PostgreSQL Features]] | [[Database Views]] | [[System-Design/Databases/Full-Text Search]] | [[Database Security]] | [[Database Transactions]]
 
 ## What is a Trigger?
 

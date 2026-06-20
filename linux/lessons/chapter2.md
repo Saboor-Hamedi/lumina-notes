@@ -1,6 +1,6 @@
-# Lesson 2: Working with Files & Permissions
+# Chapter 2: Working with Files & Permissions
 
-**Lesson 2** · ~25 min · Hands-on
+**Chapter 2** · ~25 min · Hands-on
 
 > [!NOTE] Mission tie-in
 > On any Linux server, everything is a file — configs, logs, devices, even running processes. Knowing how to manage files and their permissions is essential for DevOps work: deploying code, securing configs, debugging issues.
@@ -217,11 +217,11 @@ Because it gives read, write, and execute permissions to everyone. Anyone on the
 
 - Practice `chmod` on test files until the numeric modes feel natural (755, 644, 600)
 - Use `grep` on your own files for a week — search code, logs, anything
-- Move to [Lesson 3: Pipes, Redirection & Text Processing](0003-pipes-redirection.md)
+- Move to [Chapter 3: Pipes, Redirection & Text Processing](chapter3.md)
 
 > [!NOTE] Ask followup questions!
 > Permissions confusing? Forgot what `chmod 755` means? Ask your teacher.
 
 ---
 
-*Reference: [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md)*
+*Reference: [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md)*

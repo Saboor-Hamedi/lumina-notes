@@ -1,5 +1,15 @@
 ---
-tags: [prompting, learning-progression, quick-reference]
+id: 09 Learning Progression & Quick Reference
+title: 09 Learning Progression Quick Reference
+language: markdown
+tags:
+  - prompting
+  - learning-progression
+  - quick-reference
+selection: null
+isPinned: false
+customIcon: null
+timestamp: 1781929146901
 ---
 
 # 09 — Learning Progression & Quick Reference

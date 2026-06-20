@@ -1,6 +1,6 @@
-# Lesson 1: The Linux Shell & Filesystem
+# Chapter 1: The Linux Shell & Filesystem
 
-**Lesson 1** · ~25 min · Hands-on
+**Chapter 1** · ~25 min · Hands-on
 
 > [!NOTE] Mission tie-in
 > Every server you manage, every DevOps pipeline you build, every deployment you run — it all starts in the shell. This lesson builds the foundation you'll use in every session after.
@@ -220,12 +220,12 @@ Prints the current working directory — tells you where you are in the filesyst
 1. If you don't have a Linux shell yet, install WSL or Git Bash
 2. Spend 5 minutes exploring `/`, `/etc`, `/var/log`, and `/tmp`
 3. Read `man` pages for `ls`, `cd`, `pwd` — just browse them
-4. When comfortable, move to [Lesson 2: Working with Files & Permissions](0002-files-and-permissions.md)
-5. Then continue through: [Lesson 3](0003-pipes-redirection.md) → [Lesson 4](0004-processes-and-monitoring.md) → [Lesson 5](0005-networking-essentials.md)
+4. When comfortable, move to [Chapter 2: Working with Files & Permissions](chapter2.md)
+5. Then continue through: [Chapter 3](chapter3.md) → [Chapter 4](chapter4.md) → [Chapter 5](chapter5.md)
 
 > [!NOTE] Ask followup questions!
 > Got stuck setting up WSL? Confused about something in the filesystem? Ask your teacher anytime.
 
 ---
 
-*Reference: [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md) | [ExplainShell.com](https://explainshell.com/)*
+*Reference: [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md) | [ExplainShell.com](https://explainshell.com/)*

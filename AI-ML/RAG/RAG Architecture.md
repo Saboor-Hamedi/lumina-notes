@@ -2,15 +2,20 @@
 id: rag-001-0000-0000-0000-000000000001
 title: RAG Architecture
 language: markdown
-tags: [ai-ml, rag, architecture]
+tags:
+  - ai-ml
+  - rag
+  - architecture
 selection: null
 isPinned: true
-timestamp: 1781700000001
+customIcon: null
+timestamp: 1781959582856
 ---
 # RAG Architecture
 
-**Links**: [[Text Embedding Models]] | [[Chunking Strategies]] | [[Vector Databases for RAG]] | [[Retrieval Strategies]] | [[Reranking]] | [[Prompt Engineering for RAG]] | [[Advanced RAG Patterns]] | [[Evaluation of RAG Systems]]
+  **Links**: [[Text Embedding Models]] | [[Chunking Strategies]] | [[Vector Databases for RAG]] | [[Retrieval Strategies]] | [[Reranking]] | [[Prompt Engineering for RAG]] | [[Advanced RAG Patterns]] | [[Evaluation of RAG Systems]]
 
+[[Agentic RAG]]
 ## What is RAG?
 
 Retrieval-Augmented Generation (RAG) combines information retrieval with a generative language model. Instead of relying solely on the model's parametric knowledge, RAG fetches relevant documents from an external knowledge base and feeds them as context to the LLM.

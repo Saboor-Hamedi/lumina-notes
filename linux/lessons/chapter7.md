@@ -1,6 +1,6 @@
-# Lesson 7: Package Management & Services
+# Chapter 7: Package Management & Services
 
-**Lesson 7** · ~25 min · Hands-on
+**Chapter 7** · ~25 min · Hands-on
 
 > [!NOTE] Mission tie-in
 > Every server needs software installed, services running, users managed, and logs rotated. These are the daily tasks of anyone managing Linux servers. This lesson covers the practical sysadmin skills you'll use constantly in DevOps.
@@ -206,11 +206,11 @@ Adds the user `alice` to the `sudo` group (`-aG` = append to group). After this,
 - Try `systemctl` on any service you run
 - Check your logs — see what's happening on your system
 - You've now covered the essential Linux skills for day-to-day server work — practice by managing a real or VM server
-- Review the [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md) and [Glossary](../GLOSSARY.md) to solidify
+- Review the [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md) and [Glossary](GLOSSARY.md) to solidify
 
 > [!NOTE] Ask followup questions!
 > Package won't install? Service won't start? Ask your teacher.
 
 ---
 
-*Reference: [Linux Command Cheatsheet](../reference/0001-command-cheatsheet.md)*
+*Reference: [Linux Command Cheatsheet](reference/0001-command-cheatsheet.md)*
