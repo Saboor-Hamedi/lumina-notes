@@ -2,20 +2,18 @@
 id: a1b2c3d4-1029-4000-8000-000000000029
 title: React Setup and Tooling
 language: markdown
-tags: [web-dev, react, tooling, setup]
+tags: [react, setup, tooling]
 selection: null
 isPinned: false
 customIcon: null
-timestamp: 1782000600004
+timestamp: 1782003600000
 ---
 
 # React Setup and Tooling
 
-**Links**: [[React]] | [[Vite and esbuild]] | [[Next.js and Modern Web Frameworks]] | [[TypeScript]] | [[Build Tools]]
+**Links**: [[React Core Concepts]] | [[Vite and esbuild]] | [[TypeScript]] | [[Web Development Fundamentals]]
 
 ## Vite (Recommended)
-
-Fastest setup with instant HMR:
 
 ```bash
 npm create vite@latest my-app -- --template react
@@ -24,13 +22,9 @@ npm install
 npm run dev
 ```
 
-For TypeScript:
+For TypeScript: `-- --template react-ts`
 
-```bash
-npm create vite@latest my-app -- --template react-ts
-```
-
-## Create React App (Legacy)
+## Create React App (Traditional)
 
 ```bash
 npx create-react-app my-app
@@ -38,9 +32,7 @@ cd my-app
 npm start
 ```
 
-Note: CRA is in maintenance mode. Prefer Vite or Next.js for new projects.
-
-## Next.js (Full-Stack React)
+## Next.js (Full-Stack)
 
 ```bash
 npx create-next-app@latest my-app
@@ -48,7 +40,7 @@ cd my-app
 npm run dev
 ```
 
-## Project Skeleton
+## Project Structure
 
 ```
 my-app/
@@ -66,16 +58,4 @@ my-app/
 └── vite.config.js
 ```
 
-## Essential Tools
-
-| Tool | Purpose |
-|------|---------|
-| React DevTools | Browser extension for debugging component tree and profiling |
-| ESLint | Catch bugs and enforce code quality |
-| Prettier | Consistent code formatting |
-| TypeScript | Type safety (strongly recommended) |
-| Storybook | Isolated component development and documentation |
-| Vitest | Unit and integration testing |
-| Playwright | End-to-end testing |
-
-**Links**: [[React]] | [[Vite and esbuild]] | [[Next.js and Modern Web Frameworks]] | [[TypeScript]] | [[Web Development Fundamentals]]
+**Links**: [[React Core Concepts]] | [[Vite and esbuild]] | [[Next.js and Modern Web Frameworks]] | [[TypeScript]]

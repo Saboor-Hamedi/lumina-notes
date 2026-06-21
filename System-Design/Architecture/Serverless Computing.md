@@ -2,10 +2,15 @@
 id: a1b2c3d4-1029-4000-8000-000000000029
 title: Serverless Computing
 language: markdown
-tags: [system-design, architecture, serverless, cloud]
+tags:
+  - system-design
+  - architecture
+  - serverless
+  - cloud
 selection: null
 isPinned: false
-timestamp: 1781500001029
+customIcon: null
+timestamp: 1782002496004
 ---
 # Serverless Computing
 

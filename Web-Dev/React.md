@@ -2,10 +2,14 @@
 id: a1b2c3d4-1024-4000-8000-000000000024
 title: React
 language: markdown
-tags: [web-dev, react, frontend]
+tags:
+  - web-dev
+  - react
+  - frontend
 selection: null
 isPinned: false
-timestamp: 1781500001024
+customIcon: null
+timestamp: 1782003091902
 ---
 
 **Links**: [[Angular]] | [[Vue.js]] | [[Svelte]] | [[Next.js and Modern Web Frameworks]] | [[State Management Patterns]] | [[Vite and esbuild]] | [[React Hooks Deep Dive]] | [[React Component Patterns]] | [[React Performance Optimization]] | [[React Best Practices]] | [[React Setup and Tooling]]

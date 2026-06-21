@@ -1,21 +1,19 @@
 ---
-id: a1b2c3d4-1027-4000-8000-000000000027
+id: a1b2c3d4-1035-4000-8000-000000000035
 title: React Performance Optimization
 language: markdown
-tags: [web-dev, react, performance]
+tags: [react, performance]
 selection: null
 isPinned: false
 customIcon: null
-timestamp: 1782000600002
+timestamp: 1782003600006
 ---
 
 # React Performance Optimization
 
-**Links**: [[React]] | [[React Hooks Deep Dive]] | [[Performance Testing]] | [[Vite and esbuild]] | [[Next.js and Modern Web Frameworks]]
+**Links**: [[React Hook Mastery]] | [[React Advanced Patterns]] | [[React Best Practices and Projects]]
 
-## React.memo — Prevent Unnecessary Renders
-
-Wraps a component to skip re-rendering when props haven't changed (shallow comparison):
+## React.memo
 
 ```jsx
 const ExpensiveList = React.memo(function ExpensiveList({ items }) {
@@ -29,13 +27,10 @@ const ExpensiveList = React.memo(function ExpensiveList({ items }) {
 
 ## Code Splitting with Lazy + Suspense
 
-Split your bundle so users only download what they need:
-
 ```jsx
 import { lazy, Suspense } from 'react';
 
 const Dashboard = lazy(() => import('./Dashboard'));
-const Settings = lazy(() => import('./Settings'));
 
 function App() {
   return (
@@ -48,8 +43,6 @@ function App() {
 
 ## Virtualization for Long Lists
 
-Render only visible rows with react-window:
-
 ```jsx
 import { FixedSizeList } from 'react-window';
 
@@ -59,21 +52,14 @@ function VirtualizedList({ items }) {
   );
 
   return (
-    <FixedSizeList
-      height={600}
-      itemCount={items.length}
-      itemSize={35}
-      width="100%"
-    >
+    <FixedSizeList height={600} itemCount={items.length} itemSize={35} width="100%">
       {Row}
     </FixedSizeList>
   );
 }
 ```
 
-## Debouncing Expensive Operations
-
-Avoid firing expensive operations on every keystroke:
+## Debouncing Search
 
 ```jsx
 function useDebounce(value, delay) {
@@ -99,25 +85,4 @@ function SearchBox() {
 }
 ```
 
-## Common Anti-Patterns
-
-| Anti-Pattern | Why It Hurts | Fix |
-|-------------|-------------|-----|
-| Inline objects in render | New reference every render → child re-renders | Extract to constant or useMemo |
-| Inline functions in render | Same as above | useCallback |
-| Missing keys in lists | Full re-render instead of move | Stable, unique `key` prop |
-| Lifting state too high | Unnecessary re-renders | Keep state close to where it's used |
-| Overusing Context | Entire tree re-renders on any change | Split contexts, use Zustand/Jotai |
-
-## Profiling with React DevTools
-
-```bash
-# Install React DevTools browser extension
-# In React DevTools Profiler tab:
-# 1. Click record
-# 2. Interact with your app
-# 3. Stop recording
-# 4. Inspect flamegraph for slow renders
-```
-
-**Links**: [[React]] | [[React Hooks Deep Dive]] | [[Vite and esbuild]] | [[Next.js and Modern Web Frameworks]] | [[State Management Patterns]]
+**Links**: [[React Hook Mastery]] | [[React Advanced Patterns]] | [[React Best Practices and Projects]]

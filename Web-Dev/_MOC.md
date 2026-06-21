@@ -2,9 +2,14 @@
 id: moc-web-0000-0000-0000-000000000007
 title: Web Development — Map of Content
 language: markdown
-tags: [moc, index, web-dev]
+tags:
+  - moc
+  - index
+  - web-dev
+selection: null
 isPinned: true
-timestamp: 1781700000007
+customIcon: null
+timestamp: 1782002871844
 ---
 
 # 🌐 Web Development — Map of Content
@@ -67,7 +72,7 @@ graph TD
 |----------|-------|
 | **Fundamentals** | [[Web Development Fundamentals]], [[CSS and Styling]], [[Web Accessibility]] |
 | **Protocols** | [[HTTP Protocol]], [[HTTP Caching]], [[HTTP-3 and QUIC]], [[WebSockets]], [[WebSocket Deep Dive]], [[WebRTC]] |
-| **Frontend** | [[React]], [[Vue.js]], [[Angular]], [[Svelte]], [[Next.js and Modern Web Frameworks]], [[State Management Patterns]], [[Web Components]], [[Micro-Frontends]], [[Vite and esbuild]] |
+| **Frontend** | [[ReactS Mastery]], [[Vue.js]], [[Angular]], [[Svelte]], [[Next.js and Modern Web Frameworks]], [[State Management Patterns]], [[Web Components]], [[Micro-Frontends]], [[Vite and esbuild]] |
 | **APIs** | [[GraphQL]], [[GraphQL API Design]], [[gRPC]], [[API Gateway Patterns]], [[API Versioning]], [[API Documentation]], [[API Documentation with OpenAPI]] |
 | **Mobile & Desktop** | [[React Native]], [[Desktop Apps with Electron and Tauri]] |
 | **Mobile & Next-Gen** | [[React Native]], [[Desktop Apps with Electron and Tauri]], [[Progressive Web Apps]] |
