@@ -1,12 +1,12 @@
 ---
-id: a1b2c3d4-1029-4000-8000-000000000029
+id: 67889f9f-e6e5-416d-a21c-ba1e647b4345
 title: React Setup and Tooling
 language: markdown
-tags: [react, setup, tooling]
+tags: ''
 selection: null
 isPinned: false
 customIcon: null
-timestamp: 1782003600000
+timestamp: 1782004645271
 ---
 
 # React Setup and Tooling
