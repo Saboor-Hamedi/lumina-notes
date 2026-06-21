@@ -8,7 +8,7 @@ isPinned: false
 timestamp: 1781500001024
 ---
 
-**Links**: [[Angular]] | [[Vue.js]] | [[Svelte]] | [[Next.js and Modern Web Frameworks]] | [[State Management Patterns]] | [[Vite and esbuild]]
+**Links**: [[Angular]] | [[Vue.js]] | [[Svelte]] | [[Next.js and Modern Web Frameworks]] | [[State Management Patterns]] | [[Vite and esbuild]] | [[React Hooks Deep Dive]] | [[React Component Patterns]] | [[React Performance Optimization]] | [[React Best Practices]] | [[React Setup and Tooling]]
 
 
 # React
@@ -112,4 +112,12 @@ function useWindowSize() {
 
 **Links**: [[TypeScript]] | [[Web Development Fundamentals]] | [[REST API Design]] | [[Build Tools]] | [[Async Python]] | [[State Management Patterns]] | [[Next.js and Modern Web Frameworks]] | [[Vite and esbuild]] | [[Web Accessibility]]
 
-**See also**: [[Unit Testing Guide]], [[Performance Testing]], [[Micro-Frontends]], [[Web Components]]
+**See also**: [[Unit Testing Guide]], [[Performance Testing]], [[Micro-Frontends]], [[Web Components]], [[Web Accessibility]]
+
+## Deep Dives
+
+- [[React Hooks Deep Dive]] — useState, useEffect, useContext, custom hooks, useMemo, useCallback, useReducer
+- [[React Component Patterns]] — composition, HOCs, render props, compound components, controlled vs uncontrolled
+- [[React Performance Optimization]] — memo, code splitting, virtualization, debouncing, profiling
+- [[React Best Practices]] — project structure, testing, accessibility, state management decisions
+- [[React Setup and Tooling]] — Vite, CRA, Next.js, essential tools
