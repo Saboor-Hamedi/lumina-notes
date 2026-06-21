@@ -77,7 +77,7 @@ graph TD
 
 - [[Web-Dev/Web Development Fundamentals]] → [[Security/Web Security]], [[Security/OWASP Top 10]]
 - [[Web-Dev/HTTP Caching]] → [[System-Design/Databases/Caching Strategies]], [[System-Design/Architecture/CDN Architecture]]
-- [[Web-Dev/React]] → [[Web-Dev/State Management Patterns]], [[Web-Dev/Next.js and Modern Web Frameworks]]
+- [[ReactJS/React]] → [[Web-Dev/State Management Patterns]], [[Web-Dev/Next.js and Modern Web Frameworks]]
 - [[Web-Dev/gRPC]] → [[DevOps/REST API Design]], [[System-Design/Architecture/Microservices Architecture]]
 - [[Web-Dev/API Gateway Patterns]] → [[Security/API Security]], [[DevOps/REST API Design]]
 - [[Web-Dev/WebSockets]] → [[System-Design/Architecture/Event-Driven Architecture]], [[System-Design/Databases/Message Queues]]
