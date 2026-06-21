@@ -86,7 +86,7 @@ mindmap
 </div>
 
 <p align="center">
-  A comprehensive engineering knowledge base -- 400+ interconnected notes across AI/ML, system design, databases, DevOps, security, and software engineering. Built as an Obsidian vault with Mermaid diagrams, deep cross-linking, and hierarchical Maps of Content.
+  A comprehensive engineering knowledge base -- 400+ interconnected notes across AI/ML, system design, databases, DevOps, security, and software engineering. Built for Lumina (Obsidian-compatible) with Mermaid diagrams, deep cross-linking, and hierarchical Maps of Content.
 </p>
 
 <p align="center">
@@ -188,7 +188,7 @@ Each note follows a predictable format:
 
 ## Usage
 
-### As an Obsidian Vault (Recommended)
+### As an Obsidian Vault
 
 ```bash
 git clone https://github.com/Saboor-Hamedi/lumina-notes.git

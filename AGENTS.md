@@ -11,7 +11,7 @@ timestamp: 1781947503270.9707
 # AGENTS.md — Lumina Knowledge Vault
 
 ## What this is
-An **Obsidian vault** + custom **Lumina** viewer — a knowledge base of ~400 interconnected markdown notes (~190K lines) across AI/ML, System Design, Databases, DevOps, Security, Web Dev, Git, Testing, and Software Engineering. This is NOT a code project — no build/test/lint/typecheck commands exist.
+A **Lumina** knowledge base — an Obsidian-compatible vault of ~400 interconnected markdown notes (~190K lines) across AI/ML, System Design, Databases, DevOps, Security, Web Dev, Git, Testing, and Software Engineering. This is NOT a code project — no build/test/lint/typecheck commands exist.
 
 ## Entry points
 - `_MOC.md` — master index with full mindmap
@@ -45,4 +45,4 @@ Folders `database/`, `linux/`, `docker/`, `networking/`, `python/` follow:
 - `New Note.md` — bare frontmatter template for creating notes
 - `.agents/skills/` — 10 loadable agent skills (teach, qa, triage, etc.)
 - `skills-lock.json` — installed skill versions
-- Obsidian plugins: icon-folder, file-color, ink, persistent-graph
+- Obsidian compatibility: the vault opens in Obsidian with plugins (icon-folder, file-color, ink, persistent-graph) but Lumina is the primary viewer

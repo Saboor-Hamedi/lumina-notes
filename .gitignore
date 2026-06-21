@@ -1,7 +1,5 @@
-# Obsidian
-.obsidian/workspace.json
-.obsidian/plugins/persistent-graph/data.json
-.obsidian/graph.json
+# Obsidian config (optional, vault works without it)
+.obsidian/
 
 # OS files
 Thumbs.db
