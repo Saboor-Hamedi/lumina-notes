@@ -41,11 +41,6 @@ graph TD
   FRONT --> WC["Web Components"]
   FRONT --> MF["Micro-Frontends"]
   FRONT --> VITE["Vite & esbuild"]
-  FRONT --> RHD["React Hooks Deep Dive"]
-  FRONT --> RCP["React Component Patterns"]
-  FRONT --> RPO["React Performance Optimization"]
-  FRONT --> RBP["React Best Practices"]
-  FRONT --> RST["React Setup & Tooling"]
 
   API2 --> GRAPH["GraphQL"]
   API2 --> GQLD["GraphQL API Design"]
@@ -72,7 +67,7 @@ graph TD
 |----------|-------|
 | **Fundamentals** | [[Web Development Fundamentals]], [[CSS and Styling]], [[Web Accessibility]] |
 | **Protocols** | [[HTTP Protocol]], [[HTTP Caching]], [[HTTP-3 and QUIC]], [[WebSockets]], [[WebSocket Deep Dive]], [[WebRTC]] |
-| **Frontend** | [[React]], [[React Hooks Deep Dive]], [[React Component Patterns]], [[React Performance Optimization]], [[React Best Practices]], [[React Setup and Tooling]], [[Vue.js]], [[Angular]], [[Svelte]], [[Next.js and Modern Web Frameworks]], [[State Management Patterns]], [[Web Components]], [[Micro-Frontends]], [[Vite and esbuild]] |
+| **Frontend** | [[React]], [[Vue.js]], [[Angular]], [[Svelte]], [[Next.js and Modern Web Frameworks]], [[State Management Patterns]], [[Web Components]], [[Micro-Frontends]], [[Vite and esbuild]] |
 | **APIs** | [[GraphQL]], [[GraphQL API Design]], [[gRPC]], [[API Gateway Patterns]], [[API Versioning]], [[API Documentation]], [[API Documentation with OpenAPI]] |
 | **Mobile & Desktop** | [[React Native]], [[Desktop Apps with Electron and Tauri]] |
 | **Mobile & Next-Gen** | [[React Native]], [[Desktop Apps with Electron and Tauri]], [[Progressive Web Apps]] |
